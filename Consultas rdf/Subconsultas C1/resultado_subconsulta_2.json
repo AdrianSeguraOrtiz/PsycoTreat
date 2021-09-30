@@ -1,0 +1,35 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre_psiquiatra",
+            "apellidos_psiquiatra"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Manrique Pérez"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Pérez López"
+                }
+            }
+        ]
+    }
+}

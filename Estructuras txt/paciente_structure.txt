@@ -1,0 +1,30 @@
+{
+    "_id" : STRING,
+    "nombre" : STRING,
+    "apellidos" : STRING,
+    "dni" : STRING,
+    "fecha_de_nacimiento" : DATE,
+    "sexo" : STRING,
+    "email" : STRING,
+    "telefono" : STRING,
+    "direccion" : STRING,
+    "codigo postal" : STRING,
+    "localidad" : STRING,
+    "provincia" : STRING,
+    "fotografia" : STRING,
+    "patologias previas" : [
+        {
+            "patologia" : STRING,
+            "fecha inicio" : DATE,
+            "fecha final" : DATE,
+            "psiquiatra asignado" : STRING,
+            "formularios consultas" : [{"formulario" : STRING}],
+            "medicamentos asignados" : [{"medicamento" : STRING}]
+        }
+    ],
+    "patologia actual" : STRING,
+    "fecha inicio" : STRING,
+    "psiquiatra asignado" : STRING,
+    "formularios consultas" : [{"formulario" : STRING}],
+    "medicamentos asignados" : [{"medicamento" : STRING}]
+}

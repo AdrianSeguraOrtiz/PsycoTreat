@@ -1,0 +1,46 @@
+h1 {
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+h3 {
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 75px;
+}
+td {
+    padding: 5px;
+}
+td b{
+    margin-right: 25px;
+}
+input[type = "submit"]{
+    border: 3px solid #4bc045;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+input[type = "submit"]:hover {
+    border: 3px solid #4bc045;
+    background-color: #66d660;
+}
+input[type = "reset"] {
+    border: 3px solid #e43030;
+    border-radius: 5px;
+    color:  #222222;
+}
+input[type = "reset"]:hover {
+    border: 3px solid #c41c1c;
+    background-color: #e43030;
+}
+a {
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}

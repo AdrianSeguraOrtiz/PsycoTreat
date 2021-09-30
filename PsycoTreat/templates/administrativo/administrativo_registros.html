@@ -1,0 +1,13 @@
+{% include "administrativo/administrativo.html" %}
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/registro_select.css')}}">
+    <h1>Registro de Usuarios</h1>
+    <h2>Seleccione el tipo de usuario:</h2>
+    <ul>
+        <li class = "paciente"><a href="registros/pacientes">Paciente</a></li>
+        <li class = "psiquiatra"><a href="registros/psiquiatras">Psiquiatra</a></li>
+        <li class = "familiar"><a href="registros/familiares">Familiar</a></li>
+        <li class = "administrativo"><a href="registros/administrativos">Administrativo</a></li>
+    </ul>
+</html>
+{% include "footer.html" %}

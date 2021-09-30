@@ -1,0 +1,279 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre_enfermedad",
+            "apariciones"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Depresión"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "12"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Drogadicción"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "7"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Trastorno alimenticio"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "6"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Alcoholismo"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "4"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Ansiedad"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "4"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Trastorno de ansiedad"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "4"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Demencia"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "3"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Psicosis"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "3"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Trastorno bipolar"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "3"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Trastorno de la personalidad"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "3"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Trastorno de estrés postraumático (TEPT)"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "2"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Trastorno del Espectro Autista"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "2"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Retraso mental severo"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Alcoholemia"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Deficit de atención"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Depresión post-parto"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Déficit de Atención e Hiperactividad"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Esquizofrenia"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Hiperactividad"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Ninfomanía"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Síndrome de Asperger"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Síndrome de Diógenes"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Trastorno de ansiedad social"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            },
+            {
+                "nombre_enfermedad": {
+                    "type": "literal",
+                    "value": "Trastorno obsesivo-compulsivo (TOC)"
+                },
+                "apariciones": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#int",
+                    "value": "1"
+                }
+            }
+        ]
+    }
+}

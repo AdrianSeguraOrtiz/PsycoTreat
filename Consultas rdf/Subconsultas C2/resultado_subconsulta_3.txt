@@ -1,0 +1,34 @@
+Los pacientes junto con su patología actual y el tratamiento indicado en las consultas
+
+Marta -- Romero Pacheco -- Trastorno alimenticio -- Se recomienda tomar ciproheptadina para estimular el apetito
+Olivia -- Cañete Domínguez -- Trastorno bipolar -- Se recomienda tomar Olanzapina para estabilizar el ánimo
+Lucas -- Romero Padilla -- Trastorno de la personalidad -- Se recomienda tomar Amitriptilina
+Mario -- Martín Pérez -- Demencia -- Se recomienda tomar Donepezilo para mejorar la memoria y Memantina para el aumento de la actividad cerebral
+Silvia -- Román Huerta -- Trastorno obsesivo-compulsivo (TOC) -- Se recomienda tomar Fluvoxamine
+Lucas -- Pirlo Molina -- Síndrome de Diógenes -- Se recomienda tomar Citalopram
+José Ramón -- López Galiana -- Esquizofrenia -- Se recomienda tomar Aripiprazol y Clozapina
+Margarita -- Cintrano Ranea -- Trastorno del Espectro Autista -- Se recomienda tomar Risperidona y Aripiprazol
+Melania -- Castillo del Río -- Déficit de Atención e Hiperactividad -- Se recomienda tomar Methylphenidate para la estimulación
+Pilar -- Rueda Álvarez -- Trastorno de estrés postraumático (TEPT) -- Se recomienda tomar Sertralina para la estimulación
+David -- Lasa Ordoñez -- Trastorno de ansiedad -- Se recomienda tomar Lexatin
+Carmen -- Castro Romero -- Trastorno de ansiedad -- Se recomienda tomar Lexatin
+Eduardo -- Valderrama Ortiz -- Trastorno alimenticio -- Se recomienda tomar Ciproheptadina
+Clara -- Labrador Vera -- Depresión -- Se recomienda tomar Sertralina
+Jimena -- Benitez Castro -- Alcoholemia -- Se recomienda acudir a la terapia grupal
+Adrián -- Pacheco Segura -- Drogadicción -- Se recomienda acudir a la terapia grupal
+Gabriela -- Salado San Millán -- Trastorno alimenticio -- Se recomienda ir a terapia
+Marta -- Cantos Martín -- Ansiedad -- Se recomienda tomar Lexatin para la relajación
+Miguel -- Rodriguez Galvez -- Drogadicción -- Se recomienda asistir a la terapia grupal
+Raquel -- Sutton Rivera -- Depresión -- Se recomienda tomar Sertralina
+Fernando -- Sánchez Rodriguez -- Drogadicción -- Se recomienda asistir a la terapia grupal
+Alberto -- Álvarez Martín -- Ansiedad -- Se recomienda tomar Lexatin
+Martina -- Sánchez Rodriguez -- Demencia -- Se recomienda tomar Donepezilo para las pérdidas de memoria y Memantina para la estabilidad mental
+Pepe -- Jimenez Ortiz -- Alcoholismo -- Se recomienda acudir a la terapia grupal
+Alejandro -- Ortiz Ortega -- Drogadicción -- Se recomienda ir a terapia grupal
+Raúl -- Manzano Olivares -- Alcoholismo -- Se recomienda asistir a terapia grupal
+Jorge -- Vázquez Rivera -- Depresión -- Se recomienda tomar Sertralina
+Jorge -- Cañete Vera -- Depresión -- Se recomienda tomar Sertralina para mejorar su estabilidad emocional
+Miguel -- Carrasco Ruiz -- Trastorno de la personalidad -- Se recomienda tomar Amitriptilina para mejorar su estabilidad mental
+Ana -- Soria Vera -- Depresión -- Se recomienda tomar Sertralina para estabilizarla y Lexatín en caso de ataque de nervios
+Rocío -- Saravia Sánchez -- Depresión post-parto -- Se recomienda tomar Sertralina y Lexatin
+Ana María -- Nevado Sánchez -- Ansiedad -- Se recomienda tomar Lexatin para evitar los ataques de ansiedad, así como asistir a terapia grupal

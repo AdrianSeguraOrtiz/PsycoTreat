@@ -1,0 +1,41 @@
+h1 {
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 75px;
+}
+td {
+    padding: 5px;
+}
+td b{
+    margin-right: 25px;
+}
+li h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+li span{
+    padding:1px;
+}
+table a{
+    color: black;
+}
+table a:hover{
+    font-weight: bold;
+}
+span{
+    border-radius: 10px;
+    padding: 1.5px;
+    background-color: #b1d8ed;
+}
+img{
+    margin-left: 10px;
+}

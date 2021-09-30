@@ -1,0 +1,45 @@
+{% if tipo_usuario == 'psiquiatra' %}
+    {% include "psiquiatra/psiquiatra.html" %}
+{% elif tipo_usuario == 'administrativo' %}
+    {% include "administrativo/administrativo.html" %}
+{% elif tipo_usuario == 'familiar' %}
+    {% include "familiar/familiar.html" %}
+{% endif %}
+
+<html>
+    <head>
+        <title>Nuevo mensaje</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario.css')}}">
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario_añadir.css')}}">
+        <h1>Nuevo mensaje</h1>
+    </head>
+    <body>
+        <form method="POST">
+            <table>
+                {% if posibles_receptores[0] %}
+                    <tr>
+                        <td><b>Receptor:</b></td>
+                        <td>
+                            <select name="receptor">
+                            {% for receptor in posibles_receptores %}
+                                <option value = "{{receptor['_id']}}"> {{receptor['nombre']}} {{receptor['apellidos']}} ({{receptor['dni']}})  </option>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endif %}
+                <tr>
+                    <td><b>Contenido:</b></td>
+                    <td><textarea name="contenido" cols="40" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
+{% include "footer.html" %}

@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <formularios_consultas>
+     <formulario_consulta>
+         <_id>g1_id_form_001</_id>
+         <paciente>g1_id_paciente_001</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>27/12/2005</fecha_consulta>
+         <motivo_consulta>Pesadillas y recuerdos continuos de un hecho traumático</motivo_consulta>
+         <desencadenante>Insomnio agudo</desencadenante>
+         <observaciones>Los recuerdos vividos por la paciente además de provocarle insomnio le causan graves episodios de estrés que propician un bajo rendimiento diario</observaciones>
+         <diagnostico>Trastorno de estrés postraumático (TEPT)</diagnostico>
+         <tratamiento>Se recomienda tomar Paroxetina</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_002</_id>
+         <paciente>g1_id_paciente_001</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>14/02/2006</fecha_consulta>
+         <motivo_consulta>Problemas laborales y falta de concentración</motivo_consulta>
+         <desencadenante>Despido laboral y estrés</desencadenante>
+         <observaciones>La paciente sigue reviviendo hechos del pasado que no le dejan avanzar, caída del ánimo debido al despido laboral que puede desencadenar un empeoramiento de su salud mental</observaciones>
+         <diagnostico>Trastorno de estrés postraumático (TEPT)</diagnostico>
+         <tratamiento>Se recomienda tomar Fluoxetina</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_003</_id>
+         <paciente>g1_id_paciente_001</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>16/09/2009</fecha_consulta>
+         <motivo_consulta>Depresión</motivo_consulta>
+         <desencadenante>Mala situación laboral y personal</desencadenante>
+         <observaciones>La paciente no encuentra trabajo y ha empeorado su relación con amigos y familiares. Se detecta un posible inicio de aislamiento social</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda mejorar la alimentación, realizar ejercicio al aire libre y fomentar la aparición de nuevas relaciones personales</tratamiento>
+         <frecuencia_tratamiento>Perseverar durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_004</_id>
+         <paciente>g1_id_paciente_001</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>30/01/2010</fecha_consulta>
+         <motivo_consulta>Depresión</motivo_consulta>
+         <desencadenante>Mala situación laboral y personal</desencadenante>
+         <observaciones>El tratamiento anterior no ha resultado ser suficiente, por lo que la paciente continúa depresiva y con falta de autoestima</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina y Lexatín 1.5 mmg</tratamiento>
+         <frecuencia_tratamiento>Sertralina 1 vez al día durante 2 semanas y Lexatín en caso de sufrir ansiedad ocasional</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_005</_id>
+         <paciente>g1_id_paciente_001</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>24/10/2020</fecha_consulta>
+         <motivo_consulta>Preocupante pérdida de peso</motivo_consulta>
+         <desencadenante>Padecimiento de desmayos con alta frecuencia</desencadenante>
+         <observaciones>La paciente presenta palidez, falta de energía y delgadez extrema</observaciones>
+         <diagnostico>Trastorno alimenticio</diagnostico>
+         <tratamiento>Se recomienda tomar ciproheptadina para estimular el apetito</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_006</_id>
+         <paciente>g1_id_paciente_002</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>21/10/2014</fecha_consulta>
+         <motivo_consulta>Ataque de ansiedad</motivo_consulta>
+         <desencadenante>Estrés por los estudios</desencadenante>
+         <observaciones>La paciente presenta un ritmo cardíaco alto, sudores y dificultad para respirar</observaciones>
+         <diagnostico>Trastorno de ansiedad</diagnostico>
+         <tratamiento>Se recomienda tomar Escitalopram para bajar la frecuencia cardíaca</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_007</_id>
+         <paciente>g1_id_paciente_002</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>30/05/2015</fecha_consulta>
+         <motivo_consulta>Revisión seismesina</motivo_consulta>
+         <observaciones>La paciente presenta una notable mejoría, pero aún debe tomar medicación</observaciones>
+         <tratamiento>Se recomienda tomar Duloxetina en caso de ataque de ansiedad</tratamiento>
+         <frecuencia_tratamiento>Cuando sea necesario, máximo una toma al día, durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_008</_id>
+         <paciente>g1_id_paciente_002</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>08/12/2015</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>La paciente se ha recuperado completamente</observaciones>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_009</_id>
+         <paciente>g1_id_paciente_002</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>10/10/2020</fecha_consulta>
+         <motivo_consulta>Sentimientos de euforia anormales</motivo_consulta>
+         <desencadenante>Discusión familiar</desencadenante>
+         <observaciones>La paciente presenta cambios en su estado de ánimo frecuentes</observaciones>
+         <diagnostico>Trastorno bipolar</diagnostico>
+         <tratamiento>Se recomienda tomar Olanzapina para estabilizar el ánimo</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 1 mes semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_010</_id>
+         <paciente>g1_id_paciente_003</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>30/10/2020</fecha_consulta>
+         <motivo_consulta>Comportamiento extraño e ilógico</motivo_consulta>
+         <desencadenante>Exposición a una situación estresante</desencadenante>
+         <observaciones>El paciente presenta conducta impulsiva, imagen personal inestable y cambios en el estado de ánimo</observaciones>
+         <diagnostico>Trastorno de la personalidad</diagnostico>
+         <tratamiento>Se recomienda tomar Amitriptilina</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 meses, con descansos de 3 dias cada 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_011</_id>
+         <paciente>g1_id_paciente_004</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>19/03/2011</fecha_consulta>
+         <motivo_consulta>Intento de suicidio</motivo_consulta>
+         <desencadenante>Fallecimiento de su cónyuge</desencadenante>
+         <observaciones>El paciente está decaido y presenta un muy bajo estado de ánimo</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Protriptilina</tratamiento>
+         <frecuencia_tratamiento>1 veces al día durante 12 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_012</_id>
+         <paciente>g1_id_paciente_004</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>01/02/2012</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>El paciente ha superado la enfermedad</observaciones>
+         <tratamiento>Se recomienda ir al psicologo para evitar una recaida</tratamiento>
+         <frecuencia_tratamiento>1 vez a la semana</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_013</_id>
+         <paciente>g1_id_paciente_004</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>01/11/2020</fecha_consulta>
+         <motivo_consulta>Olvido de la ruta de vuelta a casa</motivo_consulta>
+         <observaciones>El paciente muestra pérdidas de memoria, deficultad para comunicarse y dificultad para manejar tareas complejas</observaciones>
+         <diagnostico>Demencia</diagnostico>
+         <tratamiento>Se recomienda tomar Donepezilo para mejorar la memoria y Memantina para el aumento de la actividad cerebral</tratamiento>
+         <frecuencia_tratamiento>2 veces al día</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_014</_id>
+         <paciente>g1_id_paciente_005</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>22/10/2020</fecha_consulta>
+         <motivo_consulta>Ataque de nervios</motivo_consulta>
+         <desencadenante>La paciente ha llegado a su casa y estaba todo desordenado</desencadenante>
+         <observaciones>El paciente muestra movimientos cíclicos y reiterados y obsesión con el orden y la limpieza</observaciones>
+         <diagnostico>Trastorno obsesivo-compulsivo (TOC)</diagnostico>
+         <tratamiento>Se recomienda tomar Fluvoxamine</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_015</_id>
+         <paciente>g1_id_paciente_006</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>24/03/2014</fecha_consulta>
+         <motivo_consulta>Ataque de ansiedad</motivo_consulta>
+         <desencadenante>El paciente ha sido despedido de su trabajo</desencadenante>
+         <observaciones>El paciente presenta un ritmo cardíaco alto, sudores y dificultad para respirar</observaciones>
+         <diagnostico>Trastorno de la Ansiedad</diagnostico>
+         <tratamiento>Se recomienda tomar Escitalopram para bajar la frecuencia cardíaca</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 8 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_016</_id>
+         <paciente>g1_id_paciente_006</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>01/11/2014</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>El paciente se ha recuperado</observaciones>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_017</_id>
+         <paciente>g1_id_paciente_006</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>31/10/2020</fecha_consulta>
+         <motivo_consulta>Colección de basura encontrada en casa del paciente</motivo_consulta>
+         <observaciones>El paciente vive en una reclusión y aislamiento social autoimpuesto y presenta un abandono de la higiene personal</observaciones>
+         <diagnostico>Síndrome de Diógenes</diagnostico>
+         <tratamiento>Se recomienda tomar Citalopram</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_018</_id>
+         <paciente>g1_id_paciente_007</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>07/11/2020</fecha_consulta>
+         <motivo_consulta>Alucinaciones</motivo_consulta>
+         <desencadenante>Drogadicción</desencadenante>
+         <observaciones>El paciente presenta habla desorganizada, fantasías, dificultad de atención y falta de memoria</observaciones>
+         <diagnostico>Esquizofrenia</diagnostico>
+         <tratamiento>Se recomienda tomar Aripiprazol y Clozapina</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_019</_id>
+         <paciente>g1_id_paciente_008</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>03/01/2018</fecha_consulta>
+         <motivo_consulta>Ataque de ansiedad</motivo_consulta>
+         <desencadenante>El paciente acaba de ingresar en la Universidad</desencadenante>
+         <observaciones>El paciente presenta temblores, sudoración y sentimiento de mente en blanco</observaciones>
+         <diagnostico>Trastorno de Ansiedad Social</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina como ansiolítico</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_020</_id>
+         <paciente>g1_id_paciente_008</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>08/11/2020</fecha_consulta>
+         <motivo_consulta>Desaparición repentina</motivo_consulta>
+         <desencadenante>La paciente se sintió acorralado</desencadenante>
+         <observaciones>La paciente presenta movimientos estereotipados, anomalías en la expresión no verbal y anomalías comunicativas</observaciones>
+         <diagnostico>Trastorno del Espectro Autista</diagnostico>
+         <tratamiento>Se recomienda tomar Risperidona y Aripiprazol</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_021</_id>
+         <paciente>g1_id_paciente_009</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>11/11/2020</fecha_consulta>
+         <motivo_consulta>Dificultad al concentrarse</motivo_consulta>
+         <desencadenante>Despido en su trabajo</desencadenante>
+         <observaciones>La paciente presenta impulsividad, desorganización, escasa planificación y problemas al realizar múltiples tareas a la vez</observaciones>
+         <diagnostico>Déficit de Atención e Hiperactividad</diagnostico>
+         <tratamiento>Se recomienda tomar Methylphenidate para la estimulación</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 2 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_022</_id>
+         <paciente>g1_id_paciente_010</paciente>
+         <psiquiatra>g1_id_psiquiatra_001</psiquiatra>
+         <fecha_consulta>10/11/2020</fecha_consulta>
+         <motivo_consulta>Constante sensación de miedo</motivo_consulta>
+         <desencadenante>Secuestro</desencadenante>
+         <observaciones>El paciente presenta flashbacks de cuando le secuestraron, pesadillas y alucianciones</observaciones>
+         <diagnostico>Trastorno de estrés postraumático (TEPT)</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina para la estimulación</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_023</_id>
+         <paciente>g1_id_paciente_011</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>22/04/2016</fecha_consulta>
+         <motivo_consulta>Preocupante pérdida de peso</motivo_consulta>
+         <desencadenante>Padecimiento de desmayos con alta frecuencia</desencadenante>
+         <observaciones>El paciente presenta palidez, falta de energía y delgadez extrema</observaciones>
+         <diagnostico>Trastorno alimenticio</diagnostico>
+         <tratamiento>Se recomienda tomar ciproheptadina para estimular el apetito</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_024</_id>
+         <paciente>g1_id_paciente_011</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>13/05/2016</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>El paciente presenta un claro aumento de peso y gran mejoría psicológica</observaciones>
+         <diagnostico>Trastorno alimenticio</diagnostico>
+         <tratamiento>Se recomienda tomar ciproheptadina para estimular el apetito</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_025</_id>
+         <paciente>g1_id_paciente_011</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>11/09/2020</fecha_consulta>
+         <motivo_consulta>Ataque de ansiedad</motivo_consulta>
+         <desencadenante>Discusión en el trabajo</desencadenante>
+         <observaciones>El paciente presenta un ritmo cardíaco alto, sudores y dificultad para respirar</observaciones>
+         <diagnostico>Trastorno de ansiedad</diagnostico>
+         <tratamiento>Se recomienda tomar Lexatin</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_026</_id>
+         <paciente>g1_id_paciente_012</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>14/10/2009</fecha_consulta>
+         <motivo_consulta>Despresión</motivo_consulta>
+         <desencadenante>Malestar personal</desencadenante>
+         <observaciones>La paciente presenta falta de autoestima</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_027</_id>
+         <paciente>g1_id_paciente_012</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>30/10/2009</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>La paciente continúa igual de depresiva y no presenta mejoría</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Lexatin</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_028</_id>
+         <paciente>g1_id_paciente_012</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>14/07/2012</fecha_consulta>
+         <motivo_consulta>Tristeza recurrente</motivo_consulta>
+         <desencadenante>Experiencia personal traumática</desencadenante>
+         <observaciones>La paciente presenta distanciamiento social y falta de autoestima</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_029</_id>
+         <paciente>g1_id_paciente_012</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>05/09/2012</fecha_consulta>
+         <motivo_consulta>Ataque de ansiedad</motivo_consulta>
+         <desencadenante>Incidente doméstico</desencadenante>
+         <observaciones>La paciente está decaida y se culpabiliza de todo</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Lexatin</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_030</_id>
+         <paciente>g1_id_paciente_012</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>09/08/2020</fecha_consulta>
+         <motivo_consulta>Ataque de ansiedad</motivo_consulta>
+         <desencadenante>Incidente en el trabajo</desencadenante>
+         <observaciones>La paciente ha sufrido un episodio de pánico durante la terapia</observaciones>
+         <diagnostico>Trastorno de ansiedad</diagnostico>
+         <tratamiento>Se recomienda tomar Lexatin</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_031</_id>
+         <paciente>g1_id_paciente_013</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>11/01/2009</fecha_consulta>
+         <motivo_consulta>Dificultad para atender en clase</motivo_consulta>
+         <desencadenante>Malas calificaciones en la Universidad</desencadenante>
+         <observaciones>El paciente presenta falta de atención y falta de capacidad de concentración</observaciones>
+         <diagnostico>Deficit de atención</diagnostico>
+         <tratamiento>Se recomienda tomar Ritalina</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_032</_id>
+         <paciente>g1_id_paciente_013</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>01/04/2009</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>El paciente se ha recuperado</observaciones>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_033</_id>
+         <paciente>g1_id_paciente_013</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>16/07/2020</fecha_consulta>
+         <motivo_consulta>Preocupante pérdida de peso</motivo_consulta>
+         <desencadenante>Padecimiento de desmayos con alta frecuencia</desencadenante>
+         <observaciones>El paciente presenta palidez, falta de energía y delgadez extrema</observaciones>
+         <diagnostico>Trastorno alimenticio</diagnostico>
+         <tratamiento>Se recomienda tomar Ciproheptadina</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_034</_id>
+         <paciente>g1_id_paciente_014</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>15/09/2020</fecha_consulta>
+         <motivo_consulta>Sensación de abandono</motivo_consulta>
+         <desencadenante>Distanciamiento de su pareja sentimental</desencadenante>
+         <observaciones>La paciente presenta falta de autoestima y tristeza continua</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_035</_id>
+         <paciente>g1_id_paciente_015</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>15/08/1996</fecha_consulta>
+         <motivo_consulta>Bajo rendimiento en el colegio</motivo_consulta>
+         <observaciones>La paciente presenta falta de antención y continua inquietud</observaciones>
+         <diagnostico>Hiperactividad</diagnostico>
+         <tratamiento>Se recomienda tomar Ritalina</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_036</_id>
+         <paciente>g1_id_paciente_015</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>09/12/1997</fecha_consulta>
+         <motivo_consulta>Revision</motivo_consulta>
+         <observaciones>La paciente ha respondido bien al tratamiento, pero aún necesita asistencia</observaciones>
+         <diagnostico>Hiperactividad</diagnostico>
+         <tratamiento>Se recomienda tomar Ritalina</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_037</_id>
+         <paciente>g1_id_paciente_015</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>08/09/2020</fecha_consulta>
+         <motivo_consulta>Abuso de sustancias alcohólicas</motivo_consulta>
+         <desencadenante>Despido laboral</desencadenante>
+         <observaciones>La paciente presenta un cuadro de ansiedad y insomnio</observaciones>
+         <diagnostico>Alcoholemia</diagnostico>
+         <tratamiento>Se recomienda acudir a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_038</_id>
+         <paciente>g1_id_paciente_016</paciente>
+         <psiquiatra>g1_id_psiquiatra_002</psiquiatra>
+         <fecha_consulta>13/11/2020</fecha_consulta>
+         <motivo_consulta>Abuso de sustancias cannabicas</motivo_consulta>
+         <desencadenante>Nuevo círculo de amistades</desencadenante>
+         <observaciones>El paciente presenta una leve falta de atención y irritación ocular</observaciones>
+         <diagnostico>Drogadicción</diagnostico>
+         <tratamiento>Se recomienda acudir a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_039</_id>
+         <paciente>g1_id_paciente_017</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>12/03/2020</fecha_consulta>
+         <motivo_consulta>Insatisfacción sexsual</motivo_consulta>
+         <desencadenante>Múltiples relaciones en un corto periodo de tiempo</desencadenante>
+         <observaciones>La paciente presenta obsesión sexual y aumento desmedido del deseo sexual</observaciones>
+         <diagnostico>Ninfomanía</diagnostico>
+         <tratamiento>Se recomienda tomar Naltrexona</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_040</_id>
+         <paciente>g1_id_paciente_017</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>18/05/2020</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>La paciente responde bien al tratamiento pero aún así deberá seguir tomándolo</observaciones>
+         <diagnostico>Ninfomanía</diagnostico>
+         <tratamiento>Se recomienda tomar Naltrexona</tratamiento>
+         <frecuencia_tratamiento>1 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_041</_id>
+         <paciente>g1_id_paciente_017</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>17/10/2020</fecha_consulta>
+         <motivo_consulta>Preocupante pérdida de peso</motivo_consulta>
+         <desencadenante>Padecimiento de desmayos con alta frecuencia</desencadenante>
+         <observaciones>La paciente presenta palidez, falta de energía y delgadez extrema</observaciones>
+         <diagnostico>Trastorno alimenticio</diagnostico>
+         <tratamiento>Se recomienda ir a terapia</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_042</_id>
+         <paciente>g1_id_paciente_018</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>13/10/2002</fecha_consulta>
+         <motivo_consulta>Comportamiento inusual</motivo_consulta>
+         <desencadenante>Enfrentamiento en el instituto</desencadenante>
+         <observaciones>La paciente presenta dificultades para conprender el lenguaje corporal, así como problemas para comprender los sentimientos de otras personas y para expresar sus propios sentimientos</observaciones>
+         <diagnostico>Síndrome de Asperger</diagnostico>
+         <tratamiento>Se recomienda tomar Risperidal</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_043</_id>
+         <paciente>g1_id_paciente_018</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>28/02/2003</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>La paciente presenta claros signos de mejoría y pude dejar la medicación</observaciones>
+         <diagnostico>Síndrome de Asperger</diagnostico>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_044</_id>
+         <paciente>g1_id_paciente_019</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>15/09/2016</fecha_consulta>
+         <motivo_consulta>Decaida emocional</motivo_consulta>
+         <desencadenante>Fallecimiento de la madre</desencadenante>
+         <observaciones>La paciente está decaida y presenta un muy bajo estado de ánimo</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina para mejorar la estabilidad emocional</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_045</_id>
+         <paciente>g1_id_paciente_019</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>20/09/2016</fecha_consulta>
+         <motivo_consulta>Intento de suicidio</motivo_consulta>
+         <desencadenante>Funeral de la madre</desencadenante>
+         <observaciones>La paciente presenta pensamientos suicidas y poca estabilidad mental</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina en dosis más altas</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_046</_id>
+         <paciente>g1_id_paciente_019</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>10/10/2020</fecha_consulta>
+         <motivo_consulta>Exceso de estrés</motivo_consulta>
+         <desencadenante>Malas calificaciones</desencadenante>
+         <observaciones>La paciente presenta sensación de pánico al creer que no va a tener un buen futuro laboral</observaciones>
+         <diagnostico>Ansiedad</diagnostico>
+         <tratamiento>Se recomienda tomar Lexatin para la relajación</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_047</_id>
+         <paciente>g1_id_paciente_020</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>17/11/2020</fecha_consulta>
+         <motivo_consulta>Reciente sobredosis</motivo_consulta>
+         <desencadenante>Abandono de los estudios</desencadenante>
+         <observaciones>El paciente presenta claros síntomas de estar bajo los efectos de las drogas, probablemente cocaína</observaciones>
+         <diagnostico>Drogadicción</diagnostico>
+         <tratamiento>Se recomienda asistir a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_048</_id>
+         <paciente>g1_id_paciente_021</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>11/11/2010</fecha_consulta>
+         <motivo_consulta>Reciente coma etílico</motivo_consulta>
+         <desencadenante>Despido laboral</desencadenante>
+         <observaciones>El paciente presenta claros síntomas de estar bajo los efectos del alcohol</observaciones>
+         <diagnostico>Alcoholismo</diagnostico>
+         <tratamiento>Se recomienda asistir a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_049</_id>
+         <paciente>g1_id_paciente_021</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>13/12/2010</fecha_consulta>
+         <motivo_consulta>Revisión tras un mes de terapia</motivo_consulta>
+         <observaciones>El paciente ha respondido bien a la terapia</observaciones>
+         <diagnostico>Alcoholismo</diagnostico>
+         <tratamiento>Se recomienda seguir asistiendo a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>1 veces a la semana durante 3 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_050</_id>
+         <paciente>g1_id_paciente_021</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>14/02/2017</fecha_consulta>
+         <motivo_consulta>Continuo estado de tristeza</motivo_consulta>
+         <desencadenante>Fallecimiento de su perro</desencadenante>
+         <observaciones>El paciente presenta insomnio y sentimientos de inutilidad</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina para el aumento de la producción de serotonina</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_051</_id>
+         <paciente>g1_id_paciente_021</paciente>
+         <psiquiatra>g1_id_psiquiatra_003</psiquiatra>
+         <fecha_consulta>22/04/2017</fecha_consulta>
+         <motivo_consulta>Revisión post-tratamiento</motivo_consulta>
+         <observaciones>El paciente ha respondido bien al tratamiento, pero aún sigue un poco depresivo</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Lexatín</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_052</_id>
+         <paciente>g1_id_paciente_022</paciente>
+         <psiquiatra>g1_id_psiquiatra_004</psiquiatra>
+         <fecha_consulta>17/08/2019</fecha_consulta>
+         <motivo_consulta>Aumento de peso en los últimos meses</motivo_consulta>
+         <desencadenante>Ruptura sentimental</desencadenante>
+         <observaciones>La paciente presenta mareos y desmayos contínuos por inanición, debido a que no se encuentra cómoda con su cuerpo</observaciones>
+         <diagnostico>Trastorno alimenticio</diagnostico>
+         <tratamiento>Se recomienda tomar Ciproheptadina para el aumento de apetito</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_053</_id>
+         <paciente>g1_id_paciente_022</paciente>
+         <psiquiatra>g1_id_psiquiatra_004</psiquiatra>
+         <fecha_consulta>27/09/2019</fecha_consulta>
+         <motivo_consulta>Extrema delgadez</motivo_consulta>
+         <desencadenante>Insatisfacción física</desencadenante>
+         <observaciones>La paciente presenta un temor intenso al sobrepeso</observaciones>
+         <diagnostico>Trastorno alimenticio</diagnostico>
+         <tratamiento>Se recomienda tomar Ciproheptadina en mayores dosis</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_054</_id>
+         <paciente>g1_id_paciente_023</paciente>
+         <psiquiatra>g1_id_psiquiatra_004</psiquiatra>
+         <fecha_consulta>09/01/2019</fecha_consulta>
+         <motivo_consulta>Continuos enfrentamientos domésticos</motivo_consulta>
+         <observaciones>La paciente presenta irritabilidad excesiva, comportamiento agresivo e impaciencia</observaciones>
+         <diagnostico>Trastorno bipolar</diagnostico>
+         <tratamiento>Se recomienda tomar Olanzapina para la estabilidad mental</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_055</_id>
+         <paciente>g1_id_paciente_023</paciente>
+         <psiquiatra>g1_id_psiquiatra_004</psiquiatra>
+         <fecha_consulta>19/02/2019</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>La paciente presenta una lenta recuperación</observaciones>
+         <diagnostico>Trastorno bipolar</diagnostico>
+         <tratamiento>Se recomienda tomar Olanzapina para la estabilidad mental</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_056</_id>
+         <paciente>g1_id_paciente_024</paciente>
+         <psiquiatra>g1_id_psiquiatra_004</psiquiatra>
+         <fecha_consulta>12/09/2020</fecha_consulta>
+         <motivo_consulta>Depresión</motivo_consulta>
+         <desencadenante>Accidente de tráfico</desencadenante>
+         <observaciones>La paciente tuvo un accidente reciente que la dejó paralitica y no quiere salir de su domicilio</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_057</_id>
+         <paciente>g1_id_paciente_025</paciente>
+         <psiquiatra>g1_id_psiquiatra_004</psiquiatra>
+         <fecha_consulta>07/08/2016</fecha_consulta>
+         <motivo_consulta>Alucinaciones</motivo_consulta>
+         <desencadenante>Altibajos sentimentales</desencadenante>
+         <observaciones>La paciente presenta pensamientos desordenados y delirios</observaciones>
+         <diagnostico>Psicosis</diagnostico>
+         <tratamiento>Se recomienda tomar Aripiprazol</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 4 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_058</_id>
+         <paciente>g1_id_paciente_025</paciente>
+         <psiquiatra>g1_id_psiquiatra_004</psiquiatra>
+         <fecha_consulta>28/12/2016</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>La paciente no diferencia la realidad de su imaginación</observaciones>
+         <diagnostico>Psicosis</diagnostico>
+         <tratamiento>Se recomienda tomar Asenapina</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_059</_id>
+         <paciente>g1_id_paciente_026</paciente>
+         <psiquiatra>g1_id_psiquiatra_005</psiquiatra>
+         <fecha_consulta>02/12/2020</fecha_consulta>
+         <motivo_consulta>Sus padres lo vieron fumando hachís</motivo_consulta>
+         <desencadenante>Asistencia a fiestas repetidas veces a la semana</desencadenante>
+         <observaciones>El paciente presenta claros síntomas de estar bajo los efectos de las drogas y no presenta iniciativa para dejarlas</observaciones>
+         <diagnostico>Drogadicción</diagnostico>
+         <tratamiento>Se recomienda asistir a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_060</_id>
+         <paciente>g1_id_paciente_027</paciente>
+         <psiquiatra>g1_id_psiquiatra_005</psiquiatra>
+         <fecha_consulta>18/08/2018</fecha_consulta>
+         <motivo_consulta>Depresión</motivo_consulta>
+         <desencadenante>Mala situación personal</desencadenante>
+         <observaciones>El paciente ha empeorado su relación con amigos y familiares. Se detecta un posible inicio de aislamiento social</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina en pequeñas dosis</tratamiento>
+         <frecuencia_tratamiento>1 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_061</_id>
+         <paciente>g1_id_paciente_027</paciente>
+         <psiquiatra>g1_id_psiquiatra_005</psiquiatra>
+         <fecha_consulta>13/09/2018</fecha_consulta>
+         <motivo_consulta>Seguimiento</motivo_consulta>
+         <observaciones>El paciente no presenta mejoría tras el tratamiento, sigue con depresión</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina en altas dosis</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_062</_id>
+         <paciente>g1_id_paciente_027</paciente>
+         <psiquiatra>g1_id_psiquiatra_005</psiquiatra>
+         <fecha_consulta>03/10/2020</fecha_consulta>
+         <motivo_consulta>Agobio académico</motivo_consulta>
+         <desencadenante>Semana de exámenes en la Universidad</desencadenante>
+         <observaciones>El paciente se encuentra muy agobiado con las calificaciones de la Universidad y es muy autoexigente. Se bloquea cuando estudia a causa del agobio</observaciones>
+         <diagnostico>Ansiedad</diagnostico>
+         <tratamiento>Se recomienda tomar Lexatin</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_063</_id>
+         <paciente>g1_id_paciente_028</paciente>
+         <psiquiatra>g1_id_psiquiatra_005</psiquiatra>
+         <fecha_consulta>17/05/2017</fecha_consulta>
+         <motivo_consulta>Comportamiento infantil</motivo_consulta>
+         <observaciones>El paciente presenta falta de desarrollo de habilidades motoras, insuficiencia para crecer intelectualmente y retraso en las destrezas del lenguaje</observaciones>
+         <diagnostico>Retraso mental severo</diagnostico>
+         <tratamiento>Se recomienda ir a terapia ocupacional</tratamiento>
+         <frecuencia_tratamiento>3 veces a la semana durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_064</_id>
+         <paciente>g1_id_paciente_028</paciente>
+         <psiquiatra>g1_id_psiquiatra_005</psiquiatra>
+         <fecha_consulta>18/08/2017</fecha_consulta>
+         <motivo_consulta>Supervisión de la terapia ocupacional recomendada</motivo_consulta>
+         <observaciones>El paciente presenta una ligera mejoría respecto al desarrollo de sus habilidades motoras, pero no responde bien debido a que piensa que debe mejorar su inteligencia con el tratamiento</observaciones>
+         <diagnostico>Retraso mental severo</diagnostico>
+         <tratamiento>Se recomienda ir a terapia ocupacional</tratamiento>
+         <frecuencia_tratamiento>3 veces a la semana durante 4 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_065</_id>
+         <paciente>g1_id_paciente_029</paciente>
+         <psiquiatra>g1_id_psiquiatra_005</psiquiatra>
+         <fecha_consulta>10/11/2020</fecha_consulta>
+         <motivo_consulta>Crisis existencial</motivo_consulta>
+         <desencadenante>No ha acudido al trabajo en 1 semana</desencadenante>
+         <observaciones>La paciente presenta pequeñas pérdidas de memoria, así como dificultad para razonar y para comunicarse</observaciones>
+         <diagnostico>Demencia</diagnostico>
+         <tratamiento>Se recomienda tomar Donepezilo para las pérdidas de memoria y Memantina para la estabilidad mental</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas (ambas), con una diferencia de 4 horas entre una y otra</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_066</_id>
+         <paciente>g1_id_paciente_030</paciente>
+         <psiquiatra>g1_id_psiquiatra_006</psiquiatra>
+         <fecha_consulta>13/10/2020</fecha_consulta>
+         <motivo_consulta>Adicción al alcohol</motivo_consulta>
+         <desencadenante>Fallecimiento reciente de un ser querido</desencadenante>
+         <observaciones>El paciente presenta fuertes deseos de beber alcohol</observaciones>
+         <diagnostico>Alcoholismo</diagnostico>
+         <tratamiento>Se recomienda acudir a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_067</_id>
+         <paciente>g1_id_paciente_031</paciente>
+         <psiquiatra>g1_id_psiquiatra_006</psiquiatra>
+         <fecha_consulta>04/01/2019</fecha_consulta>
+         <motivo_consulta>Dependencia de MDMA</motivo_consulta>
+         <desencadenante>Viaje Erasmus</desencadenante>
+         <observaciones>La paciente presenta problemas de conducta y pupilas dilatadas</observaciones>
+         <diagnostico>Drogadicción</diagnostico>
+         <tratamiento>Se recomienda acudir a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_068</_id>
+         <paciente>g1_id_paciente_031</paciente>
+         <psiquiatra>g1_id_psiquiatra_006</psiquiatra>
+         <fecha_consulta>04/03/2019</fecha_consulta>
+         <motivo_consulta>Seguimiento despues de 2 meses de terapia</motivo_consulta>
+         <observaciones>La paciente presenta mejoras gracias a la terapia grupal, así como sumo interés en dsintoxicarse.</observaciones>
+         <diagnostico>Drogadicción</diagnostico>
+         <tratamiento>Se recomienda acudir a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_069</_id>
+         <paciente>g1_id_paciente_032</paciente>
+         <psiquiatra>g1_id_psiquiatra_006</psiquiatra>
+         <fecha_consulta>15/05/2015</fecha_consulta>
+         <motivo_consulta>Comportamientos incoherentes</motivo_consulta>
+         <observaciones>La paciente presenta conducta impulsiva, imagen personal inestable y cambios en el estado de ánimo</observaciones>
+         <diagnostico>Trastorno de la personalidad</diagnostico>
+         <tratamiento>Se recomienda tomar Amitriptilina para estabilizarla</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_070</_id>
+         <paciente>g1_id_paciente_032</paciente>
+         <psiquiatra>g1_id_psiquiatra_006</psiquiatra>
+         <fecha_consulta>26/06/2015</fecha_consulta>
+         <motivo_consulta>Ataque de nervios</motivo_consulta>
+         <desencadenante>Pensamiento de no mejoría</desencadenante>
+         <observaciones>La paciente presenta desmotivación y mal estar al creer que no va a mejorar</observaciones>
+         <diagnostico>Trastorno de la personalidad</diagnostico>
+         <tratamiento>Se recomienda tomar Amitriptilina para estabilizarla</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_071</_id>
+         <paciente>g1_id_paciente_033</paciente>
+         <psiquiatra>g1_id_psiquiatra_006</psiquiatra>
+         <fecha_consulta>07/10/2020</fecha_consulta>
+         <motivo_consulta>Constante consumo de drogas</motivo_consulta>
+         <desencadenante>Ruptura sentimental</desencadenante>
+         <observaciones>El paciente presenta una fuerte dependencia de las drogas, sufriendo sudoración y nerviosismo al llevar tiempo sin tomarlas</observaciones>
+         <diagnostico>Drogadicción</diagnostico>
+         <tratamiento>Se recomienda ir a terapia grupal</tratamiento>
+         <frecuencia_tratamiento>3 veces a la semana durante 6 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_072</_id>
+         <paciente>g1_id_paciente_034</paciente>
+         <psiquiatra>g1_id_psiquiatra_006</psiquiatra>
+         <fecha_consulta>02/12/2016</fecha_consulta>
+         <motivo_consulta>Se olvidó de su lugar de trabajo</motivo_consulta>
+         <desencadenante>Edad avanzada</desencadenante>
+         <observaciones>El paciente presenta muestra pérdidas de memoria, deficultad para comunicarse y dificultad para manejar tareas complejas</observaciones>
+         <diagnostico>Demencia</diagnostico>
+         <tratamiento>Se recomienda tomar Donepezilo para combatir las pérdidas de memoria</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_073</_id>
+         <paciente>g1_id_paciente_034</paciente>
+         <psiquiatra>g1_id_psiquiatra_006</psiquiatra>
+         <fecha_consulta>21/03/2017</fecha_consulta>
+         <motivo_consulta>Revisión</motivo_consulta>
+         <observaciones>El paciente presenta un gran deterioro de su actividad cerebral, llegando a tener dificultad con las habilidades visuales</observaciones>
+         <diagnostico>Demencia</diagnostico>
+         <tratamiento>Se recomienda tomar Donepezilo para combatir las pérdidas de memoria y Memantina para la mejora de la función cerebral</tratamiento>
+         <frecuencia_tratamiento>Donepezilo 2 veces al día durante 3 semanas y Memantina 1 vez al día durante 3 semanas, con una diferencia de 4 horas entre una y otra</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_074</_id>
+         <paciente>g1_id_paciente_035</paciente>
+         <psiquiatra>g1_id_psiquiatra_007</psiquiatra>
+         <fecha_consulta>15/10/2020</fecha_consulta>
+         <motivo_consulta>Varios años de constante consumo de alcohol</motivo_consulta>
+         <desencadenante>Vida laboral complicada</desencadenante>
+         <observaciones>El paciente presenta incapacidad para limitar la cantidad de alcohol que consume, así como comportamiento agresivo</observaciones>
+         <diagnostico>Alcoholismo</diagnostico>
+         <tratamiento>Se recomienda asistir a terapia grupal</tratamiento>
+         <frecuencia_tratamiento>3 veces a la semana durante 5 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_075</_id>
+         <paciente>g1_id_paciente_036</paciente>
+         <psiquiatra>g1_id_psiquiatra_007</psiquiatra>
+         <fecha_consulta>25/10/2018</fecha_consulta>
+         <motivo_consulta>Creencias falsas que no están basadas en la realidad</motivo_consulta>
+         <desencadenante>Reciente maltrato psicológico conyugal</desencadenante>
+         <observaciones>La paciente presenta pensamientos desordenados y delirios, así como alucinaciones</observaciones>
+         <diagnostico>Psicosis</diagnostico>
+         <tratamiento>Se recomienda tomar Aripiprazol y Asenapina</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 meses (ambas), con una diferencia de 4 horas entre una y otra</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_076</_id>
+         <paciente>g1_id_paciente_036</paciente>
+         <psiquiatra>g1_id_psiquiatra_007</psiquiatra>
+         <fecha_consulta>12/12/2018</fecha_consulta>
+         <motivo_consulta>Revisión tras 2 meses de medicación</motivo_consulta>
+         <observaciones>La paciente presenta una mejora progresiva. Responde bien al tratamiento</observaciones>
+         <diagnostico>Psicosis</diagnostico>
+         <tratamiento>Se recomienda tomar Aripiprazol y Asenapina</tratamiento>
+         <frecuencia_tratamiento>1 vez al día durante 3 semanas (ambas), con una diferencia de 4 horas entre una y otra</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_077</_id>
+         <paciente>g1_id_paciente_037</paciente>
+         <psiquiatra>g1_id_psiquiatra_007</psiquiatra>
+         <fecha_consulta>16/08/2016</fecha_consulta>
+         <motivo_consulta>Cambios extremos de actitud</motivo_consulta>
+         <desencadenante>Malestar doméstico continuado</desencadenante>
+         <observaciones>La paciente presenta irritabilidad excesiva, comportamiento agresivo e impaciencia</observaciones>
+         <diagnostico>Trastorno bipolar</diagnostico>
+         <tratamiento>Se recomienda tomar Olanzapina para mejorar la estabilidad emocional</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_078</_id>
+         <paciente>g1_id_paciente_038</paciente>
+         <psiquiatra>g1_id_psiquiatra_007</psiquiatra>
+         <fecha_consulta>12/11/2020</fecha_consulta>
+         <motivo_consulta>Constante sentimiento de culpa inexplicable</motivo_consulta>
+         <observaciones>El paciente asegura sentirse mal constantemente consigo mismo sin saber por qué</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_079</_id>
+         <paciente>g1_id_paciente_039</paciente>
+         <psiquiatra>g1_id_psiquiatra_008</psiquiatra>
+         <fecha_consulta>13/01/2018</fecha_consulta>
+         <motivo_consulta>Consumo de cannabis diario</motivo_consulta>
+         <desencadenante>Mala influencia de sus amistades</desencadenante>
+         <observaciones>La paciente presenta cambios de conducta y la necesidad de estar consumiendo marihuana constantemente</observaciones>
+         <diagnostico>Drogadicción</diagnostico>
+         <tratamiento>Se recomienda asistir a terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 3 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_080</_id>
+         <paciente>g1_id_paciente_040</paciente>
+         <psiquiatra>g1_id_psiquiatra_008</psiquiatra>
+         <fecha_consulta>17/09/2016</fecha_consulta>
+         <motivo_consulta>Inanición voluntaria</motivo_consulta>
+         <desencadenante>Mala influencia de las redes sociales</desencadenante>
+         <observaciones>La paciente asegura que hasta que no tenga el cuerpo de las modelos que ve en redes sociales no comerá</observaciones>
+         <diagnostico>Trastorno alimenticio</diagnostico>
+         <tratamiento>Se recomienda tomar Ciproheptadina para estimular el apetito</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_081</_id>
+         <paciente>g1_id_paciente_041</paciente>
+         <psiquiatra>g1_id_psiquiatra_008</psiquiatra>
+         <fecha_consulta>18/09/2020</fecha_consulta>
+         <motivo_consulta>Confinamiento voluntario</motivo_consulta>
+         <desencadenante>Ruptura sentimental</desencadenante>
+         <observaciones>La paciente asegura que no tiene ganas de levantarse de la cama, ni ir a la Universidad. Presenta estado de ánimo irritable e insomnio</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina para mejorar su estabilidad emocional</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_082</_id>
+         <paciente>g1_id_paciente_042</paciente>
+         <psiquiatra>g1_id_psiquiatra_008</psiquiatra>
+         <fecha_consulta>18/09/2020</fecha_consulta>
+         <motivo_consulta>Comportamientos extraños</motivo_consulta>
+         <observaciones>El paciente conducta impulsiva, imagen personal inestable y cambios en el estado de ánimo</observaciones>
+         <diagnostico>Trastorno de la personalidad</diagnostico>
+         <tratamiento>Se recomienda tomar Amitriptilina para mejorar su estabilidad mental</tratamiento>
+         <frecuencia_tratamiento>3 veces al día durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_083</_id>
+         <paciente>g1_id_paciente_043</paciente>
+         <psiquiatra>g1_id_psiquiatra_009</psiquiatra>
+         <fecha_consulta>07/05/2016</fecha_consulta>
+         <motivo_consulta>Comportamientos extraños</motivo_consulta>
+         <desencadenante>Drogadicción pasada sin tratar</desencadenante>
+         <observaciones>El paciente conducta impulsiva, alucinaciones y delirios</observaciones>
+         <diagnostico>Psicosis</diagnostico>
+         <tratamiento>Se recomienda tomar Asenapina para evitar ataques psicóticos</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_084</_id>
+         <paciente>g1_id_paciente_044</paciente>
+         <psiquiatra>g1_id_psiquiatra_009</psiquiatra>
+         <fecha_consulta>29/07/2013</fecha_consulta>
+         <motivo_consulta>Dificultad en las habilidades sociales</motivo_consulta>
+         <desencadenante>Infancia traumática con aislamiento social</desencadenante>
+         <observaciones>El paciente presenta movimientos estereotipados, anomalías en la expresión no verbal y anomalías comunicativas</observaciones>
+         <diagnostico>Trastorno del Espectro Autista</diagnostico>
+         <tratamiento>Se recomienda tomar Risperidona y Aripiprazol</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 1 mes (ambas), con una diferencia de 4 horas entre una y otra</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_085</_id>
+         <paciente>g1_id_paciente_045</paciente>
+         <psiquiatra>g1_id_psiquiatra_009</psiquiatra>
+         <fecha_consulta>05/07/2020</fecha_consulta>
+         <motivo_consulta>Constantes ganas de llorar y aislamiento social</motivo_consulta>
+         <desencadenante>Experiencia traumática en el pasado</desencadenante>
+         <observaciones>La paciente presenta está decaida y presenta un muy bajo estado de ánimo</observaciones>
+         <diagnostico>Depresión</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina para estabilizarla y Lexatín en caso de ataque de nervios</tratamiento>
+         <frecuencia_tratamiento>Sertralina 2 veces al día durante 3 semanas y Lexatín máximo 1 al día, con una diferencia de 4 horas entre una y otra</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_086</_id>
+         <paciente>g1_id_paciente_046</paciente>
+         <psiquiatra>g1_id_psiquiatra_009</psiquiatra>
+         <fecha_consulta>30/09/2018</fecha_consulta>
+         <motivo_consulta>Estrés continuo</motivo_consulta>
+         <desencadenante>Realización de múltiples actividades laborales</desencadenante>
+         <observaciones>La paciente tiene 3 trabajos distintos y se siente agobiada por ello, de manera que no sabe organizarse para dejar tiempo para su salud mental</observaciones>
+         <diagnostico>Ansiedad</diagnostico>
+         <tratamiento>Se recomienda tomar Lexatin</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 3 semanas</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_087</_id>
+         <paciente>g1_id_paciente_047</paciente>
+         <psiquiatra>g1_id_psiquiatra_010</psiquiatra>
+         <fecha_consulta>20/09/2020</fecha_consulta>
+         <motivo_consulta>Sentimiento de incapacidad para criar a un bebé</motivo_consulta>
+         <desencadenante>Parto reciente</desencadenante>
+         <observaciones>La paciente se siente agobiada y no se ve capaz de que una persona dependa de ella. Cree que no va a saber cuidarlo y se distancia de el constantemente</observaciones>
+         <diagnostico>Depresión post-parto</diagnostico>
+         <tratamiento>Se recomienda tomar Sertralina y Lexatin</tratamiento>
+         <frecuencia_tratamiento>2 veces al día durante 2 semanas (ambas), con una diferencia de 4 horas entre una y otra</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_088</_id>
+         <paciente>g1_id_paciente_048</paciente>
+         <psiquiatra>g1_id_psiquiatra_010</psiquiatra>
+         <fecha_consulta>05/01/2018</fecha_consulta>
+         <motivo_consulta>Dependencia de bebidas alcohólicas</motivo_consulta>
+         <desencadenante>Ruptura sentimental</desencadenante>
+         <observaciones>El paciente siente una fuerte necesidad de consumir alcohol, oues asegura que cuando no esta bajos los efectos de este, se siente deprimido</observaciones>
+         <diagnostico>Alcoholismo</diagnostico>
+         <tratamiento>Se recomienda asistir a terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 4 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_089</_id>
+         <paciente>g1_id_paciente_049</paciente>
+         <psiquiatra>g1_id_psiquiatra_010</psiquiatra>
+         <fecha_consulta>15/10/2020</fecha_consulta>
+         <motivo_consulta>Ataques de ansiedad constantes</motivo_consulta>
+         <desencadenante>La paciente sufre cancer de mama</desencadenante>
+         <observaciones>La paciente al no creer que va a superar la enfermedad, presenta insomnio y sensación de pánico</observaciones>
+         <diagnostico>Ansiedad</diagnostico>
+         <tratamiento>Se recomienda tomar Lexatin para evitar los ataques de ansiedad, así como asistir a terapia grupal</tratamiento>
+         <frecuencia_tratamiento>Lexatin 2 veces al día durante 2 semanas y acudir a terapia grupal 2 veces a la semana durante 1 mes</frecuencia_tratamiento>
+     </formulario_consulta>
+     <formulario_consulta>
+         <_id>g1_id_form_090</_id>
+         <paciente>g1_id_paciente_090</paciente>
+         <psiquiatra>g1_id_psiquiatra_010</psiquiatra>
+         <fecha_consulta>28/04/2019</fecha_consulta>
+         <motivo_consulta>Abuso de sustancias tóxicas</motivo_consulta>
+         <desencadenante>Nuevo círculo de amistades</desencadenante>
+         <observaciones>El paciente cambios de conducta y la necesidad de estar consumiendo marihuana constantemente</observaciones>
+         <diagnostico>Drogadicción</diagnostico>
+         <tratamiento>Se recomienda acudir a la terapia grupal</tratamiento>
+         <frecuencia_tratamiento>2 veces a la semana durante 6 meses</frecuencia_tratamiento>
+     </formulario_consulta>
+ </formularios_consultas>

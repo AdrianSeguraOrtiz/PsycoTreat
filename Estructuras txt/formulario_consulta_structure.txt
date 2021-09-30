@@ -1,0 +1,12 @@
+{
+  "_id" : STRING,
+  "paciente" : STRING,
+  "psiquiatra" : STRING,
+  "fecha consulta" : DATE,
+  "motivo consulta" : STRING,
+  "desencadenante" : STRING,
+  "observaciones" : STRING,
+  "diagnostico" : STRING,
+  "tratamiento" : STRING,
+  "frecuencia tratamiento" : STRING
+}

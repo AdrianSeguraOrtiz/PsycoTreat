@@ -1,0 +1,30 @@
+{% include "administrativo/administrativo.html" %}
+
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/registros.css')}}">
+    <h1>Listado de Psiquiatras</h1>
+    <table border = "0">
+        <thead>
+            <tr>
+                <th class="id"></th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th class = 'select'></th>
+                <th class = 'select'></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for psiquiatra in psiquiatras %}
+                <tr>
+                    <td class="id"><span>{{psiquiatra['_id'][psiquiatra['_id']|length - 3 :]}}</span></td>
+                    <td>{{psiquiatra['nombre']}}</td>
+                    <td>{{psiquiatra['apellidos']}}</td>
+                    <td class="boton"><a href = "{{ url_for('admin_citas_ver', id_admin = id_admin, id_psiquiatra = psiquiatra['_id']) }}"><input type = "button" value = "Ver Citas"></a></td>
+                    <td class="boton"><a href = "{{ url_for('admin_citas_anadir', id_admin = id_admin, id_psiquiatra = psiquiatra['_id']) }}"><input type = "button" value = "Añadir Cita"></a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</html>
+
+{% include "footer.html" %}

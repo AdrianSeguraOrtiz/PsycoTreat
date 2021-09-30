@@ -1,0 +1,33 @@
+Los psiquiatras junto con las patologías que están tratando actualmente
+
+Ana -- Sánchez Tomás -- Alcoholismo
+Ana -- Sánchez Tomás -- Drogadicción
+Antonio Jesús -- Ramírez Loto -- Depresión
+Francisco -- Sepúlveda Rey -- Depresión
+José María -- Leiva Jiménez -- Ansiedad
+José María -- Leiva Jiménez -- Demencia
+José María -- Leiva Jiménez -- Drogadicción
+Lorena -- González Seco -- Depresión
+Lorena -- González Seco -- Trastorno de la personalidad
+Lucía -- Manrique Pérez -- Ansiedad
+Lucía -- Manrique Pérez -- Drogadicción
+Lucía -- Manrique Pérez -- Trastorno alimenticio
+Manuel -- Gómez Cabello -- Alcoholismo
+Manuel -- Gómez Cabello -- Depresión
+Miguel -- Pérez López -- Ansiedad
+Miguel -- Pérez López -- Depresión post-parto
+Roberto -- Fernández Rojas -- Alcoholemia
+Roberto -- Fernández Rojas -- Depresión
+Roberto -- Fernández Rojas -- Drogadicción
+Roberto -- Fernández Rojas -- Trastorno alimenticio
+Roberto -- Fernández Rojas -- Trastorno de ansiedad
+Sara -- Sánchez Ortiz -- Demencia
+Sara -- Sánchez Ortiz -- Déficit de Atención e Hiperactividad
+Sara -- Sánchez Ortiz -- Esquizofrenia
+Sara -- Sánchez Ortiz -- Síndrome de Diógenes
+Sara -- Sánchez Ortiz -- Trastorno alimenticio
+Sara -- Sánchez Ortiz -- Trastorno bipolar
+Sara -- Sánchez Ortiz -- Trastorno de estrés postraumático (TEPT)
+Sara -- Sánchez Ortiz -- Trastorno de la personalidad
+Sara -- Sánchez Ortiz -- Trastorno del Espectro Autista
+Sara -- Sánchez Ortiz -- Trastorno obsesivo-compulsivo (TOC)

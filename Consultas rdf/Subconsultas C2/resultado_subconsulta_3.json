@@ -1,0 +1,593 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre",
+            "apellidos",
+            "nombre_patologia_actual",
+            "tratamiento_asignado"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Romero Pacheco"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno alimenticio"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar ciproheptadina para estimular el apetito"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Olivia"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Cañete Domínguez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno bipolar"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Olanzapina para estabilizar el ánimo"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Lucas"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Romero Padilla"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno de la personalidad"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Amitriptilina"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Mario"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Martín Pérez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Demencia"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Donepezilo para mejorar la memoria y Memantina para el aumento de la actividad cerebral"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Silvia"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Román Huerta"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno obsesivo-compulsivo (TOC)"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Fluvoxamine"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Lucas"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Pirlo Molina"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Síndrome de Diógenes"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Citalopram"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "José Ramón"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "López Galiana"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Esquizofrenia"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Aripiprazol y Clozapina"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Margarita"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Cintrano Ranea"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno del Espectro Autista"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Risperidona y Aripiprazol"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Melania"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Castillo del Río"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Déficit de Atención e Hiperactividad"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Methylphenidate para la estimulación"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Pilar"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Rueda Álvarez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno de estrés postraumático (TEPT)"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Sertralina para la estimulación"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "David"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Lasa Ordoñez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno de ansiedad"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Lexatin"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Carmen"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Castro Romero"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno de ansiedad"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Lexatin"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Eduardo"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Valderrama Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno alimenticio"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Ciproheptadina"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Clara"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Labrador Vera"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Sertralina"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Jimena"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Benitez Castro"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Alcoholemia"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda acudir a la terapia grupal"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Adrián"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Pacheco Segura"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Drogadicción"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda acudir a la terapia grupal"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Gabriela"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Salado San Millán"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno alimenticio"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda ir a terapia"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Cantos Martín"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Ansiedad"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Lexatin para la relajación"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Rodriguez Galvez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Drogadicción"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda asistir a la terapia grupal"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Raquel"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Sutton Rivera"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Sertralina"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Sánchez Rodriguez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Drogadicción"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda asistir a la terapia grupal"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Alberto"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Álvarez Martín"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Ansiedad"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Lexatin"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Martina"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Sánchez Rodriguez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Demencia"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Donepezilo para las pérdidas de memoria y Memantina para la estabilidad mental"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Pepe"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Jimenez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Alcoholismo"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda acudir a la terapia grupal"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Alejandro"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Ortiz Ortega"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Drogadicción"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda ir a terapia grupal"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Raúl"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Manzano Olivares"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Alcoholismo"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda asistir a terapia grupal"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Vázquez Rivera"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Sertralina"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Cañete Vera"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Sertralina para mejorar su estabilidad emocional"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Carrasco Ruiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno de la personalidad"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Amitriptilina para mejorar su estabilidad mental"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Soria Vera"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Sertralina para estabilizarla y Lexatín en caso de ataque de nervios"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Rocío"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Saravia Sánchez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión post-parto"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Sertralina y Lexatin"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Ana María"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Nevado Sánchez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Ansiedad"
+                },
+                "tratamiento_asignado": {
+                    "type": "literal",
+                    "value": "Se recomienda tomar Lexatin para evitar los ataques de ansiedad, así como asistir a terapia grupal"
+                }
+            }
+        ]
+    }
+}

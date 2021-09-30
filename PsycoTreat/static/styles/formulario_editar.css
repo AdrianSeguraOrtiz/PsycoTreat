@@ -1,0 +1,13 @@
+input[type = "text"], input[type = "email"], input[type = "tel"]{
+    border: 3px solid #dfc535;
+    border-radius: 10px;
+}
+input[type = "text"]:hover, input[type = "email"]:hover, input[type = "tel"]:hover{
+    background-color: #ddce75;
+}
+a {
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}

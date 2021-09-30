@@ -1,0 +1,61 @@
+{% include "administrativo/administrativo.html" %}
+{% if tipo == 'pacientes' %}
+    {% set metodo_ver = 'admin_registros_paciente_ver' %}
+    {% set metodo_anadir = 'admin_registros_paciente_anadir' %}
+    {% set metodo_editar = 'admin_registros_paciente_editar' %}
+    {% set metodo_borrar = 'admin_registros_paciente_borrar' %}
+{% elif tipo == 'psiquiatras' %}
+    {% set metodo_ver = 'admin_registros_psiquiatra_ver' %}
+    {% set metodo_anadir = 'admin_registros_psiquiatra_anadir' %}
+    {% set metodo_editar = 'admin_registros_psiquiatra_editar' %}
+    {% set metodo_borrar = 'admin_registros_psiquiatra_borrar' %}
+{% elif tipo == 'familiares autorizados' %}
+    {% set metodo_ver = 'admin_registros_familiar_ver' %}
+    {% set metodo_anadir = 'admin_registros_familiar_anadir' %}
+    {% set metodo_editar = 'admin_registros_familiar_editar' %}
+    {% set metodo_borrar = 'admin_registros_familiar_borrar' %}
+{% elif tipo == 'administrativos' %}
+    {% set metodo_ver = 'admin_registros_administrativo_ver' %}
+    {% set metodo_anadir = 'admin_registros_administrativo_anadir' %}
+    {% set metodo_editar = 'admin_registros_administrativo_editar' %}
+    {% set metodo_borrar = 'admin_registros_administrativo_borrar' %}
+{% endif %}
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/registros.css')}}">
+    <h1>Listado de {{tipo}}</h1>
+    <table border = "0">
+        <thead>
+            <tr>
+                <th class="id"></th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Email</th>
+                <th>Localidad</th>
+                <th>Teléfono</th>
+                <th class = 'select'></th>
+                <th class = 'select'></th>
+                <th class = 'select'></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for usuario in usuarios %}
+                <tr>
+                    <td class="id"><span>{{usuario['_id'][usuario['_id']|length - 3 :]}}</span></td>
+                    <td>{{usuario['nombre']}}</td>
+                    <td>{{usuario['apellidos']}}</td>
+                    <td><a href="mailto: paciente['email']">{{usuario['email']}}</a></td>
+                    <td>{{usuario['localidad']}}</td>
+                    <td><a href="tel: paciente['telefono']>">{{usuario['telefono']}}</a></td>
+                    <td class="boton"><a href = "{{ url_for(metodo_ver, id_admin = id_admin, id_usuario = usuario['_id']) }}"><input type = "button" value = "Ver"></a></td>
+                    <td class="boton"><a href = "{{ url_for(metodo_editar, id_admin = id_admin, id_usuario = usuario['_id']) }}"><input type = "button" value = "Editar"></a></td>
+                    <td class="boton"><a href = "{{ url_for(metodo_borrar, id_admin = id_admin, id_usuario = usuario['_id']) }}"><input type = "button" value = "Borrar"></a></td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td class="añadir" colspan = "3"> </td>
+                <td class="añadir"><a href = "{{ url_for(metodo_anadir, id_admin = id_admin) }}"><input type = "button" value = "Añadir"></a></td>
+            </tr>
+        </tbody>
+    </table>
+</html>
+{% include "footer.html" %}

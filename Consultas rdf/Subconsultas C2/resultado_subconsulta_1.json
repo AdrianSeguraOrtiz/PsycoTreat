@@ -1,0 +1,213 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre",
+            "apellidos",
+            "inicio",
+            "final"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Romero Pacheco"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "23/08/2009"
+                },
+                "final": {
+                    "type": "literal",
+                    "value": "03/02/2010"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Mario"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Martín Pérez"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "19/03/2011"
+                },
+                "final": {
+                    "type": "literal",
+                    "value": "01/02/2012"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Carmen"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Castro Romero"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "12/10/2009"
+                },
+                "final": {
+                    "type": "literal",
+                    "value": "03/02/2010"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Carmen"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Castro Romero"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "14/07/2012"
+                },
+                "final": {
+                    "type": "literal",
+                    "value": "15/01/2013"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Cantos Martín"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "15/09/2016"
+                },
+                "final": {
+                    "type": "literal",
+                    "value": "03/01/2017"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Álvaro"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Torres Sánchez"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "13/02/2017"
+                },
+                "final": {
+                    "type": "literal",
+                    "value": "15/08/2017"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Alberto"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Álvarez Martín"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "18/08/2018"
+                },
+                "final": {
+                    "type": "literal",
+                    "value": "02/01/2019"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Clara"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Labrador Vera"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "11/09/2020"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Raquel"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Sutton Rivera"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "12/09/2020"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Vázquez Rivera"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "12/11/2020"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Cañete Vera"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "15/09/2020"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Soria Vera"
+                },
+                "inicio": {
+                    "type": "literal",
+                    "value": "05/07/2020"
+                }
+            }
+        ]
+    }
+}

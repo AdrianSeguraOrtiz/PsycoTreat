@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <mensajes>
+     <mensaje>
+         <_id>g1_id_mensaje_001</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_admin_001</receptor>
+         <fecha_de_envio>22/02/2008</fecha_de_envio>
+         <contenido>Informar al técnico de una avería de la persiana.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_002</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_admin_001</receptor>
+         <fecha_de_envio>24/10/2020</fecha_de_envio>
+         <contenido>Programar analítica de sangre para Marta Romero.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_003</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_001</receptor>
+         <fecha_de_envio>27/12/2005</fecha_de_envio>
+         <contenido>Marta presenta claros síntomas de padecer trastorno de estrés postraumático. Usted le puede servir de gran ayuda si se encarga de apartar de su vida cotidiana todos aquellos objetos, temas de conversación, programas de televisión, etc que le recuerden lo sucedido.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_004</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_001</receptor>
+         <fecha_de_envio>24/10/2020</fecha_de_envio>
+         <contenido>Marta necesita comer y sobre todo querer hacerlo. Intentar no forzar ingestas de comidas por obligación, si no demostrarle y hacerle ver que es lo mejor para ella. También es recomendable realizar paseos diarios de baja intensidad para que reconozca su agotamiento físico y la causa del mismo.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_005</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_admin_002</receptor>
+         <fecha_de_envio>12/10/2020</fecha_de_envio>
+         <contenido>Error al actualizar información de Olivia Cañete</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_006</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_admin_002</receptor>
+         <fecha_de_envio>25/10/2020</fecha_de_envio>
+         <contenido>Carencia de folios para la impresora</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_007</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_admin_002</receptor>
+         <fecha_de_envio>09/11/2020</fecha_de_envio>
+         <contenido>Prueba de función tiroidea para Lucas Pirlo</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_008</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_admin_003</receptor>
+         <fecha_de_envio>10/10/2020</fecha_de_envio>
+         <contenido>Analítica de sangre vitamina B12 para Olivia Cañete</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_009</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_admin_003</receptor>
+         <fecha_de_envio>01/11/2020</fecha_de_envio>
+         <contenido>Prueba función tiroidea para Mario Martín</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_010</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_admin_003</receptor>
+         <fecha_de_envio>20/11/2020</fecha_de_envio>
+         <contenido>Prueba de estimulación con TRH para Mario Martín</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_011</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_admin_004</receptor>
+         <fecha_de_envio>22/10/2020</fecha_de_envio>
+         <contenido>Prueba de glicemia postpandrial para Silvia Román</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_012</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_admin_004</receptor>
+         <fecha_de_envio>07/11/2020</fecha_de_envio>
+         <contenido>Prueba de variación de la prolactina para José Ramón Lopez</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_013</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_admin_004</receptor>
+         <fecha_de_envio>11/11/2020</fecha_de_envio>
+         <contenido>Prueba de glicemia postpandrial para Melania Castillo</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_014</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_002</receptor>
+         <fecha_de_envio>10/10/2020</fecha_de_envio>
+         <contenido>Olivia ha realizado adecuadamente la consulta médica y dado que presenta síntomas de bipolaridad le aconsejamos tener una conducta paciente y por ahora ser flexible con ella hasta tener los resultados de la prueba.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_015</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_002</receptor>
+         <fecha_de_envio>25/11/2020</fecha_de_envio>
+         <contenido>Olivia ha mostrado cierta agresividad a la hora de aceptar su diagnóstico, es probable que se encuentre alterada en estos días. Le rogamos paciencia en su trato y paciencia para afrontar la noticia. En caso de encontrarse más relajada realizar paseos diarios con ella.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_016</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_003</receptor>
+         <fecha_de_envio>02/11/2020</fecha_de_envio>
+         <contenido>Lucas padece un leve trastorno, sin embargo, vemos beneficioso tratar su desencadenánte más que su propia enfermedad. Nos gustaría citarle a usted para poder hablar respecto ciertos asuntos.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_017</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_003</receptor>
+         <fecha_de_envio>22/11/2020</fecha_de_envio>
+         <contenido>Lucas parece abrirse en la terapia. Muestra bastante predisposición a mejorar y su tarea es animarle e intentar hacerle ver que va por buen camino. Intentar discutir con él lo menos posible</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_018</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_004</receptor>
+         <fecha_de_envio>02/11/2020</fecha_de_envio>
+         <contenido>Si Mario sufre un episodio de demencia, debe tomar Donepezilo 1gr junto con un sobre de Memantina.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_019</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_004</receptor>
+         <fecha_de_envio>24/11/2020</fecha_de_envio>
+         <contenido>Mario presenta cierta mejora. Sigue así.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_020</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_005</receptor>
+         <fecha_de_envio>23/10/2020</fecha_de_envio>
+         <contenido>El mayor problema de Silvia es su entrada en bucles de obsesión que le impide ver más allá del problema que esté intentando resolver. Es necesario desviar ciertas veces su atención para que no se atasque en su rutina, espero que conozca algo que le pueda distraer en ciertas ocasiones. Le he dado otra cita para poder entenderla mejor</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_021</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_006</receptor>
+         <fecha_de_envio>31/10/2020</fecha_de_envio>
+         <contenido>En caso de sufrir una crisis, Lucas deberá tomar Citalopram 1.5mg</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_022</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_006</receptor>
+         <fecha_de_envio>15/11/2020</fecha_de_envio>
+         <contenido>Lucas abusa de ansiolíticos para calmar su ansiedad. Es necesario intentar poco a poco que vaya bajando la frecuencia de dosis</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_023</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_007</receptor>
+         <fecha_de_envio>08/11/2020</fecha_de_envio>
+         <contenido>Jose Ramón presenta claros síntomas de esquizofrenia. Le he mandado una prueba complementaria para especificar su diagnóstico. Le avisaremos cuando lleguen los resultados.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_024</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_008</receptor>
+         <fecha_de_envio>10/11/2020</fecha_de_envio>
+         <contenido>Margarita debe aumentar su actividad social. Tiende a encerrarse en ella misma.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_025</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_008</receptor>
+         <fecha_de_envio>17/11/2020</fecha_de_envio>
+         <contenido>Margarita confirma haber retomado contacto con una amiga. Asegurese de que mantenga dicha relación de la mejor forma posible y hablaremos de ello en la siguiente sesión.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_026</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_009</receptor>
+         <fecha_de_envio>12/11/2020</fecha_de_envio>
+         <contenido>Melania necesita una zona de trabajo aislada que le permita salir de la habitación, a la cual sólo deberá entrar para dormir. Esto le permitirá a su cuerpo deducir inconscientemente lo que debe realizar en cada caso. La separación física de actividades también ayuda a la mental</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_027</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_009</receptor>
+         <fecha_de_envio>21/11/2020</fecha_de_envio>
+         <contenido>Melania parece empeorar y tiene problemas a la hora de descansar. A su edad podría ocasionar insomnio crónico. Debe tomar infusiones semejantes a la valeriana antes de dormir para mejorar su descanso</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_028</_id>
+         <emisor>g1_id_psiquiatra_001</emisor>
+         <receptor>g1_id_familiar_010</receptor>
+         <fecha_de_envio>11/11/2020</fecha_de_envio>
+         <contenido>Pilar no supera lo sucedido. Revive ese momento una y otra vez culpándose constantemente. Nuestra terapia y su trato deben centrarse en conseguir que se perdone a sí misma</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_029</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_011</receptor>
+         <fecha_de_envio>22/04/2016</fecha_de_envio>
+         <contenido>David ha bajado drásticamente de peso y me he considerado necesario recetarle un medicamento para la estimulación de su apetito. No obstante, es un simple parche, debemos estar preparados para conseguir despertarle alguna motivación que le haga cambiar de opinión</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_030</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_011</receptor>
+         <fecha_de_envio>11/10/2020</fecha_de_envio>
+         <contenido>David se encuentra angustiado por sus problemas laborales, es necesario que le apoye en ello y le muestre esperanza para que él también la sienta</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_031</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_012</receptor>
+         <fecha_de_envio>09/08/2020</fecha_de_envio>
+         <contenido>Su madre ha tenido un percance durante la consulta, no obstante hemos logrado estabilizarla. En caso de sufrir otro ataque pongase en contacto con nosotros. Le he dado cita en unos días dado su estado</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_032</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_012</receptor>
+         <fecha_de_envio>22/08/2020</fecha_de_envio>
+         <contenido>Su madre no se deja ayudar a pesar de venir a las consultas. Es de vital importancia que nos cuente todas sus preocupaciones para que podamos ayudarla. Espero que logre convencerla</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_033</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_012</receptor>
+         <fecha_de_envio>28/11/2020</fecha_de_envio>
+         <contenido>Carmen ha mostrado grandes mejoras desde su comienzo en terapia. Ya mismo deberá continuar sola y es muy importante que la apoye en los primeros días. En caso de sufrir una recaída espero que vuelvan a confiar en nosotros.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_034</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_013</receptor>
+         <fecha_de_envio>16/07/2020</fecha_de_envio>
+         <contenido>Eduardo se preocupa demasiado por la imagen que puedan tener las personas de él. Resultaría beneficioso hacerle ver que lo que el piensa no debe extrapolarlo a los demás. Trabajad en ello.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_035</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_013</receptor>
+         <fecha_de_envio>22/08/2020</fecha_de_envio>
+         <contenido>Eduardo está cogiendo peso convenientemente, espero que siga así esta semana. No hay que confiarse y hay que seguir apoyándole.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_036</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_014</receptor>
+         <fecha_de_envio>15/09/2020</fecha_de_envio>
+         <contenido>Clara está afectada por motivos personales. Si no se siente cómoda hablándolo es muy importante que durante los primeros días se la respete. Es una situación delicada que requiere paciencia</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_037</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_015</receptor>
+         <fecha_de_envio>08/09/2020</fecha_de_envio>
+         <contenido>Es importante que Jimena recuerde cada día la lucha que está librando contra su adicción. Es necesario estar pendiente de que no reincida pero sin hacer persión para que note que confiamos en ella</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_038</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_015</receptor>
+         <fecha_de_envio>10/10/2020</fecha_de_envio>
+         <contenido>Me temo que Jimena ha vuelto a beber. Resultan normales este tipo de recaídas durante el proceso, no obstante, debe aprender que beber no es una solución a sus problemas.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_039</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_016</receptor>
+         <fecha_de_envio>15/11/2020</fecha_de_envio>
+         <contenido>Adrián presenta un largo camino de desintoxicación por delante. Les recomiendo realizar controles semanales que prueben su compromiso</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_040</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_familiar_016</receptor>
+         <fecha_de_envio>29/11/2020</fecha_de_envio>
+         <contenido>Adrián a pesar de pasar los controles muestra claros síntomas de estar bajo los efectos de la droga. Deben encontrarle alguna explicación a sus resultados</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_041</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_017</receptor>
+         <fecha_de_envio>21/05/2020</fecha_de_envio>
+         <contenido>Resultaría conveniente que su hija Gabriela aumentase su vida social y pasase más tiempo fuera de casa. Su mayor tentación es no tener nada que hacer y usar el móvil.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_042</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_017</receptor>
+         <fecha_de_envio>25/11/2020</fecha_de_envio>
+         <contenido>Su hija está aumentando correctamente de peso. Además, tiene intención de comenzar a practicar algún deporte. Le recomiendo que la anime a ello, eso también le ayudará respecto a los problemas que tuvo a principios de año</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_043</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_018</receptor>
+         <fecha_de_envio>28/11/2002</fecha_de_envio>
+         <contenido>Irene afirma haber conocido a una nueva amiga en el colegio, es muy importante que no le mostreis excesiva importancia delante de ella. Es un gran paso que hay que tratar con normalidad como si se tratase de cualquier otra niña.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_044</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_018</receptor>
+         <fecha_de_envio>22/01/2003</fecha_de_envio>
+         <contenido>Irene ha conseguido mejorar sorprendentemente sus habilidades sociales, su comportamiento es bastante maduro para su edad y avanza bien en la terapia.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_045</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_019</receptor>
+         <fecha_de_envio>18/10/2016</fecha_de_envio>
+         <contenido>Marta se encuentra en pleno proceso de duelo por la pérdida de vuestra madre. Es importante comprender que ante la misma situación cada persona reacciona de forma distinta. Compartis el mismo dolor pero no la misma forma de afrontarlo. Necesita tu apoyo más que nunca y resulta preferible hablar de lo sucedido antes de forzar su censura.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_046</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_019</receptor>
+         <fecha_de_envio>14/10/2020</fecha_de_envio>
+         <contenido>Marta ha sido sometida a mucha presión por motivos que ya conoces. Es muy autoexigente y debes hacerle ver que es normal equivocarse y que en vez de culparse tiene que aprender a saber empezar de nuevo sin atormentarse</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_047</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_020</receptor>
+         <fecha_de_envio>19/11/2020</fecha_de_envio>
+         <contenido>Miguel no es capaz de comprender las consecuencias y las secuelas futuras que su consumición puede llegar a acarrearle. No ve problema en lo que hace y esto será lo primero que debemos hacerle ver. Sin ello, no verá motivos para dejar de consumir y por tanto no lo hará.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_048</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_020</receptor>
+         <fecha_de_envio>01/12/2020</fecha_de_envio>
+         <contenido>Miguel me ha prometido su compromiso en el proceso de desintoxicación y ha accedido a realizarse pruebas semanalmente. Es un gran paso que debéis agradecerle.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_049</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_021</receptor>
+         <fecha_de_envio>13/12/2010</fecha_de_envio>
+         <contenido>Álvaro ha conseguido mantenerse más de 1 mes sobrio. Es muy importante que se le felicite por su esfuerzo y sacrificio.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_050</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_familiar_021</receptor>
+         <fecha_de_envio>22/07/2017</fecha_de_envio>
+         <contenido>Álvaro además de haber conseguido no recurrir al alcohol durante todo su tratamiento esta mostrando señales de mejora y aprendendiendo acerca del control de sus emociones</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_051</_id>
+         <emisor>g1_id_psiquiatra_004</emisor>
+         <receptor>g1_id_familiar_022</receptor>
+         <fecha_de_envio>20/10/2019</fecha_de_envio>
+         <contenido>Inmaculada no consigue tener una visión objetiva de su cuerpo. Es necesario que entienda que todos los cuerpos son válidos mientras no sean perjudiciales para la salud propia de cada uno</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_052</_id>
+         <emisor>g1_id_psiquiatra_004</emisor>
+         <receptor>g1_id_familiar_023</receptor>
+         <fecha_de_envio>09/01/2019</fecha_de_envio>
+         <contenido>Paula muestra cambios repentinos en su conducta que provocan brusquedad en sus conversaciones. Hasta lograr encontrar el foco de su comportamiento le he recetado un medicamento que debería estabilizarla</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_053</_id>
+         <emisor>g1_id_psiquiatra_004</emisor>
+         <receptor>g1_id_familiar_024</receptor>
+         <fecha_de_envio>13/10/2020</fecha_de_envio>
+         <contenido>Raquel parece recuperarse poco a poco de su depresión. Le comunico que a pesar de tener una lenta recuperación es preferible a tener mejoras rápidas e inestables. Es muy importante que la apoye para que no pierda su constancia en el proceso.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_054</_id>
+         <emisor>g1_id_psiquiatra_004</emisor>
+         <receptor>g1_id_familiar_025</receptor>
+         <fecha_de_envio>28/12/2016</fecha_de_envio>
+         <contenido>Paloma no consigue diferenciar la realidad de su imaginación. Dado que considero peligrosa su situación he decidido mandarle una medicación hasta que logremos estabilizarla</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_055</_id>
+         <emisor>g1_id_psiquiatra_005</emisor>
+         <receptor>g1_id_familiar_026</receptor>
+         <fecha_de_envio>02/12/2020</fecha_de_envio>
+         <contenido>Fernando argumenta que su único motivo por el que acude al centro es la obligación impuesta por sus padres. Es bueno que se preocupen por él, sin embargo, hasta que no logre entender el daño que causan las drogas y visualice una motivación para desintoxicarse, no habrá castigos ni terapia que le ayude.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_056</_id>
+         <emisor>g1_id_psiquiatra_005</emisor>
+         <receptor>g1_id_familiar_027</receptor>
+         <fecha_de_envio>20/10/2020</fecha_de_envio>
+         <contenido>Alberto está empeorando la visión de sus responsabilidades y muestra impaciencia por la terapia. Debe comprender que a veces es necesario hacer pausas y dedicarle tiempo a la estabilidad mental antes de continuar trabajando. Sin salud mental lo demás se hace el doble de complicado. Ayúdeme a que sea más paciente con su proceso de recuperación</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_057</_id>
+         <emisor>g1_id_psiquiatra_005</emisor>
+         <receptor>g1_id_familiar_028</receptor>
+         <fecha_de_envio>18/08/2017</fecha_de_envio>
+         <contenido>Carlos debe comprender que no acude al centro para conseguir aumentar su inteligencia, si no a aceptarse tal y como es y aprender a vivir con ello.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_058</_id>
+         <emisor>g1_id_psiquiatra_005</emisor>
+         <receptor>g1_id_familiar_029</receptor>
+         <fecha_de_envio>29/11/2020</fecha_de_envio>
+         <contenido>Martina empieza a tener grandes lagunas de memoria que ni siquiera ella percibe. Le he dado una fotocopia que quiero que veas con ella donde se describen una serie de ejercicios diarios para mantener la mente activa. Esto no hará que mejore pero sí a que la pérdida de memoria sea más leve.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_059</_id>
+         <emisor>g1_id_psiquiatra_006</emisor>
+         <receptor>g1_id_familiar_030</receptor>
+         <fecha_de_envio>20/10/2020</fecha_de_envio>
+         <contenido>Pepe a pesar de haber comenzado recientemente su terapia muestra gran interés y entrega en mantenerse sobrio y conseguir resistirse a las tentaciones que le somete su adicción. Es muy importante que no pierda esta motivación que le haga recordar los beneficios que tiene no beber</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_060</_id>
+         <emisor>g1_id_psiquiatra_006</emisor>
+         <receptor>g1_id_familiar_031</receptor>
+         <fecha_de_envio>04/03/2019</fecha_de_envio>
+         <contenido>Lucía parece haber comprendido la necesidad de su desintoxicación. Además, a diferencia de los casos habituales sus amistades parecen apoyarla y ayudarla en el proceso, lo cual es un factor fundamental en el tratamiento.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_061</_id>
+         <emisor>g1_id_psiquiatra_006</emisor>
+         <receptor>g1_id_familiar_032</receptor>
+         <fecha_de_envio>26/06/2015</fecha_de_envio>
+         <contenido>Cristina ha empeorado sus habilidades sociales y se muestra desmotivada en su tarea de recuperarse. Es muy importante mostrarle apoyo y hacerle ver que su terapia resulta beneficiosa para ella y para la gente que la quiere</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_062</_id>
+         <emisor>g1_id_psiquiatra_006</emisor>
+         <receptor>g1_id_familiar_033</receptor>
+         <fecha_de_envio>12/11/2020</fecha_de_envio>
+         <contenido>Alejandro sigue teniendo recaidas muy frecuentes. Necesitamos aumentar su motivación para que ponga más empeño en la terapia</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_063</_id>
+         <emisor>g1_id_psiquiatra_006</emisor>
+         <receptor>g1_id_familiar_034</receptor>
+         <fecha_de_envio>20/10/2017</fecha_de_envio>
+         <contenido>Oswaldo parece haber estancado temporalmente su degradación mental. Es algo bueno aunque no tiene explicación. Esperemos que continue así y en caso de empeorar póngase en contacto con el centro</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_064</_id>
+         <emisor>g1_id_psiquiatra_007</emisor>
+         <receptor>g1_id_familiar_035</receptor>
+         <fecha_de_envio>15/10/2020</fecha_de_envio>
+         <contenido>Raúl presenta un caso grave de alcoholismo dada las altas cantidades de consumición que ha consentido durante varios años. En casos así, puesto que hay altas probabilidades de reincidencia, es muy importante realizar un seguimiento diario cuya principal vigilante será usted.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_065</_id>
+         <emisor>g1_id_psiquiatra_007</emisor>
+         <receptor>g1_id_familiar_036</receptor>
+         <fecha_de_envio>12/12/2018</fecha_de_envio>
+         <contenido>Rosa comienza a mejorar progresivamente. Es hora de bajar las dosis de la medicación poco a poco para ver que tal reacciona</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_066</_id>
+         <emisor>g1_id_psiquiatra_007</emisor>
+         <receptor>g1_id_familiar_037</receptor>
+         <fecha_de_envio>15/10/2016</fecha_de_envio>
+         <contenido>Lola parece suavizar sus cambios de personalidad y controlar con mayor precisión sus emociones. Es importante que la animeis a que siga esforzándose para cumplir sus objetivos</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_067</_id>
+         <emisor>g1_id_psiquiatra_007</emisor>
+         <receptor>g1_id_familiar_038</receptor>
+         <fecha_de_envio>20/11/2020</fecha_de_envio>
+         <contenido>Jorge parece haber hallado el principal desencadenante de su estado actual. En las próximas sesiones trabajaremos sobre ello para conseguir proporcionarle la perspectiva más adecuada con la que afrontar dicho asunto</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_068</_id>
+         <emisor>g1_id_psiquiatra_008</emisor>
+         <receptor>g1_id_familiar_039</receptor>
+         <fecha_de_envio>15/03/2018</fecha_de_envio>
+         <contenido>El hecho de que las amistades de rebeca consuman drogas sin ningún tipo de control provoca que se sienta encarcelada e injustamente controlada a diferencia de sus amigas. Es muy complicado hacerle ver que desintoxicarse es lo correcto cuando su entorno más cercano no lo permite. No tiene por qué cambiar sus amistades sólo entender que la consumición no es buena ni para sus amigas ni para ella misma</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_069</_id>
+         <emisor>g1_id_psiquiatra_008</emisor>
+         <receptor>g1_id_familiar_040</receptor>
+         <fecha_de_envio>13/01/2017</fecha_de_envio>
+         <contenido>Mireya se niega rotundamente a comer, si no se conciencia de su baja condición física me temo que no podré ayudarla. Estamos intentando convencerla de que es lo mejor para ella pero parece no querer escucharnos</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_070</_id>
+         <emisor>g1_id_psiquiatra_008</emisor>
+         <receptor>g1_id_familiar_041</receptor>
+         <fecha_de_envio>18/10/2020</fecha_de_envio>
+         <contenido>Jorge afirma haber conocido a alguien que le despierta su alegría. A pesar de ser una buena noticia debemos vigilar que no adquiera una dependencia precoz de dicha persona para ser feliz</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_071</_id>
+         <emisor>g1_id_psiquiatra_008</emisor>
+         <receptor>g1_id_familiar_042</receptor>
+         <fecha_de_envio>20/10/2020</fecha_de_envio>
+         <contenido>Miguel ha mejorado últimamente durante las sesiones que hemos tenido, no obstante, no debemos bajar la guardia y seguir pendientes de él por si nos necesita</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_072</_id>
+         <emisor>g1_id_psiquiatra_009</emisor>
+         <receptor>g1_id_familiar_043</receptor>
+         <fecha_de_envio>18/08/2016</fecha_de_envio>
+         <contenido>Juan ha empeorado respecto a sus alucinaciones y la confusión de la realidad. Le aumentaremos temporalmente la dosis para tratar de mejorar su seguridad</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_073</_id>
+         <emisor>g1_id_psiquiatra_009</emisor>
+         <receptor>g1_id_familiar_044</receptor>
+         <fecha_de_envio>13/12/2013</fecha_de_envio>
+         <contenido>Antonio ha mejorado considerablemente sus habilidades sociales y la curiosidad que dicha tarea implica. Es un gran paso que debemos celebrar para que vea que nos alegramos de sus progresos</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_074</_id>
+         <emisor>g1_id_psiquiatra_009</emisor>
+         <receptor>g1_id_familiar_045</receptor>
+         <fecha_de_envio>18/09/2020</fecha_de_envio>
+         <contenido>Ana parece empeorar cuando se acerca la fecha de lo sucedido. Recuerda constantemente su pasado y se impide a sí misma seguir avanzando. Es muy importante que la apoyeis durante estas fechas y que comprendais su dolor.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_075</_id>
+         <emisor>g1_id_psiquiatra_009</emisor>
+         <receptor>g1_id_familiar_046</receptor>
+         <fecha_de_envio>20/01/2019</fecha_de_envio>
+         <contenido>Sandra ha aprendido a controlar el estrés y a organizarse mejor su trabajo. Está claro que ha mejorado enormemente su estado de ánimo desde la primera vez que acudió al centro y es hora de dejar que ande por si sola. En caso de necesitar nuevamente nuestra ayuda no duden en ponerse en contacto con nosotros</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_076</_id>
+         <emisor>g1_id_psiquiatra_010</emisor>
+         <receptor>g1_id_familiar_047</receptor>
+         <fecha_de_envio>20/09/2020</fecha_de_envio>
+         <contenido>Es normal que Rocío quiera alejarse temporalmente de su bebé. Algunas madres necesitan tiempo para procesar la existencia de un nuevo miembro familiar y todo lo que eso conlleva. Durante estos días es beneficioso que se tome su tiempo, la carga emocional o imponerle sentimiento de culpa sólo prolongará su mal estado.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_077</_id>
+         <emisor>g1_id_psiquiatra_010</emisor>
+         <receptor>g1_id_familiar_048</receptor>
+         <fecha_de_envio>19/03/2018</fecha_de_envio>
+         <contenido>Antonio ha vuelto a beber, no obstante, es importante convencerle de que no tire la toalla y que todo el esfuerzo hehco hasta ahora no se echa a perder tan fácilmente en un mal día.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_078</_id>
+         <emisor>g1_id_psiquiatra_010</emisor>
+         <receptor>g1_id_familiar_049</receptor>
+         <fecha_de_envio>10/11/2020</fecha_de_envio>
+         <contenido>Ana María ha empeorado su estado y su forma de afrontar las cosas. Le hemos aumentado la dosis hasta que consigamos estabilizarla</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_079</_id>
+         <emisor>g1_id_psiquiatra_010</emisor>
+         <receptor>g1_id_familiar_050</receptor>
+         <fecha_de_envio>20/10/2019</fecha_de_envio>
+         <contenido>Oscar se encuentra completamente desintoxicado, por ello concluimos su tratamiento y le felicitamos por su esfruezo y trabajo.</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_080</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_admin_001</receptor>
+         <fecha_de_envio>14/09/2020</fecha_de_envio>
+         <contenido>Prueba de función tiroidea a David Lasa</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_081</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_admin_001</receptor>
+         <fecha_de_envio>16/07/2012</fecha_de_envio>
+         <contenido>Prueba de estimulación con TRH para Carmen Castro</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_082</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_admin_002</receptor>
+         <fecha_de_envio>16/08/2020</fecha_de_envio>
+         <contenido>Prueba de función tiroidea para Carmen Castro</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_083</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_admin_002</receptor>
+         <fecha_de_envio>13/09/2020</fecha_de_envio>
+         <contenido>Prueba de función tiroidea para Clara Labrador</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_084</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_admin_003</receptor>
+         <fecha_de_envio>15/04/1997</fecha_de_envio>
+         <contenido>Prueba de glicemia postpandrial para Jimena Benitez</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_085</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_admin_003</receptor>
+         <fecha_de_envio>14/11/2020</fecha_de_envio>
+         <contenido>Prueba de función tiroidea para Marta Cantos</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_086</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_admin_004</receptor>
+         <fecha_de_envio>18/03/2017</fecha_de_envio>
+         <contenido>Prueba de estimulación con TRH para Álvaro Torres</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_087</_id>
+         <emisor>g1_id_psiquiatra_004</emisor>
+         <receptor>g1_id_admin_004</receptor>
+         <fecha_de_envio>20/09/2019</fecha_de_envio>
+         <contenido>Analítica de sangre para Inma Reyes</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_088</_id>
+         <emisor>g1_id_psiquiatra_007</emisor>
+         <receptor>g1_id_admin_004</receptor>
+         <fecha_de_envio>15/10/20</fecha_de_envio>
+         <contenido>Analítica de sangre para Raúl Manzano</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_089</_id>
+         <emisor>g1_id_psiquiatra_008</emisor>
+         <receptor>g1_id_admin_004</receptor>
+         <fecha_de_envio>20/12/2016</fecha_de_envio>
+         <contenido>Analítica de sangre para Mireya Grande</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_090</_id>
+         <emisor>g1_id_psiquiatra_010</emisor>
+         <receptor>g1_id_admin_004</receptor>
+         <fecha_de_envio>30/04/2019</fecha_de_envio>
+         <contenido>Analítica de sangre para Oscar Benitez</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_091</_id>
+         <emisor>g1_id_psiquiatra_010</emisor>
+         <receptor>g1_id_admin_003</receptor>
+         <fecha_de_envio>30/04/2019</fecha_de_envio>
+         <contenido>Analítica de orina para Oscar Benitez</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_092</_id>
+         <emisor>g1_id_psiquiatra_002</emisor>
+         <receptor>g1_id_admin_003</receptor>
+         <fecha_de_envio>15/11/2020</fecha_de_envio>
+         <contenido>Analítica de orina para Adrián Pacheco</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_093</_id>
+         <emisor>g1_id_psiquiatra_003</emisor>
+         <receptor>g1_id_admin_002</receptor>
+         <fecha_de_envio>25/11/2020</fecha_de_envio>
+         <contenido>Analítica de orina para Miguel Rodríguez</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_094</_id>
+         <emisor>g1_id_psiquiatra_005</emisor>
+         <receptor>g1_id_admin_001</receptor>
+         <fecha_de_envio>20/12/2020</fecha_de_envio>
+         <contenido>Analítica de orina para Fernando Sánchez</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_095</_id>
+         <emisor>g1_id_psiquiatra_006</emisor>
+         <receptor>g1_id_admin_001</receptor>
+         <fecha_de_envio>15/01/2019</fecha_de_envio>
+         <contenido>Analítica de orina para Lucía Sánchez</contenido>
+     </mensaje>
+     <mensaje>
+         <_id>g1_id_mensaje_096</_id>
+         <emisor>g1_id_psiquiatra_006</emisor>
+         <receptor>g1_id_admin_002</receptor>
+         <fecha_de_envio>25/10/2020</fecha_de_envio>
+         <contenido>Analítica de orina para Alejandro Ortiz</contenido>
+     </mensaje>
+ </mensajes>

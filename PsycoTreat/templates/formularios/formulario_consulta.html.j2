@@ -1,0 +1,46 @@
+{% include "administrativo/administrativo.html" %}
+<html>
+    <head>
+        <title>Nueva consulta</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario.css')}}">
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario_añadir.css')}}">
+        <h1>Nueva consulta</h1>
+    </head>
+    <body>
+        <form method="POST">
+            <table>
+                <tr>
+                    <td><b>Motivo:</b></td>
+                    <td><input type="text" name="motivo" size = "40"></td>
+                </tr>
+                <tr>
+                    <td><b>Desencadenante:</b></td>
+                    <td><input type="text" name="desencadenante" size = "40"></td>
+                </tr>
+                <tr>
+                    <td><b>Observaciones:</b></td>
+                    <td><textarea name="observaciones" cols="40" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><b>Diagnóstico:</b></td>
+                    <td><input type="text" name="diagnostico" size = "40"></td>
+                </tr>
+                <tr>
+                    <td><b>Tratamiento:</b></td>
+                    <td><input type="text" name="tratamiento" size = "40"></td>
+                </tr>
+                <tr>
+                    <td><b>Frecuencia tratamiento:</b></td>
+                    <td><input type="text" name="frecuencia" size = "40"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+{% include "footer.html" %}

@@ -1,0 +1,32 @@
+{% include "administrativo/administrativo.html" %}
+
+<html>
+    <head>
+        <title>Nueva cita</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario.css')}}">
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario_añadir.css')}}">
+    </head>
+    <body>
+        <form method="POST">
+            <h3> Especifique el paciente que solicita la cita </h3>
+            <table>
+                <tr>
+                    <td>
+                        <select name="paciente">
+                        {% for paciente in pacientes %}
+                            <option value = "{{paciente['_id']}}"> {{paciente['nombre']}} {{paciente['apellidos']}} ({{paciente['dni']}}) </option>
+                        {% endfor %}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
+{% include "footer.html" %}

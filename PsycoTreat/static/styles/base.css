@@ -1,0 +1,68 @@
+header {
+    background-color: #222222;
+    margin-bottom: 40px;
+}
+#logo img {
+    max-width: 100px;
+    margin: 1em;
+    margin-left: 2em;
+}
+#cabecera p {
+    position: absolute;
+    margin-top: 0px;
+    left: 20%;
+    top: 0.4em;
+    color: #f2e5e5;
+    font-size: 50pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header nav#menu-superior {
+    position: absolute;
+    right: 1.5em;
+    top: 3.25em;
+}
+nav#menu-superior ul li {
+    display: inline;
+    margin: 0.25em;
+}
+nav#menu-superior ul li a {
+    color: #222222;
+    background-color: #6bbeeb;
+    padding: 1em;
+    text-decoration: none;
+}
+nav#menu-superior ul li a:hover {
+    background-color: #5da3c9;
+}
+nav#menu-superior ul li.destacado a {
+    background-color: #e43030;
+}
+nav#menu-superior ul li.destacado a:hover {
+    background-color: #c41c1c;
+}
+nav#menu-superior ul li.home a {
+    background-color: #e9d353;
+}
+nav#menu-superior ul li.home a:hover {
+    background-color: #bdab44;
+}
+footer {
+    background-color: #222222;
+    margin-top: 2em;
+    font-size: 0.8em;
+    color:  #f2e5e5;
+    padding: 1em;
+    position: relative;
+}
+footer ul {
+    position: absolute;
+    right: 1em;
+    top: 0.25em;
+}
+footer li {
+    display: inline;
+    margin: 0.5em;
+}
+footer li a {
+    color: #f2e5e5;
+}

@@ -1,0 +1,194 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre",
+            "apellidos",
+            "fecha_consulta",
+            "motivo_consulta",
+            "observaciones"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Romero Pacheco"
+                },
+                "fecha_consulta": {
+                    "type": "literal",
+                    "value": "24/10/2020"
+                },
+                "motivo_consulta": {
+                    "type": "literal",
+                    "value": "Preocupante pérdida de peso"
+                },
+                "observaciones": {
+                    "type": "literal",
+                    "value": "La paciente presenta palidez, falta de energía y delgadez extrema"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "David"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Lasa Ordoñez"
+                },
+                "fecha_consulta": {
+                    "type": "literal",
+                    "value": "22/04/2016"
+                },
+                "motivo_consulta": {
+                    "type": "literal",
+                    "value": "Preocupante pérdida de peso"
+                },
+                "observaciones": {
+                    "type": "literal",
+                    "value": "El paciente presenta palidez, falta de energía y delgadez extrema"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "David"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Lasa Ordoñez"
+                },
+                "fecha_consulta": {
+                    "type": "literal",
+                    "value": "13/05/2016"
+                },
+                "motivo_consulta": {
+                    "type": "literal",
+                    "value": "Revisión"
+                },
+                "observaciones": {
+                    "type": "literal",
+                    "value": "El paciente presenta un claro aumento de peso y gran mejoría psicológica"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Eduardo"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Valderrama Ortiz"
+                },
+                "fecha_consulta": {
+                    "type": "literal",
+                    "value": "16/07/2020"
+                },
+                "motivo_consulta": {
+                    "type": "literal",
+                    "value": "Preocupante pérdida de peso"
+                },
+                "observaciones": {
+                    "type": "literal",
+                    "value": "El paciente presenta palidez, falta de energía y delgadez extrema"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Gabriela"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Salado San Millán"
+                },
+                "fecha_consulta": {
+                    "type": "literal",
+                    "value": "17/10/2020"
+                },
+                "motivo_consulta": {
+                    "type": "literal",
+                    "value": "Preocupante pérdida de peso"
+                },
+                "observaciones": {
+                    "type": "literal",
+                    "value": "La paciente presenta palidez, falta de energía y delgadez extrema"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Inmaculada"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Reyes Sánchez"
+                },
+                "fecha_consulta": {
+                    "type": "literal",
+                    "value": "27/09/2019"
+                },
+                "motivo_consulta": {
+                    "type": "literal",
+                    "value": "Extrema delgadez"
+                },
+                "observaciones": {
+                    "type": "literal",
+                    "value": "La paciente presenta un temor intenso al sobrepeso"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Inmaculada"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Reyes Sánchez"
+                },
+                "fecha_consulta": {
+                    "type": "literal",
+                    "value": "17/08/2019"
+                },
+                "motivo_consulta": {
+                    "type": "literal",
+                    "value": "Aumento de peso en los últimos meses"
+                },
+                "observaciones": {
+                    "type": "literal",
+                    "value": "La paciente presenta mareos y desmayos contínuos por inanición, debido a que no se encuentra cómoda con su cuerpo"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Mireya"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Grande Salado"
+                },
+                "fecha_consulta": {
+                    "type": "literal",
+                    "value": "17/09/2016"
+                },
+                "motivo_consulta": {
+                    "type": "literal",
+                    "value": "Inanición voluntaria"
+                },
+                "observaciones": {
+                    "type": "literal",
+                    "value": "La paciente asegura que hasta que no tenga el cuerpo de las modelos que ve en redes sociales no comerá"
+                }
+            }
+        ]
+    }
+}

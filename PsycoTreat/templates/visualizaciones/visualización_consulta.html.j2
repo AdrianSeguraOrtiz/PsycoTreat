@@ -1,0 +1,77 @@
+{% include "psiquiatra/psiquiatra.html" %}
+
+<html>
+    <head>
+        <title>Visualización consulta</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/visualizacion.css')}}">
+    </head>
+    <body>
+        <h1>Visualización consulta</h1>
+        <table>
+            <tr>
+                <td><b>Paciente:</b></td>
+                <td><ul>
+                    <li>Nombre:       <span>{{paciente['nombre']}}</span></li>
+                    <li>Apellidos:    <span>{{paciente['apellidos']}}</span></li>
+                    <li>Dni:          <span>{{paciente['dni']}}</span></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><b>Psiquiatra:</b></td>
+                <td><ul>
+                    <li>Nombre:       <span>{{psiquiatra['nombre']}}</span></li>
+                    <li>Apellidos:    <span>{{psiquiatra['apellidos']}}</span></li>
+                    <li>Dni:          <span>{{psiquiatra['dni']}}</span></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><b>Fecha:</b></td>
+                <td><span>{{consulta['fecha consulta']}}</span></td>
+            </tr>
+            {% if consulta['motivo consulta'] %}
+                <tr>
+                    <td><b>Motivo de la consulta:</b></td>
+                    <td><span>{{consulta['motivo consulta']}}</span></td>
+                </tr>
+            {% endif %}
+            {% if consulta['desencadenante'] %}
+                <tr>
+                    <td><b>Desencadenante:</b></td>
+                    <td><span>{{consulta['desencadenante']}}</span></td>
+                </tr>
+            {% endif %}
+            {% if consulta['observaciones'] %}
+                <tr>
+                    <td><b>Observaciones:</b></td>
+                    <td><span>{{consulta['observaciones']}}</span></td>
+                </tr>
+            {% endif %}
+            {% if consulta['diagnostico'] %}
+                <tr>
+                    <td><b>Diagnostico:</b></td>
+                    <td><span>{{consulta['diagnostico']}}</span></td>
+                </tr>
+            {% endif %}
+            {% if consulta['tratamiento'] %}
+                <tr>
+                    <td><b>Tratamiento:</b></td>
+                    <td><span>{{consulta['tratamiento']}}</span></td>
+                </tr>
+            {% endif %}
+            {% if consulta['frecuencia tratamiento'] %}
+                <tr>
+                    <td><b>Frecuencia tratamiento:</b></td>
+                    <td><span>{{consulta['frecuencia tratamiento']}}</span></td>
+                </tr>
+            {% endif %}
+            {% if consulta['aproximacion computacional'] %}
+                <tr>
+                    <td><b>Aproximación computacional:</b></td>
+                    <td><pre style = "border-radius: 10px; padding: 1.5px; background-color: #e9d353; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #222222;">{{consulta['aproximacion computacional']}}</pre></td>
+                </tr>
+            {% endif %}
+        </table>
+    </body>
+</html>
+
+{% include "footer.html" %}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <administrativo>
+     <administrativo>
+         <_id>g1_id_admin_001</_id>
+         <nombre>Pedro</nombre>
+         <apellidos>Ruiz Benitez</apellidos>
+         <dni>01023456X</dni>
+         <fecha_de_nacimiento>17/10/1982</fecha_de_nacimiento>
+         <sexo>Hombre</sexo>
+         <email>pedroruiz82@gmail.com</email>
+         <telefono>663296148</telefono>
+         <direccion>c/grilo 4, 3ºB</direccion>
+         <codigo_postal>29006</codigo_postal>
+         <localidad>Málaga</localidad>
+         <provincia>Málaga</provincia>
+         <fotografia>pedro_ruiz.png</fotografia>
+         <titulacion>técnico informático</titulacion>
+         <años_antiguedad_en_centro>4</años_antiguedad_en_centro>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_001</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_002</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_080</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_081</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_094</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_095</mensaje>
+         </mensajes_recibidos>
+     </administrativo>
+     <administrativo>
+         <_id>g1_id_admin_002</_id>
+         <nombre>Gloria</nombre>
+         <apellidos>Duarte López</apellidos>
+         <dni>54859254P</dni>
+         <fecha_de_nacimiento>04/06/1979</fecha_de_nacimiento>
+         <sexo>Mujer</sexo>
+         <email>gloria_duarte_lop@gmail.com</email>
+         <telefono>652987444</telefono>
+         <direccion>c/Jacinto Benavente 25</direccion>
+         <codigo_postal>29014</codigo_postal>
+         <localidad>Málaga</localidad>
+         <provincia>Málaga</provincia>
+         <fotografia>gloria_duarte.png</fotografia>
+         <titulacion>técnico informático</titulacion>
+         <años_antiguedad_en_centro>6</años_antiguedad_en_centro>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_005</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_006</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_007</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_082</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_083</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_093</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_096</mensaje>
+         </mensajes_recibidos>
+     </administrativo>
+     <administrativo>
+         <_id>g1_id_admin_003</_id>
+         <nombre>Jesús</nombre>
+         <apellidos>Romero Castillo</apellidos>
+         <dni>84577123G</dni>
+         <fecha_de_nacimiento>22/01/1984</fecha_de_nacimiento>
+         <sexo>Hombre</sexo>
+         <email>jesusromero_c@gmail.com</email>
+         <telefono>621585963</telefono>
+         <direccion>c/Castilla 7, Portal 3, Bajo A</direccion>
+         <codigo_postal>29007</codigo_postal>
+         <localidad>Benalmádena</localidad>
+         <provincia>Málaga</provincia>
+         <fotografia>jesus_romero.png</fotografia>
+         <titulacion>Auxiliar administrativo</titulacion>
+         <años_antiguedad_en_centro>2</años_antiguedad_en_centro>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_008</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_009</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_010</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_084</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_085</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_091</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_092</mensaje>
+         </mensajes_recibidos>
+     </administrativo>
+     <administrativo>
+         <_id>g1_id_admin_004</_id>
+         <nombre>María Isabel</nombre>
+         <apellidos>Del Campo Padilla</apellidos>
+         <dni>33528471L</dni>
+         <fecha_de_nacimiento>11/12/1970</fecha_de_nacimiento>
+         <sexo>Mujer</sexo>
+         <email>delcampo_maria@gmail.com</email>
+         <telefono>652741855</telefono>
+         <direccion>c/Maradiaga 4</direccion>
+         <codigo_postal>29010</codigo_postal>
+         <localidad>Málaga</localidad>
+         <provincia>Málaga</provincia>
+         <fotografia>maria_isabel.png</fotografia>
+         <titulacion>Auxiliar administrativo</titulacion>
+         <años_antiguedad_en_centro>7</años_antiguedad_en_centro>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_011</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_012</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_013</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_086</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_087</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_088</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_089</mensaje>
+         </mensajes_recibidos>
+         <mensajes_recibidos>
+             <mensaje>g1_id_mensaje_090</mensaje>
+         </mensajes_recibidos>
+     </administrativo>
+ </administrativo>

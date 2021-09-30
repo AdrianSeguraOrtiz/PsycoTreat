@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Administrativo</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/base.css')}}">
+        <header>
+            <div id="barra-superior">
+                <div id="logo">
+                    <img src="{{url_for('static', filename='images/logo.png')}}">
+                </div>
+                <div id="cabecera">
+                    <p>PsycoTreat</p>
+                </div>
+                <nav id="menu-superior">
+                    <ul>
+                        <li class = "home"><a href="{{ url_for('pagina_principal') }}">Home</a></li>
+                        <li class = "registros"><a href="{{ url_for('admin_registros', id_admin=id_admin) }}">Registros</a></li>
+                        <li class = "citas"><a href="{{ url_for('admin_citas', id_admin=id_admin) }}">Citas</a></li>
+                        <li class = "mensajes"><a href="{{ url_for('admin_mensajes', id_admin=id_admin) }}">Mensajes</a></li>
+                        <li class = "facturas"><a href="{{ url_for('admin_facturas', id_admin=id_admin) }}">Facturas</a></li>
+                        <li class = "destacado"><a href="{{ url_for('iniciar_sesion') }}">Salir</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </head>
+</html>

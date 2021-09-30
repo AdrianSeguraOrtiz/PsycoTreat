@@ -1,0 +1,166 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre_psiquiatra",
+            "apellidos_psiquiatra",
+            "total_patologias"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "José María"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Leiva Jiménez"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "5"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Tomás"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "5"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Pérez López"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "4"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Francisco"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sepúlveda Rey"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "4"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Roberto"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Fernández Rojas"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "11"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Lorena"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "González Seco"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "4"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Antonio Jesús"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Ramírez Loto"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "4"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "16"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Manrique Pérez"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "8"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Manuel"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Gómez Cabello"
+                },
+                "total_patologias": {
+                    "type": "typed-literal",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+                    "value": "4"
+                }
+            }
+        ]
+    }
+}

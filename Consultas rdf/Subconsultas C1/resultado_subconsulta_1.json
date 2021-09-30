@@ -1,0 +1,450 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre_psiquiatra",
+            "apellidos_psiquiatra",
+            "nombre_patologia_actual"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Tomás"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Alcoholismo"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Tomás"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Drogadicción"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Antonio Jesús"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Ramírez Loto"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Francisco"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sepúlveda Rey"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "José María"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Leiva Jiménez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Ansiedad"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "José María"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Leiva Jiménez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Demencia"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "José María"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Leiva Jiménez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Drogadicción"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Lorena"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "González Seco"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Lorena"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "González Seco"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno de la personalidad"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Manrique Pérez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Ansiedad"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Manrique Pérez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Drogadicción"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Manrique Pérez"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno alimenticio"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Manuel"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Gómez Cabello"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Alcoholismo"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Manuel"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Gómez Cabello"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Pérez López"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Ansiedad"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Pérez López"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión post-parto"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Roberto"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Fernández Rojas"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Alcoholemia"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Roberto"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Fernández Rojas"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Depresión"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Roberto"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Fernández Rojas"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Drogadicción"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Roberto"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Fernández Rojas"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno alimenticio"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Roberto"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Fernández Rojas"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno de ansiedad"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Demencia"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Déficit de Atención e Hiperactividad"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Esquizofrenia"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Síndrome de Diógenes"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno alimenticio"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno bipolar"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno de estrés postraumático (TEPT)"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno de la personalidad"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno del Espectro Autista"
+                }
+            },
+            {
+                "nombre_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos_psiquiatra": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nombre_patologia_actual": {
+                    "type": "literal",
+                    "value": "Trastorno obsesivo-compulsivo (TOC)"
+                }
+            }
+        ]
+    }
+}

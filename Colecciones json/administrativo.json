@@ -1,0 +1,162 @@
+[
+    {
+        "_id": "g1_id_admin_002",
+        "nombre": "Gloria",
+        "apellidos": "Duarte López",
+        "dni": "54859254P",
+        "fecha_de_nacimiento": "04/06/1979",
+        "sexo": "Mujer",
+        "email": "gloria_duarte_lop@gmail.com",
+        "telefono": "652987444",
+        "direccion": "c/Jacinto Benavente 25",
+        "codigo postal": "29014",
+        "localidad": "Málaga",
+        "provincia": "Málaga",
+        "fotografia": "gloria_duarte.png",
+        "titulacion": "técnico informático",
+        "años antiguedad en centro": "6",
+        "mensajes recibidos": [
+            {
+                "mensaje": "g1_id_mensaje_005"
+            },
+            {
+                "mensaje": "g1_id_mensaje_006"
+            },
+            {
+                "mensaje": "g1_id_mensaje_007"
+            },
+            {
+                "mensaje": "g1_id_mensaje_082"
+            },
+            {
+                "mensaje": "g1_id_mensaje_083"
+            },
+            {
+                "mensaje": "g1_id_mensaje_093"
+            },
+            {
+                "mensaje": "g1_id_mensaje_096"
+            }
+        ]
+    },
+    {
+        "_id": "g1_id_admin_004",
+        "nombre": "María Isabel",
+        "apellidos": "Del Campo Padilla",
+        "dni": "33528471L",
+        "fecha_de_nacimiento": "11/12/1970",
+        "sexo": "Mujer",
+        "email": "delcampo_maria@gmail.com",
+        "telefono": "652741855",
+        "direccion": "c/Maradiaga 4",
+        "codigo postal": "29010",
+        "localidad": "Málaga",
+        "provincia": "Málaga",
+        "fotografia": "maria_isabel.png",
+        "titulacion": "Auxiliar administrativo",
+        "años antiguedad en centro": "7",
+        "mensajes recibidos": [
+            {
+                "mensaje": "g1_id_mensaje_011"
+            },
+            {
+                "mensaje": "g1_id_mensaje_012"
+            },
+            {
+                "mensaje": "g1_id_mensaje_013"
+            },
+            {
+                "mensaje": "g1_id_mensaje_086"
+            },
+            {
+                "mensaje": "g1_id_mensaje_087"
+            },
+            {
+                "mensaje": "g1_id_mensaje_088"
+            },
+            {
+                "mensaje": "g1_id_mensaje_089"
+            },
+            {
+                "mensaje": "g1_id_mensaje_090"
+            }
+        ]
+    },
+    {
+        "_id": "g1_id_admin_001",
+        "nombre": "Pedro",
+        "apellidos": "Ruiz Benitez",
+        "dni": "01023456X",
+        "fecha_de_nacimiento": "17/10/1982",
+        "sexo": "Hombre",
+        "email": "pedroruiz82@gmail.com",
+        "telefono": "663296148",
+        "direccion": "c/grilo 4, 3ºB",
+        "codigo postal": "29006",
+        "localidad": "Málaga",
+        "provincia": "Málaga",
+        "fotografia": "pedro_ruiz.png",
+        "titulacion": "técnico informático",
+        "años antiguedad en centro": "4",
+        "mensajes recibidos": [
+            {
+                "mensaje": "g1_id_mensaje_001"
+            },
+            {
+                "mensaje": "g1_id_mensaje_002"
+            },
+            {
+                "mensaje": "g1_id_mensaje_080"
+            },
+            {
+                "mensaje": "g1_id_mensaje_081"
+            },
+            {
+                "mensaje": "g1_id_mensaje_094"
+            },
+            {
+                "mensaje": "g1_id_mensaje_095"
+            }
+        ]
+    },
+    {
+        "_id": "g1_id_admin_003",
+        "nombre": "Jesús",
+        "apellidos": "Romero Castillo",
+        "dni": "84577123G",
+        "fecha_de_nacimiento": "22/01/1984",
+        "sexo": "Hombre",
+        "email": "jesusromero_c@gmail.com",
+        "telefono": "621585963",
+        "direccion": "c/Castilla 7, Portal 3, Bajo A",
+        "codigo postal": "29007",
+        "localidad": "Benalmádena",
+        "provincia": "Málaga",
+        "fotografia": "jesus_romero.png",
+        "titulacion": "Auxiliar administrativo",
+        "años antiguedad en centro": "2",
+        "mensajes recibidos": [
+            {
+                "mensaje": "g1_id_mensaje_008"
+            },
+            {
+                "mensaje": "g1_id_mensaje_009"
+            },
+            {
+                "mensaje": "g1_id_mensaje_010"
+            },
+            {
+                "mensaje": "g1_id_mensaje_084"
+            },
+            {
+                "mensaje": "g1_id_mensaje_085"
+            },
+            {
+                "mensaje": "g1_id_mensaje_091"
+            },
+            {
+                "mensaje": "g1_id_mensaje_092"
+            }
+        ]
+    }
+]

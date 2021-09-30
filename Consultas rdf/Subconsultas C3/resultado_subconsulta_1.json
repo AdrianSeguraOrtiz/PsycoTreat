@@ -1,0 +1,1319 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre_paciente",
+            "apellidos_paciente",
+            "relacion",
+            "nombre_familiar",
+            "apellidos_familiar",
+            "nivel_de_autorizacion"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Romero Pacheco"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Francisca"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pacheco Pérez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Olivia"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cañete Domínguez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Marido"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Paco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Segura Vera"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Total"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lucas"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Romero Padilla"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fran"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Romero Sánchez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Mario"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Martín Pérez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermana"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Martín Pérez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Silvia"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Román Huerta"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "María"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Huerta Ordoñez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lucas"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Pirlo Molina"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermano"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pirlo Molina"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "José Ramón"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "López Galiana"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Nerea"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Galiana Trujillo"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Margarita"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cintrano Ranea"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermano"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Cintrano Ranea"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Melania"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Castillo del Río"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Novio"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jesús"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Ruiz Segura"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Pilar"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Rueda Álvarez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hija"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Estrella"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Rueda García"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "David"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Lasa Ordoñez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Novia"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Nuria"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Fernandez García"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Carmen"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Castro Romero"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hijo"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Aguilar Castro"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Eduardo"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Valderrama Ortiz"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Francisco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Valderrama García"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Clara"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Labrador Vera"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Margarita"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Vera Sánchez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Jimena"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Benitez Castro"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermana"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Marina"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Benitez Castro"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Adrián"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Pacheco Segura"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Alejandro"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pacheco Piriz"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Total"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Gabriela"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Salado San Millán"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Pedro"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Salado García"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Irene"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Carrasco Gallego"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "María del Carmen"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Gallego Romero"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cantos Martín"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermano"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Cantos Martín"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Rodriguez Galvez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Rodriguez Campos"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Álvaro"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Torres Sánchez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermana"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Sandra"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Torres Sánchez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Inmaculada"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Reyes Sánchez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Francisco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Reyes Torres"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Paula"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Pestaña Cochar"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Rubén"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pestaña Cañete"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Raquel"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Sutton Rivera"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermano"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Roberto"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Sutton Rivera"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Paloma"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Trinidad Conejo"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermana"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Inmaculada"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Trinidad Conejo"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Sánchez Rodriguez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Sánchez Conejo"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Alberto"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Álvarez Martín"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Sofía"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Martín Sánchez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Carlos"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Puga Conejo"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Puga Sánchez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Martina"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Sánchez Rodriguez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hija"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Laura"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Martinez Sánchez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Pepe"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Jimenez Ortiz"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermana"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jimena"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Jimenez Ortiz"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Sanchez Lasa"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jose"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Cristina"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Chamizo Ortiz"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermano"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Paco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Chamizo Ortiz"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Alejandro"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Ortiz Ortega"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Blanca"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Ortega Cano"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Oswaldo"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Otrelles Martín"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermano"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Raúl"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Otrelles Martín"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Raúl"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Manzano Olivares"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermana"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Estrella"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Manzano Olivares"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Rosa"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cuevas Martín"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Cuevas Olivares"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lola"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Flores Maldonado"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermana"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Carla"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Flores Maldonado"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Vázquez Rivera"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermano"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Alberto"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Vázquez Rivera"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Rebeca"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Ortiz Segura"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Ortiz Benitez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Mireya"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Grande Salado"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Rocío"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Salado Benitez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cañete Vera"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Antonia"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Vera Ordoñez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Carrasco Ruiz"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermanastra"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Sofía"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Carrasco Ordoñez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Valverde Salado"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Paco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Valverde Carrasco"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Antonio"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Vargas Almodovar"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermana"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Vargas Almodovar"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Soria Vera"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermanastro"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Soria Cruces"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Sandra"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Conejo Labrador"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jesús"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Conejo Cruces"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Rocío"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Saravia Sánchez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Hermana"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Julia"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Saravia Sánchez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Normal"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Antonio"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Ruiz Conejo"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Antonio"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Ruiz Sánchez"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Ana María"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Nevado Sánchez"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Madre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Ángela"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Sánchez Ruiz"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Parcial"
+                }
+            },
+            {
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Oscar"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Benitez Cuevas"
+                },
+                "relacion": {
+                    "type": "literal",
+                    "value": "Padre"
+                },
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Oscar"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Benitez Naranjo"
+                },
+                "nivel_de_autorizacion": {
+                    "type": "literal",
+                    "value": "Total"
+                }
+            }
+        ]
+    }
+}

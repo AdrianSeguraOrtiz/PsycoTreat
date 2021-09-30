@@ -1,0 +1,44 @@
+{% if tipo_usuario == 'psiquiatra' %}
+    {% include "psiquiatra/psiquiatra.html" %}
+{% elif tipo_usuario == 'administrativo' %}
+    {% include "administrativo/administrativo.html" %}
+{% elif tipo_usuario == 'familiar' %}
+    {% include "familiar/familiar.html" %}
+{% endif %}
+
+<html>
+    <head>
+        <title>Visualización Mensaje</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/visualizacion.css')}}">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><b>Emisor:</b></td>
+                <td><ul>
+                    <li>Nombre:       <span>{{emisor['nombre']}}</span></li>
+                    <li>Apellidos:    <span>{{emisor['apellidos']}}</span></li>
+                    <li>Tipo usuario: <span>{{emisor['_id'][6 : emisor['_id']|length - 4]}}</span></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><b>Receptor:</b></td>
+                <td><ul>
+                    <li>Nombre:       <span>{{receptor['nombre']}}</span></li>
+                    <li>Apellidos:    <span>{{receptor['apellidos']}}</span></li>
+                    <li>Tipo usuario: <span>{{receptor['_id'][6 : receptor['_id']|length - 4]}}</span></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><b>Fecha de envío:</b></td>
+                <td><span>{{mensaje['fecha de envio']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Contenido:</b></td>
+                <td><span>{{mensaje['contenido']}}</span></td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+{% include "footer.html" %}

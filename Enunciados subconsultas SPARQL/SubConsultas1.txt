@@ -1,0 +1,82 @@
+1. Los psiquiatras junto con las patologías que están tratando actualmente
+
+	- Forma 1: Identificando las patologías de los pacientes actuales de cada psiquiatra
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-1#>
+SELECT DISTINCT ?nombre_psiquiatra ?apellidos_psiquiatra ?nombre_patologia_actual
+	WHERE {?psiquiatra rdf:type esq:Psiquiatra .
+		?psiquiatra esq:nombre ?nombre_psiquiatra .
+		?psiquiatra esq:apellidos ?apellidos_psiquiatra .
+		?psiquiatra esq:tiene_paciente_actual ?paciente_actual . 
+		?paciente_actual rdf:type esq:Paciente .
+		?paciente_actual esq:tiene_patologia_actual ?patologia_actual .
+		?patologia_actual esq:patologia ?nombre_patologia_actual}
+	ORDER BY ?nombre_psiquiatra ?nombre_patologia_actual
+
+	- Forma 2: Identificando las patologías sin fecha final que estén tratadas por cada psiquiatra
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-1#>
+SELECT DISTINCT ?nombre_psiquiatra ?apellidos_psiquiatra ?nombre_patologia_actual
+	WHERE {{?psiquiatra rdf:type esq:Psiquiatra .
+		?psiquiatra esq:nombre ?nombre_psiquiatra .
+		?psiquiatra esq:apellidos ?apellidos_psiquiatra .
+		?patologia_actual rdf:type esq:Patologia .
+		?patologia_actual esq:tratada_por ?psiquiatra .
+		?patologia_actual esq:patologia ?nombre_patologia_actual } 
+	FILTER NOT EXISTS {?patologia_actual esq:fecha_final ?fecha_final}}
+	ORDER BY ?nombre_psiquiatra ?nombre_patologia_actual
+
+2. Psiquiatras que hayan tratado anteriormente la patología Alcoholismo
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-1#>
+SELECT ?nombre_psiquiatra ?apellidos_psiquiatra 
+	WHERE {?psiquiatra rdf:type esq:Psiquiatra .
+		?psiquiatra esq:nombre ?nombre_psiquiatra .
+		?psiquiatra esq:apellidos ?apellidos_psiquiatra .
+		?patologia rdf:type esq:Patologia .
+		?patologia esq:tratada_por ?psiquiatra .
+		?patologia esq:patologia "Alcoholismo" .
+		?patologia esq:fecha_final ?fecha_final}
+
+3. Los psiquiatras con sus especialidades
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-1#>
+SELECT ?nombre ?apellidos ?especialidad 
+	WHERE {?psiquiatra rdf:type esq:Psiquiatra .
+		?psiquiatra esq:nombre ?nombre .
+		?psiquiatra esq:apellidos ?apellidos .
+		?psiquiatra esq:especialidad ?especialidad}
+
+4. Psiquiatras con el total de patologías tratadas, tanto previas como actuales
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-1#>
+SELECT ?nombre_psiquiatra ?apellidos_psiquiatra (count(?patologia) as ?total_patologias)
+	WHERE {?psiquiatra rdf:type esq:Psiquiatra .
+		?psiquiatra esq:nombre ?nombre_psiquiatra .
+		?psiquiatra esq:apellidos ?apellidos_psiquiatra .
+		?patologia rdf:type esq:Patologia .
+		?patologia esq:tratada_por ?psiquiatra }
+	GROUP BY ?nombre_psiquiatra ?apellidos_psiquiatra
+
+
+

@@ -1,0 +1,1787 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre_familiar",
+            "apellidos_familiar",
+            "fecha",
+            "contenido",
+            "nombre_paciente",
+            "apellidos_paciente"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Francisca"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pacheco Pérez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "27/12/2005"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Marta presenta claros síntomas de padecer trastorno de estrés postraumático. Usted le puede servir de gran ayuda si se encarga de apartar de su vida cotidiana todos aquellos objetos, temas de conversación, programas de televisión, etc que le recuerden lo sucedido."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Romero Pacheco"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Francisca"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pacheco Pérez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "24/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Marta necesita comer y sobre todo querer hacerlo. Intentar no forzar ingestas de comidas por obligación, si no demostrarle y hacerle ver que es lo mejor para ella. También es recomendable realizar paseos diarios de baja intensidad para que reconozca su agotamiento físico y la causa del mismo."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Romero Pacheco"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Paco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Segura Vera"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "10/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Olivia ha realizado adecuadamente la consulta médica y dado que presenta síntomas de bipolaridad le aconsejamos tener una conducta paciente y por ahora ser flexible con ella hasta tener los resultados de la prueba."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Olivia"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cañete Domínguez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Paco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Segura Vera"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "25/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Olivia ha mostrado cierta agresividad a la hora de aceptar su diagnóstico, es probable que se encuentre alterada en estos días. Le rogamos paciencia en su trato y paciencia para afrontar la noticia. En caso de encontrarse más relajada realizar paseos diarios con ella."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Olivia"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cañete Domínguez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fran"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Romero Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "02/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Lucas padece un leve trastorno, sin embargo, vemos beneficioso tratar su desencadenánte más que su propia enfermedad. Nos gustaría citarle a usted para poder hablar respecto ciertos asuntos."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lucas"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Romero Padilla"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fran"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Romero Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "22/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Lucas parece abrirse en la terapia. Muestra bastante predisposición a mejorar y su tarea es animarle e intentar hacerle ver que va por buen camino. Intentar discutir con él lo menos posible"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lucas"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Romero Padilla"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Martín Pérez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "02/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Si Mario sufre un episodio de demencia, debe tomar Donepezilo 1gr junto con un sobre de Memantina."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Mario"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Martín Pérez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Martín Pérez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "24/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Mario presenta cierta mejora. Sigue así."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Mario"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Martín Pérez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "María"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Huerta Ordoñez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "23/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "El mayor problema de Silvia es su entrada en bucles de obsesión que le impide ver más allá del problema que esté intentando resolver. Es necesario desviar ciertas veces su atención para que no se atasque en su rutina, espero que conozca algo que le pueda distraer en ciertas ocasiones. Le he dado otra cita para poder entenderla mejor"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Silvia"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Román Huerta"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pirlo Molina"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "31/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "En caso de sufrir una crisis, Lucas deberá tomar Citalopram 1.5mg"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lucas"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Pirlo Molina"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pirlo Molina"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "15/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Lucas abusa de ansiolíticos para calmar su ansiedad. Es necesario intentar poco a poco que vaya bajando la frecuencia de dosis"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lucas"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Pirlo Molina"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Nerea"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Galiana Trujillo"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "08/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Jose Ramón presenta claros síntomas de esquizofrenia. Le he mandado una prueba complementaria para especificar su diagnóstico. Le avisaremos cuando lleguen los resultados."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "José Ramón"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "López Galiana"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Cintrano Ranea"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "17/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Margarita confirma haber retomado contacto con una amiga. Asegurese de que mantenga dicha relación de la mejor forma posible y hablaremos de ello en la siguiente sesión."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Margarita"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cintrano Ranea"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Cintrano Ranea"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "10/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Margarita debe aumentar su actividad social. Tiende a encerrarse en ella misma."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Margarita"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cintrano Ranea"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jesús"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Ruiz Segura"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "12/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Melania necesita una zona de trabajo aislada que le permita salir de la habitación, a la cual sólo deberá entrar para dormir. Esto le permitirá a su cuerpo deducir inconscientemente lo que debe realizar en cada caso. La separación física de actividades también ayuda a la mental"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Melania"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Castillo del Río"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jesús"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Ruiz Segura"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "21/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Melania parece empeorar y tiene problemas a la hora de descansar. A su edad podría ocasionar insomnio crónico. Debe tomar infusiones semejantes a la valeriana antes de dormir para mejorar su descanso"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Melania"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Castillo del Río"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Estrella"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Rueda García"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "11/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Pilar no supera lo sucedido. Revive ese momento una y otra vez culpándose constantemente. Nuestra terapia y su trato deben centrarse en conseguir que se perdone a sí misma"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Pilar"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Rueda Álvarez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Nuria"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Fernandez García"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "22/04/2016"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "David ha bajado drásticamente de peso y me he considerado necesario recetarle un medicamento para la estimulación de su apetito. No obstante, es un simple parche, debemos estar preparados para conseguir despertarle alguna motivación que le haga cambiar de opinión"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "David"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Lasa Ordoñez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Nuria"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Fernandez García"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "11/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "David se encuentra angustiado por sus problemas laborales, es necesario que le apoye en ello y le muestre esperanza para que él también la sienta"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "David"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Lasa Ordoñez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Aguilar Castro"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "09/08/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Su madre ha tenido un percance durante la consulta, no obstante hemos logrado estabilizarla. En caso de sufrir otro ataque pongase en contacto con nosotros. Le he dado cita en unos días dado su estado"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Carmen"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Castro Romero"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Aguilar Castro"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "22/08/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Su madre no se deja ayudar a pesar de venir a las consultas. Es de vital importancia que nos cuente todas sus preocupaciones para que podamos ayudarla. Espero que logre convencerla"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Carmen"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Castro Romero"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Aguilar Castro"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "28/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Carmen ha mostrado grandes mejoras desde su comienzo en terapia. Ya mismo deberá continuar sola y es muy importante que la apoye en los primeros días. En caso de sufrir una recaída espero que vuelvan a confiar en nosotros."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Carmen"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Castro Romero"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Francisco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Valderrama García"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "16/07/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Eduardo se preocupa demasiado por la imagen que puedan tener las personas de él. Resultaría beneficioso hacerle ver que lo que el piensa no debe extrapolarlo a los demás. Trabajad en ello."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Eduardo"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Valderrama Ortiz"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Francisco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Valderrama García"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "22/08/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Eduardo está cogiendo peso convenientemente, espero que siga así esta semana. No hay que confiarse y hay que seguir apoyándole."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Eduardo"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Valderrama Ortiz"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Margarita"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Vera Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "15/09/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Clara está afectada por motivos personales. Si no se siente cómoda hablándolo es muy importante que durante los primeros días se la respete. Es una situación delicada que requiere paciencia"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Clara"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Labrador Vera"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Marina"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Benitez Castro"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "08/09/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Es importante que Jimena recuerde cada día la lucha que está librando contra su adicción. Es necesario estar pendiente de que no reincida pero sin hacer persión para que note que confiamos en ella"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Jimena"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Benitez Castro"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Marina"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Benitez Castro"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "10/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Me temo que Jimena ha vuelto a beber. Resultan normales este tipo de recaídas durante el proceso, no obstante, debe aprender que beber no es una solución a sus problemas."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Jimena"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Benitez Castro"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Alejandro"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pacheco Piriz"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "15/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Adrián presenta un largo camino de desintoxicación por delante. Les recomiendo realizar controles semanales que prueben su compromiso"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Adrián"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Pacheco Segura"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Alejandro"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pacheco Piriz"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "29/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Adrián a pesar de pasar los controles muestra claros síntomas de estar bajo los efectos de la droga. Deben encontrarle alguna explicación a sus resultados"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Adrián"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Pacheco Segura"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Pedro"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Salado García"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "21/05/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Resultaría conveniente que su hija Gabriela aumentase su vida social y pasase más tiempo fuera de casa. Su mayor tentación es no tener nada que hacer y usar el móvil."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Gabriela"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Salado San Millán"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Pedro"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Salado García"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "25/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Su hija está aumentando correctamente de peso. Además, tiene intención de comenzar a practicar algún deporte. Le recomiendo que la anime a ello, eso también le ayudará respecto a los problemas que tuvo a principios de año"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Gabriela"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Salado San Millán"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "María del Carmen"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Gallego Romero"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "28/11/2002"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Irene afirma haber conocido a una nueva amiga en el colegio, es muy importante que no le mostreis excesiva importancia delante de ella. Es un gran paso que hay que tratar con normalidad como si se tratase de cualquier otra niña."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Irene"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Carrasco Gallego"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "María del Carmen"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Gallego Romero"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "22/01/2003"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Irene ha conseguido mejorar sorprendentemente sus habilidades sociales, su comportamiento es bastante maduro para su edad y avanza bien en la terapia."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Irene"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Carrasco Gallego"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Cantos Martín"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "18/10/2016"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Marta se encuentra en pleno proceso de duelo por la pérdida de vuestra madre. Es importante comprender que ante la misma situación cada persona reacciona de forma distinta. Compartis el mismo dolor pero no la misma forma de afrontarlo. Necesita tu apoyo más que nunca y resulta preferible hablar de lo sucedido antes de forzar su censura."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cantos Martín"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Cantos Martín"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "14/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Marta ha sido sometida a mucha presión por motivos que ya conoces. Es muy autoexigente y debes hacerle ver que es normal equivocarse y que en vez de culparse tiene que aprender a saber empezar de nuevo sin atormentarse"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Marta"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cantos Martín"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Rodriguez Campos"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "19/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Miguel no es capaz de comprender las consecuencias y las secuelas futuras que su consumición puede llegar a acarrearle. No ve problema en lo que hace y esto será lo primero que debemos hacerle ver. Sin ello, no verá motivos para dejar de consumir y por tanto no lo hará."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Rodriguez Galvez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Rodriguez Campos"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "01/12/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Miguel me ha prometido su compromiso en el proceso de desintoxicación y ha accedido a realizarse pruebas semanalmente. Es un gran paso que debéis agradecerle."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Rodriguez Galvez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Sandra"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Torres Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "13/12/2010"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Álvaro ha conseguido mantenerse más de 1 mes sobrio. Es muy importante que se le felicite por su esfuerzo y sacrificio."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Álvaro"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Torres Sánchez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Sandra"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Torres Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "22/07/2017"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Álvaro además de haber conseguido no recurrir al alcohol durante todo su tratamiento esta mostrando señales de mejora y aprendendiendo acerca del control de sus emociones"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Álvaro"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Torres Sánchez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Francisco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Reyes Torres"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "20/10/2019"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Inmaculada no consigue tener una visión objetiva de su cuerpo. Es necesario que entienda que todos los cuerpos son válidos mientras no sean perjudiciales para la salud propia de cada uno"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Inmaculada"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Reyes Sánchez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Rubén"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Pestaña Cañete"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "09/01/2019"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Paula muestra cambios repentinos en su conducta que provocan brusquedad en sus conversaciones. Hasta lograr encontrar el foco de su comportamiento le he recetado un medicamento que debería estabilizarla"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Paula"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Pestaña Cochar"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Roberto"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Sutton Rivera"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "13/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Raquel parece recuperarse poco a poco de su depresión. Le comunico que a pesar de tener una lenta recuperación es preferible a tener mejoras rápidas e inestables. Es muy importante que la apoye para que no pierda su constancia en el proceso."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Raquel"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Sutton Rivera"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Inmaculada"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Trinidad Conejo"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "28/12/2016"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Paloma no consigue diferenciar la realidad de su imaginación. Dado que considero peligrosa su situación he decidido mandarle una medicación hasta que logremos estabilizarla"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Paloma"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Trinidad Conejo"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Sánchez Conejo"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "02/12/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Fernando argumenta que su único motivo por el que acude al centro es la obligación impuesta por sus padres. Es bueno que se preocupen por él, sin embargo, hasta que no logre entender el daño que causan las drogas y visualice una motivación para desintoxicarse, no habrá castigos ni terapia que le ayude."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Fernando"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Sánchez Rodriguez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Sofía"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Martín Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "20/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Alberto está empeorando la visión de sus responsabilidades y muestra impaciencia por la terapia. Debe comprender que a veces es necesario hacer pausas y dedicarle tiempo a la estabilidad mental antes de continuar trabajando. Sin salud mental lo demás se hace el doble de complicado. Ayúdeme a que sea más paciente con su proceso de recuperación"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Alberto"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Álvarez Martín"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Puga Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "18/08/2017"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Carlos debe comprender que no acude al centro para conseguir aumentar su inteligencia, si no a aceptarse tal y como es y aprender a vivir con ello."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Carlos"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Puga Conejo"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Laura"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Martinez Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "29/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Martina empieza a tener grandes lagunas de memoria que ni siquiera ella percibe. Le he dado una fotocopia que quiero que veas con ella donde se describen una serie de ejercicios diarios para mantener la mente activa. Esto no hará que mejore pero sí a que la pérdida de memoria sea más leve."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Martina"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Sánchez Rodriguez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jimena"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Jimenez Ortiz"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "20/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Pepe a pesar de haber comenzado recientemente su terapia muestra gran interés y entrega en mantenerse sobrio y conseguir resistirse a las tentaciones que le somete su adicción. Es muy importante que no pierda esta motivación que le haga recordar los beneficios que tiene no beber"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Pepe"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Jimenez Ortiz"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jose"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "04/03/2019"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Lucía parece haber comprendido la necesidad de su desintoxicación. Además, a diferencia de los casos habituales sus amistades parecen apoyarla y ayudarla en el proceso, lo cual es un factor fundamental en el tratamiento."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Sanchez Lasa"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Paco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Chamizo Ortiz"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "26/06/2015"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Cristina ha empeorado sus habilidades sociales y se muestra desmotivada en su tarea de recuperarse. Es muy importante mostrarle apoyo y hacerle ver que su terapia resulta beneficiosa para ella y para la gente que la quiere"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Cristina"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Chamizo Ortiz"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Blanca"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Ortega Cano"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "12/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Alejandro sigue teniendo recaidas muy frecuentes. Necesitamos aumentar su motivación para que ponga más empeño en la terapia"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Alejandro"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Ortiz Ortega"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Raúl"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Otrelles Martín"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "20/10/2017"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Oswaldo parece haber estancado temporalmente su degradación mental. Es algo bueno aunque no tiene explicación. Esperemos que continue así y en caso de empeorar póngase en contacto con el centro"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Oswaldo"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Otrelles Martín"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Estrella"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Manzano Olivares"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "15/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Raúl presenta un caso grave de alcoholismo dada las altas cantidades de consumición que ha consentido durante varios años. En casos así, puesto que hay altas probabilidades de reincidencia, es muy importante realizar un seguimiento diario cuya principal vigilante será usted."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Raúl"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Manzano Olivares"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Cuevas Olivares"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "12/12/2018"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Rosa comienza a mejorar progresivamente. Es hora de bajar las dosis de la medicación poco a poco para ver que tal reacciona"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Rosa"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cuevas Martín"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Carla"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Flores Maldonado"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "15/10/2016"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Lola parece suavizar sus cambios de personalidad y controlar con mayor precisión sus emociones. Es importante que la animeis a que siga esforzándose para cumplir sus objetivos"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Lola"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Flores Maldonado"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Alberto"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Vázquez Rivera"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "20/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Jorge parece haber hallado el principal desencadenante de su estado actual. En las próximas sesiones trabajaremos sobre ello para conseguir proporcionarle la perspectiva más adecuada con la que afrontar dicho asunto"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Vázquez Rivera"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Ortiz Benitez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "15/03/2018"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "El hecho de que las amistades de rebeca consuman drogas sin ningún tipo de control provoca que se sienta encarcelada e injustamente controlada a diferencia de sus amigas. Es muy complicado hacerle ver que desintoxicarse es lo correcto cuando su entorno más cercano no lo permite. No tiene por qué cambiar sus amistades sólo entender que la consumición no es buena ni para sus amigas ni para ella misma"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Rebeca"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Ortiz Segura"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Rocío"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Salado Benitez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "13/01/2017"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Mireya se niega rotundamente a comer, si no se conciencia de su baja condición física me temo que no podré ayudarla. Estamos intentando convencerla de que es lo mejor para ella pero parece no querer escucharnos"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Mireya"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Grande Salado"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Antonia"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Vera Ordoñez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "18/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Jorge afirma haber conocido a alguien que le despierta su alegría. A pesar de ser una buena noticia debemos vigilar que no adquiera una dependencia precoz de dicha persona para ser feliz"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Jorge"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Cañete Vera"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Sofía"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Carrasco Ordoñez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "20/10/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Miguel ha mejorado últimamente durante las sesiones que hemos tenido, no obstante, no debemos bajar la guardia y seguir pendientes de él por si nos necesita"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Carrasco Ruiz"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Paco"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Valverde Carrasco"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "18/08/2016"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Juan ha empeorado respecto a sus alucinaciones y la confusión de la realidad. Le aumentaremos temporalmente la dosis para tratar de mejorar su seguridad"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Valverde Salado"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Vargas Almodovar"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "13/12/2013"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Antonio ha mejorado considerablemente sus habilidades sociales y la curiosidad que dicha tarea implica. Es un gran paso que debemos celebrar para que vea que nos alegramos de sus progresos"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Antonio"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Vargas Almodovar"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Juan"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Soria Cruces"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "18/09/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Ana parece empeorar cuando se acerca la fecha de lo sucedido. Recuerda constantemente su pasado y se impide a sí misma seguir avanzando. Es muy importante que la apoyeis durante estas fechas y que comprendais su dolor."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Soria Vera"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Jesús"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Conejo Cruces"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "20/01/2019"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Sandra ha aprendido a controlar el estrés y a organizarse mejor su trabajo. Está claro que ha mejorado enormemente su estado de ánimo desde la primera vez que acudió al centro y es hora de dejar que ande por si sola. En caso de necesitar nuevamente nuestra ayuda no duden en ponerse en contacto con nosotros"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Sandra"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Conejo Labrador"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Julia"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Saravia Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "20/09/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Es normal que Rocío quiera alejarse temporalmente de su bebé. Algunas madres necesitan tiempo para procesar la existencia de un nuevo miembro familiar y todo lo que eso conlleva. Durante estos días es beneficioso que se tome su tiempo, la carga emocional o imponerle sentimiento de culpa sólo prolongará su mal estado."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Rocío"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Saravia Sánchez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Antonio"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Ruiz Sánchez"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "19/03/2018"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Antonio ha vuelto a beber, no obstante, es importante convencerle de que no tire la toalla y que todo el esfuerzo hehco hasta ahora no se echa a perder tan fácilmente en un mal día."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Antonio"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Ruiz Conejo"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Ángela"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Sánchez Ruiz"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "10/11/2020"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Ana María ha empeorado su estado y su forma de afrontar las cosas. Le hemos aumentado la dosis hasta que consigamos estabilizarla"
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Ana María"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Nevado Sánchez"
+                }
+            },
+            {
+                "nombre_familiar": {
+                    "type": "literal",
+                    "value": "Oscar"
+                },
+                "apellidos_familiar": {
+                    "type": "literal",
+                    "value": "Benitez Naranjo"
+                },
+                "fecha": {
+                    "type": "literal",
+                    "value": "20/10/2019"
+                },
+                "contenido": {
+                    "type": "literal",
+                    "value": "Oscar se encuentra completamente desintoxicado, por ello concluimos su tratamiento y le felicitamos por su esfruezo y trabajo."
+                },
+                "nombre_paciente": {
+                    "type": "literal",
+                    "value": "Oscar"
+                },
+                "apellidos_paciente": {
+                    "type": "literal",
+                    "value": "Benitez Cuevas"
+                }
+            }
+        ]
+    }
+}

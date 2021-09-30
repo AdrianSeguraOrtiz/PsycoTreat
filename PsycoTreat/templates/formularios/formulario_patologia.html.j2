@@ -1,0 +1,44 @@
+{% include "psiquiatra/psiquiatra.html" %}
+<html>
+    <head>
+        <title>Editar patología</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario.css')}}">
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario_editar.css')}}">
+        <h1>Editar patología</h1>
+    </head>
+    <body>
+        <form method="POST">
+            <table>
+                <tr>
+                    <td><b>Patología:</b></td>
+                    <td><input type="text" name="patologia" value = "{{paciente['patologia actual']}}"></td>
+                </tr>
+                {% if 'formularios consultas' in paciente %}
+                    <tr><td colspan = "2"><b>¿Desea eliminar algún formulario?</b></td></tr>
+                    {% for formulario in paciente['formularios consultas'] %}
+                        <tr><td colspan = "2"><input type="checkbox" name="{{formulario['formulario']}}"><a href = "{{ url_for('psiquiatra_mis_pacientes_ver_consulta', id_psiquiatra=id_psiquiatra, id_consulta=formulario['formulario']) }}">Formulario {{formulario['formulario'][formulario['formulario']|length - 3 :]}} </td></tr>
+                    {% endfor %}
+                {% endif %}
+                {% if 'medicamentos asignados' in paciente %}
+                    <tr><td colspan = "2"><b>¿Desea eliminar algún medicamento?</b></td></tr>
+                    {% for medicamento in paciente['medicamentos asignados'] %}
+                        <tr><td colspan = "2"><input type="checkbox" name="{{medicamento['medicamento']}}"> {{medicamento['medicamento']}} </td></tr>
+                    {% endfor %}
+                {% endif %}
+                {% if 'pruebas complementarias' in paciente %}
+                    <tr><td colspan = "2"><b>¿Desea eliminar alguna prueba?</b></td></tr>
+                    {% for prueba in paciente['pruebas complementarias'] %}
+                        <tr><td colspan = "2"><input type="checkbox" name="{{prueba['prueba']}}"> {{prueba['prueba']}} </td></tr>
+                    {% endfor %}
+                {% endif %}
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+{% include "footer.html" %}

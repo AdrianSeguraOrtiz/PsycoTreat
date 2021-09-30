@@ -1,0 +1,53 @@
+h1 {
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+    padding-bottom: 20px;
+}
+ul{
+    padding-bottom: 20px;
+}
+ul li {
+    display: inline;
+    margin: 0.25em;
+}
+ul li.paciente a {
+    color: #222222;
+    background-color: #6bbeeb;
+    padding: 1em;
+    text-decoration: none;
+}
+ul li.paciente a:hover {
+    background-color: #5da3c9;
+}
+ul li.administrativo a {
+    color: #222222;
+    background-color: #e43030;
+    padding: 1em;
+    text-decoration: none;
+}
+ul li.administrativo a:hover {
+    background-color: #c41c1c;
+}
+ul li.familiar a {
+    color: #222222;
+    background-color: #e9d353;
+    padding: 1em;
+    text-decoration: none;
+}
+ul li.familiar a:hover {
+    background-color: #bdab44;
+}
+ul li.psiquiatra a {
+    color: #222222;
+    background-color: #66d660;
+    padding: 1em;
+    text-decoration: none;
+}
+ul li.psiquiatra a:hover {
+    background-color: #4bc045;
+}

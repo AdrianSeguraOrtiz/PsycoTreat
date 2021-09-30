@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<all>
+	<item>
+		<enfermedad>Esquizofrenia</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Trastorno de la personalidad</enfermedad>
+		<total>3</total>
+	</item>
+	<item>
+		<enfermedad>Trastorno bipolar</enfermedad>
+		<total>3</total>
+	</item>
+	<item>
+		<enfermedad>Drogadicción</enfermedad>
+		<total>7</total>
+	</item>
+	<item>
+		<enfermedad>Trastorno obsesivo-compulsivo (TOC)</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Depresión post-parto</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Depresión</enfermedad>
+		<total>12</total>
+	</item>
+	<item>
+		<enfermedad>Psicosis</enfermedad>
+		<total>3</total>
+	</item>
+	<item>
+		<enfermedad>Síndrome de Diógenes</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Ansiedad</enfermedad>
+		<total>4</total>
+	</item>
+	<item>
+		<enfermedad>Déficit de Atención e Hiperactividad</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Síndrome de Asperger</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Trastorno alimenticio</enfermedad>
+		<total>6</total>
+	</item>
+	<item>
+		<enfermedad>Trastorno del Espectro Autista</enfermedad>
+		<total>2</total>
+	</item>
+	<item>
+		<enfermedad>Retraso mental severo</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Trastorno de ansiedad social</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Alcoholemia</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Ninfomanía</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Demencia</enfermedad>
+		<total>3</total>
+	</item>
+	<item>
+		<enfermedad>Hiperactividad</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Deficit de atención</enfermedad>
+		<total>1</total>
+	</item>
+	<item>
+		<enfermedad>Alcoholismo</enfermedad>
+		<total>4</total>
+	</item>
+	<item>
+		<enfermedad>Trastorno de ansiedad</enfermedad>
+		<total>4</total>
+	</item>
+	<item>
+		<enfermedad>Trastorno de estrés postraumático (TEPT)</enfermedad>
+		<total>2</total>
+	</item>
+</all>

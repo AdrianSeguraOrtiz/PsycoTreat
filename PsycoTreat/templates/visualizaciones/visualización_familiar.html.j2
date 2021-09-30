@@ -1,0 +1,82 @@
+{% include "administrativo/administrativo.html" %}
+<html>
+    <head>
+        <title>Visualización familiar</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/visualizacion.css')}}">
+    </head>
+    <body>
+        <h1>Visualización familiar</h1>
+        <h2>Datos Personales</h2>
+        <table>
+            <tr>
+                <td><b>Nombre:</b></td>
+                <td><span>{{familiar['nombre']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Apellidos:</b></td>
+                <td><span>{{familiar['apellidos']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Dni:</b></td>
+                <td><span>{{familiar['dni']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Fecha de Nacimiento:</b></td>
+                <td><span>{{familiar['fecha_de_nacimiento']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Sexo:</b></td> 
+                <td><span>{{familiar['sexo']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><span>{{familiar['email']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Teléfono:</b></td>
+                <td><span>{{familiar['telefono']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Dirección:</b></td>
+                <td><span>{{familiar['direccion']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>CP:</b></td>
+                <td><span>{{familiar['codigo postal']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Localidad:</b></td> 
+                <td><span>{{familiar['localidad']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Provincia:</b></td>
+                <td><span>{{familiar['provincia']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Fotografía:</b></td>
+                <td><span>{{familiar['fotografia']}}</span></td>
+            </tr>
+        </table>
+
+        <h2>Relación con el paciente</h2>
+        <table>
+            <tr>
+                <td><b>Paciente asociado:</b></td>
+                <td><ul>
+                    <li>Nombre:       <span>{{paciente_asociado['nombre']}}</span></li>
+                    <li>Apellidos:    <span>{{paciente_asociado['apellidos']}}</span></li>
+                    <li>Dni:          <span>{{paciente_asociado['dni']}}</span></li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><b>Relación:</b></td>
+                <td><span>{{familiar['relacion']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Nivel de autorización:</b></td>
+                <td><span>{{familiar['nivel de autorizacion']}}</span></td>
+            </tr>
+        </table>
+    </body>
+</html>
+{% include "footer.html" %}

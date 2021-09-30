@@ -1,0 +1,19 @@
+{
+    "_id" : STRING,
+    "nombre" : STRING,
+    "apellidos" : STRING,
+    "dni" : STRING,
+    "fecha_de_nacimiento" : DATE,
+    "sexo" : STRING,
+    "email" : STRING,
+    "telefono" : STRING,
+    "direccion" : STRING,
+    "codigo postal" : STRING,
+    "localidad" : STRING,
+    "provincia" : STRING,
+    "fotografia" : STRING,
+    "paciente asociado" : STRING,
+    "relacion" : STRING,
+    "nivel de autorizacion" : STRING,
+    "mensajes recibidos" : [{"mensaje" : STRING}]
+}

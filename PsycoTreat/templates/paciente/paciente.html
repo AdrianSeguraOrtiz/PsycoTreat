@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Paciente</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/base.css')}}">
+        <header>
+            <div id="barra-superior">
+                <div id="logo">
+                    <img src="{{url_for('static', filename='images/logo.png')}}">
+                </div>
+                <div id="cabecera">
+                    <p>PsycoTreat</p>
+                </div>
+                <nav id="menu-superior">
+                    <ul>
+                        <li class = "home"><a href="{{ url_for('pagina_principal') }}">Home</a></li>
+                        <li class = "citas"><a href="{{ url_for('paciente_citas', id_paciente=id_paciente) }}">Citas</a></li>
+                        <li class = "mis_datos"><a href="{{ url_for('paciente_datos', id_paciente=id_paciente) }}">Mis datos</a></li>
+                        <li class = "facturas"><a href="{{ url_for('paciente_facturas', id_paciente=id_paciente) }}">Facturas</a></li>
+                        <li class = "psiquiatras"><a href="{{ url_for('paciente_psiquiatras', id_paciente=id_paciente) }}">Psiquiatras</a></li>
+                        <li class = "destacado"><a href="{{ url_for('iniciar_sesion') }}">Salir</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </head>
+</html>

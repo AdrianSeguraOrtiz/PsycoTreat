@@ -1,0 +1,56 @@
+1. Todos los pacientes que hayan tenido o tengan actualmente depresión
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-2#>
+SELECT ?nombre ?apellidos ?inicio ?final
+	WHERE {{?paciente rdf:type esq:Paciente .
+		?paciente esq:tiene_patologia_previa ?patologia_previa .
+		?patologia_previa esq:patologia "Depresión" .
+		?paciente esq:nombre ?nombre .
+		?paciente esq:apellidos ?apellidos .
+		?patologia_previa esq:fecha_inicio ?inicio .
+		?patologia_previa esq:fecha_final ?final}
+	UNION { ?paciente rdf:type esq:Paciente .
+		?paciente esq:tiene_patologia_actual ?patologia_actual .
+		?patologia_actual esq:patologia "Depresión" .
+		?paciente esq:nombre ?nombre .
+		?paciente esq:apellidos ?apellidos .
+		?patologia_actual esq:fecha_inicio ?inicio }}
+
+2. Los pacientes que hayan sido diagnosticados de trastorno alimenticio junto con los formularios de las consultas donde se haya especificado dicho diagnóstico
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-2#>
+SELECT ?nombre ?apellidos ?fecha_consulta ?motivo_consulta ?observaciones
+	WHERE { ?paciente rdf:type esq:Paciente .
+		?paciente esq:nombre ?nombre .
+		?paciente esq:apellidos ?apellidos .
+		?formulario rdf:type esq:Formulario .
+		?formulario esq:pertenece_al_paciente ?paciente .
+		?formulario esq:diagnostico "Trastorno alimenticio" .
+		?formulario esq:fecha_consulta ?fecha_consulta .
+		?formulario esq:motivo_consulta ?motivo_consulta .
+		?formulario esq:observaciones ?observaciones}
+
+3. Los pacientes junto con su patología actual y el tratamiento indicado en las consultas
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-2#>
+SELECT ?nombre ?apellidos ?nombre_patologia_actual ?tratamiento_asignado
+	WHERE { ?paciente rdf:type esq:Paciente .
+		?paciente esq:nombre ?nombre .
+		?paciente esq:apellidos ?apellidos .
+		?paciente esq:tiene_patologia_actual ?patologia_actual .
+		?patologia_actual esq:patologia ?nombre_patologia_actual .
+		?patologia_actual esq:tiene_formulario ?formulario .
+		?formulario esq:tratamiento ?tratamiento_asignado}
+
