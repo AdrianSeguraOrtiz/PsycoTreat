@@ -1,0 +1,17 @@
+Pacientes junto con sus familiares y el nivel de autorización
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-3#>
+SELECT ?nombre_paciente ?apellidos_paciente ?relacion ?nombre_familiar ?apellidos_familiar ?nivel_de_autorizacion 
+	WHERE { ?paciente rdf:type esq:Paciente .
+		?paciente esq:nombre ?nombre_paciente .
+		?paciente esq:apellidos ?apellidos_paciente .
+		?familiar rdf:type esq:Familiar .
+		?familiar esq:es_familiar_del_paciente ?paciente .
+		?familiar esq:nombre ?nombre_familiar .
+		?familiar esq:apellidos ?apellidos_familiar .
+		?familiar esq:relacion ?relacion .
+		?familiar esq:nivel_de_autorizacion ?nivel_de_autorizacion}

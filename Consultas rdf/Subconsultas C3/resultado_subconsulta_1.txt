@@ -1,0 +1,52 @@
+Pacientes junto con sus familiares y el nivel de autorización
+
+Marta -- Romero Pacheco -- Madre -- Francisca -- Pacheco Pérez -- Parcial
+Olivia -- Cañete Domínguez -- Marido -- Paco -- Segura Vera -- Total
+Lucas -- Romero Padilla -- Padre -- Fran -- Romero Sánchez -- Normal
+Mario -- Martín Pérez -- Hermana -- Ana -- Martín Pérez -- Normal
+Silvia -- Román Huerta -- Madre -- María -- Huerta Ordoñez -- Parcial
+Lucas -- Pirlo Molina -- Hermano -- Juan -- Pirlo Molina -- Normal
+José Ramón -- López Galiana -- Madre -- Nerea -- Galiana Trujillo -- Normal
+Margarita -- Cintrano Ranea -- Hermano -- Fernando -- Cintrano Ranea -- Normal
+Melania -- Castillo del Río -- Novio -- Jesús -- Ruiz Segura -- Normal
+Pilar -- Rueda Álvarez -- Hija -- Estrella -- Rueda García -- Normal
+David -- Lasa Ordoñez -- Novia -- Nuria -- Fernandez García -- Normal
+Carmen -- Castro Romero -- Hijo -- Miguel -- Aguilar Castro -- Normal
+Eduardo -- Valderrama Ortiz -- Padre -- Francisco -- Valderrama García -- Parcial
+Clara -- Labrador Vera -- Madre -- Margarita -- Vera Sánchez -- Normal
+Jimena -- Benitez Castro -- Hermana -- Marina -- Benitez Castro -- Parcial
+Adrián -- Pacheco Segura -- Padre -- Alejandro -- Pacheco Piriz -- Total
+Gabriela -- Salado San Millán -- Padre -- Pedro -- Salado García -- Normal
+Irene -- Carrasco Gallego -- Madre -- María del Carmen -- Gallego Romero -- Parcial
+Marta -- Cantos Martín -- Hermano -- Fernando -- Cantos Martín -- Normal
+Miguel -- Rodriguez Galvez -- Padre -- Juan -- Rodriguez Campos -- Parcial
+Álvaro -- Torres Sánchez -- Hermana -- Sandra -- Torres Sánchez -- Normal
+Inmaculada -- Reyes Sánchez -- Padre -- Francisco -- Reyes Torres -- Normal
+Paula -- Pestaña Cochar -- Padre -- Rubén -- Pestaña Cañete -- Normal
+Raquel -- Sutton Rivera -- Hermano -- Roberto -- Sutton Rivera -- Normal
+Paloma -- Trinidad Conejo -- Hermana -- Inmaculada -- Trinidad Conejo -- Normal
+Fernando -- Sánchez Rodriguez -- Padre -- Fernando -- Sánchez Conejo -- Parcial
+Alberto -- Álvarez Martín -- Madre -- Sofía -- Martín Sánchez -- Normal
+Carlos -- Puga Conejo -- Padre -- Juan -- Puga Sánchez -- Normal
+Martina -- Sánchez Rodriguez -- Hija -- Laura -- Martinez Sánchez -- Parcial
+Pepe -- Jimenez Ortiz -- Hermana -- Jimena -- Jimenez Ortiz -- Normal
+Lucía -- Sanchez Lasa -- Padre -- Jose -- Sánchez Ortiz -- Normal
+Cristina -- Chamizo Ortiz -- Hermano -- Paco -- Chamizo Ortiz -- Normal
+Alejandro -- Ortiz Ortega -- Madre -- Blanca -- Ortega Cano -- Normal
+Oswaldo -- Otrelles Martín -- Hermano -- Raúl -- Otrelles Martín -- Normal
+Raúl -- Manzano Olivares -- Hermana -- Estrella -- Manzano Olivares -- Normal
+Rosa -- Cuevas Martín -- Padre -- Jorge -- Cuevas Olivares -- Normal
+Lola -- Flores Maldonado -- Hermana -- Carla -- Flores Maldonado -- Normal
+Jorge -- Vázquez Rivera -- Hermano -- Alberto -- Vázquez Rivera -- Normal
+Rebeca -- Ortiz Segura -- Padre -- Juan -- Ortiz Benitez -- Normal
+Mireya -- Grande Salado -- Madre -- Rocío -- Salado Benitez -- Parcial
+Jorge -- Cañete Vera -- Madre -- Antonia -- Vera Ordoñez -- Parcial
+Miguel -- Carrasco Ruiz -- Hermanastra -- Sofía -- Carrasco Ordoñez -- Normal
+Juan -- Valverde Salado -- Padre -- Paco -- Valverde Carrasco -- Normal
+Antonio -- Vargas Almodovar -- Hermana -- Lucía -- Vargas Almodovar -- Normal
+Ana -- Soria Vera -- Hermanastro -- Juan -- Soria Cruces -- Parcial
+Sandra -- Conejo Labrador -- Padre -- Jesús -- Conejo Cruces -- Normal
+Rocío -- Saravia Sánchez -- Hermana -- Julia -- Saravia Sánchez -- Normal
+Antonio -- Ruiz Conejo -- Padre -- Antonio -- Ruiz Sánchez -- Parcial
+Ana María -- Nevado Sánchez -- Madre -- Ángela -- Sánchez Ruiz -- Parcial
+Oscar -- Benitez Cuevas -- Padre -- Oscar -- Benitez Naranjo -- Total

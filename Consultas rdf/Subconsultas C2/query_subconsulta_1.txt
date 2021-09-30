@@ -1,0 +1,21 @@
+Todos los pacientes que hayan tenido o tengan actualmente depresión
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-2#>
+SELECT ?nombre ?apellidos ?inicio ?final
+	WHERE {{?paciente rdf:type esq:Paciente .
+		?paciente esq:tiene_patologia_previa ?patologia_previa .
+		?patologia_previa esq:patologia "Depresión" .
+		?paciente esq:nombre ?nombre .
+		?paciente esq:apellidos ?apellidos .
+		?patologia_previa esq:fecha_inicio ?inicio .
+		?patologia_previa esq:fecha_final ?final}
+	UNION { ?paciente rdf:type esq:Paciente .
+		?paciente esq:tiene_patologia_actual ?patologia_actual .
+		?patologia_actual esq:patologia "Depresión" .
+		?paciente esq:nombre ?nombre .
+		?paciente esq:apellidos ?apellidos .
+		?patologia_actual esq:fecha_inicio ?inicio }}

@@ -1,0 +1,35 @@
+{% include "psiquiatra/psiquiatra.html" %}
+
+<html>
+    <head>
+        <title>Aproximación</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario.css')}}">
+        <h1>Edición de la patología</h1>
+    </head>
+    <body>
+        <p><span style = "border-radius: 10px; padding: 1.5px; background-color: #b1d8ed; margin-left: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #222222;">{{m1}}</span><p>
+        {% if motivo == 'error' %}
+            <p><span style = "border-radius: 10px; padding: 1.5px; background-color: #e43030; margin-left: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #222222;"><b>Error:</b> {{m2}}</span></p>
+        {% else %}
+            <p><span style = "border-radius: 10px; padding: 1.5px; background-color: #66d660; margin-left: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #222222;"><b>Éxito de la operación:</b> {{m2}}</span></p>
+        {% endif %}
+        <form method="POST">
+            <h3>Seleccione</h3>
+            <table>
+                {% if motivo == 'error' %}
+                    <tr><td><input type="radio" name="opcion" value="No"> Entendido</td></tr>
+                {% else %}
+                    <tr><td><input type="radio" name="opcion" value="Si"> Estoy de acuerdo con la aproximación</td></tr>
+                    <tr><td><input type="radio" name="opcion" value="No"> No estoy de acuerdo, no producir cambio en la patología</td></tr>
+                {% endif %}
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
+{% include "footer.html" %}

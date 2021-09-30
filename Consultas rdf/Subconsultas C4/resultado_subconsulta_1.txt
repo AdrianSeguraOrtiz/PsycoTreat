@@ -1,0 +1,26 @@
+Enfermedades ordenadas por el número de casos
+
+Depresión -- 12
+Drogadicción -- 7
+Trastorno alimenticio -- 6
+Alcoholismo -- 4
+Ansiedad -- 4
+Trastorno de ansiedad -- 4
+Demencia -- 3
+Psicosis -- 3
+Trastorno bipolar -- 3
+Trastorno de la personalidad -- 3
+Trastorno de estrés postraumático (TEPT) -- 2
+Trastorno del Espectro Autista -- 2
+Retraso mental severo -- 1
+Alcoholemia -- 1
+Deficit de atención -- 1
+Depresión post-parto -- 1
+Déficit de Atención e Hiperactividad -- 1
+Esquizofrenia -- 1
+Hiperactividad -- 1
+Ninfomanía -- 1
+Síndrome de Asperger -- 1
+Síndrome de Diógenes -- 1
+Trastorno de ansiedad social -- 1
+Trastorno obsesivo-compulsivo (TOC) -- 1

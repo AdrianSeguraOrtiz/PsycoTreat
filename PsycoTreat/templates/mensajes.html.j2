@@ -1,0 +1,91 @@
+{% if tipo_usuario == 'psiquiatra' %}
+    {% set id_psiquiatra = id_usuario %}
+    {% set metodo = 'psiquiatra_mensajes_ver' %}
+    {% set responder = 'psiquiatra_responder_mensaje'%}
+    {% set eliminar = 'psiquiatra_eliminar_mensaje'%}
+    {% set redactar = 'psiquiatra_redactar_mensaje'%}
+    {% include "psiquiatra/psiquiatra.html" %}
+{% elif tipo_usuario == 'administrativo' %}
+    {% set id_admin = id_usuario %}
+    {% set metodo = 'admin_mensajes_ver' %}
+    {% set responder = 'admin_responder_mensaje'%}
+    {% set eliminar = 'admin_eliminar_mensaje'%}
+    {% set redactar = 'admin_redactar_mensaje'%}
+    {% include "administrativo/administrativo.html" %}
+{% elif tipo_usuario == 'familiar' %}
+    {% set id_familiar = id_usuario %}
+    {% set metodo = 'familiar_mensajes_ver' %}
+    {% include "familiar/familiar.html" %}
+{% endif %}
+
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/mensajes.css')}}">
+    <h1>Mensajes</h1>
+    {% if emisores|length > 0 %}
+        <h2>Mensajes recibidos</h2>
+        <table class = "hor">
+            <thead>
+                <tr>
+                    <th colspan = "3">De parte de</th>
+                    <th rowspan = "2">Fecha</th>
+                    <th class = "boton" rowspan = "2"></th>
+                    {% if tipo_usuario != 'familiar' %}
+                        <th class = "boton" rowspan = "2"></th>
+                        <th class = "boton" rowspan = "2"></th>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Tipo de usuario</th>
+                </tr>
+            </thead>
+            {% for i in range(0, emisores|length) %}
+                <tr>
+                    <td>{{emisores[i]['nombre']}}</td>
+                    <td>{{emisores[i]['apellidos']}}</td>
+                    <td>{{emisores[i]['_id'][6 : emisores[i]['_id']|length - 4]}}</td>
+                    <td>{{mensajes_recibidos[i]['fecha de envio']}}</td>
+                    <td class="boton"><a href = "{{ url_for(metodo, id_usuario=id_usuario, id_mensaje=mensajes_recibidos[i]['_id']) }}"><input type = "button" value = "Leer"></a></td>
+                    {% if tipo_usuario != 'familiar' %}
+                        <td class="boton"><a href = "{{ url_for(responder, id_emisor = id_usuario, id_receptor = emisores[i]['_id']) }}"><input type = "button" value = "Responder"></td>
+                        <td class="boton"><a href = "{{ url_for(eliminar, id_usuario=id_usuario, id_mensaje=mensajes_recibidos[i]['_id']) }}"><input type = "button" value = "Eliminar"></a></td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+    {% if receptores|length > 0 %}
+        <h2>Mensajes enviados</h2>
+        <table class = "hor">
+            <thead>
+                <tr>
+                    <th colspan = "3">Enviado a</th>
+                    <th rowspan = "2">Fecha</th>
+                    <th class = "boton" rowspan = "2"></th>
+                    <th class = "boton" rowspan = "2"></th>
+                </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Tipo de usuario</th>
+                </tr>
+            </thead>
+            {% for i in range(0, receptores|length) %}
+                <tr>
+                    <td>{{receptores[i]['nombre']}}</td>
+                    <td>{{receptores[i]['apellidos']}}</td>
+                    <td>{{receptores[i]['_id'][6 : receptores[i]['_id']|length - 4]}}</td>
+                    <td>{{mensajes_enviados[i]['fecha de envio']}}</td>
+                    <td class="boton"><a href = "{{ url_for(metodo, id_usuario=id_usuario, id_mensaje=mensajes_enviados[i]['_id']) }}"><input type = "button" value = "Leer"></a></td>
+                    <td class="boton"><a href = "{{ url_for(eliminar, id_usuario=id_usuario, id_mensaje=mensajes_enviados[i]['_id']) }}"><input type = "button" value = "Eliminar"></a></td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+    {% if tipo_usuario != "familiar" %}
+        <h2>Enviar nuevo mensaje</h2>
+        <a href = "{{ url_for(redactar, id_usuario=id_usuario) }}"><input type = "button" value = "Redactar"></a>
+    {% endif %}
+</html>
+{% include "footer.html" %} 

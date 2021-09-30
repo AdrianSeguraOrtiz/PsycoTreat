@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Familiar Autorizado</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/base.css')}}">
+        <header>
+            <div id="barra-superior">
+                <div id="logo">
+                    <img src="{{url_for('static', filename='images/logo.png')}}">
+                </div>
+                <div id="cabecera">
+                    <p>PsycoTreat</p>
+                </div>
+                <nav id="menu-superior">
+                    <ul>
+                        <li class = "home"><a href="{{ url_for('pagina_principal') }}">Home</a></li>
+                        <li class = "mensajes"><a href="{{ url_for('familiar_mensajes', id_familiar=id_familiar) }}">Mensajes</a></li>
+                        <li class = "citas"><a href="{{ url_for('familiar_citas', id_familiar=id_familiar) }}">Citas</a></li>
+                        <li class = "facturas"><a href="{{ url_for('familiar_facturas', id_familiar=id_familiar) }}">Facturas</a></li>
+                        <li class = "destacado"><a href="{{ url_for('iniciar_sesion') }}">Salir</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </head>
+</html>

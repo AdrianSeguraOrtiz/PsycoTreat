@@ -1,0 +1,190 @@
+{% if tipo_usuario == 'psiquiatra' %}
+    {% include "psiquiatra/psiquiatra.html" %}
+{% elif tipo_usuario == 'administrativo' %}
+    {% include "administrativo/administrativo.html" %}
+{% elif tipo_usuario == 'paciente' %}
+    {% include "paciente/paciente.html" %}
+{% endif %}
+<html>
+    <head>
+        <title>Visualización Paciente</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/visualizacion.css')}}">
+    </head>
+    <body>
+        {% if tipo_usuario == 'psiquiatra' or tipo_usuario == 'administrativo' %}
+            <h1>Visualización paciente</h1>
+            <h2>Datos Personales</h2>
+        {% else %}
+            <h1>Datos Personales</h1>
+        {% endif %}
+        <table>
+            <tr>
+                <td><b>Nombre:</b></td>
+                <td><span>{{paciente['nombre']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Apellidos:</b></td>
+                <td><span>{{paciente['apellidos']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Dni:</b></td>
+                <td><span>{{paciente['dni']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Fecha de Nacimiento:</b></td>
+                <td><span>{{paciente['fecha_de_nacimiento']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Sexo:</b></td> 
+                <td><span>{{paciente['sexo']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><span>{{paciente['email']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Teléfono:</b></td>
+                <td><span>{{paciente['telefono']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Dirección:</b></td>
+                <td><span>{{paciente['direccion']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>CP:</b></td>
+                <td><span>{{paciente['codigo postal']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Localidad:</b></td> 
+                <td><span>{{paciente['localidad']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Provincia:</b></td>
+                <td><span>{{paciente['provincia']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Fotografía:</b></td>
+                <td><span>{{paciente['fotografia']}}</span></td>
+            </tr>
+            {% if tipo_usuario == 'administrativo' %}
+                <tr>
+                    <td><b>Psiquiatra asignado:</b></td>
+                    <td><span>{{paciente['nombre apellidos psiquiatra']}}</span></td>
+                </tr>
+            {% endif %}
+        </table>
+        {% if paciente['patologia actual'] and tipo_usuario == 'psiquiatra' %}
+            <h2>Patología Actual: {{paciente['patologia actual']}}</h2>
+            <table>
+                <tr>
+                    <td><b>Fecha de inicio:</b></td>
+                    <td><span>{{paciente['fecha inicio']}}</span></td>
+                </tr>
+                {% if paciente['formularios consultas'] %}
+                    <tr>
+                        <td><b>Formularios:</b></td>
+                        {% if paciente['formularios consultas']|length == 1 %}
+                            <td><a href = "{{ url_for('psiquiatra_mis_pacientes_ver_consulta', id_psiquiatra=id_psiquiatra, id_consulta=paciente['formularios consultas'][0]['formulario']) }}"><span>Formulario {{paciente['formularios consultas'][0]['formulario'][paciente['formularios consultas'][0]['formulario']|length - 3 : ]}}</span></a></td>
+                        {% else %}
+                            <td><ul>
+                            {% for formulario in paciente['formularios consultas'] %}
+                                <li><a href = "{{ url_for('psiquiatra_mis_pacientes_ver_consulta', id_psiquiatra=id_psiquiatra, id_consulta=formulario['formulario']) }}"><span>Formulario {{formulario['formulario'][formulario['formulario']|length - 3 :]}}</span></a></li>
+                            {% endfor %}
+                            </ul></td>
+                        {% endif %}
+                    </tr>
+                {% endif %}
+                {% if paciente['medicamentos asignados'] %}
+                    <tr>
+                        <td><b>Medicamentos:</b></td>
+                        {% if paciente['medicamentos asignados']|length == 1 %}
+                            <td><span>{{paciente['medicamentos asignados'][0]['medicamento']}}</span></td>
+                        {% else %}
+                            <td><ul>
+                            {% for medicamento in paciente['medicamentos asignados'] %}
+                                <li><span>{{medicamento['medicamento']}}</span></li>
+                            {% endfor %}
+                            </ul></td>
+                        {% endif %}
+                    </tr>
+                {% endif %}
+                {% if paciente['pruebas complementarias'] %}
+                    <tr>
+                        <td><b>Pruebas complementarias:</b></td>
+                        {% if paciente['pruebas complementarias']|length == 1 %}
+                            <td><span>{{paciente['pruebas complementarias'][0]['prueba']}}</span></td>
+                        {% else %}
+                            <td><ul>
+                            {% for prueba in paciente['pruebas complementarias'] %}
+                                <li><span>{{prueba['prueba']}}</span></li>
+                            {% endfor %}
+                            </ul></td>
+                        {% endif %}
+                    </tr>
+                {% endif %}
+            </table>
+        {% endif %}
+        {% if paciente['patologias previas'] and tipo_usuario == 'psiquiatra' %}
+            <h2>Patologías Previas</h2>
+            <ul>
+            {% for patologia in paciente['patologias previas'] %}
+                <li><h3>{{patologia['patologia']}}</h3></li>
+                <table>
+                    <tr>
+                        <td><b>Fecha de inicio:</b></td>
+                        <td><span>{{patologia['fecha inicio']}}</span></td>
+                    </tr>
+                    <tr>
+                        <td><b>Fecha final:</b></td>
+                        <td><span>{{patologia['fecha final']}}</span></td>
+                    </tr>
+                    {% if patologia['formularios consultas'] %}
+                        <tr>
+                            <td><b>Formularios:</b></td>
+                            {% if patologia['formularios consultas']|length == 1 %}
+                                <td><a href = "{{ url_for('psiquiatra_mis_pacientes_ver_consulta', id_psiquiatra=id_psiquiatra, id_consulta=patologia['formularios consultas'][0]['formulario']) }}"><span>Formulario {{patologia['formularios consultas'][0]['formulario'][patologia['formularios consultas'][0]['formulario']|length - 3 : ]}}</span></a></td>
+                            {% else %}
+                                <td><ul>
+                                {% for formulario in patologia['formularios consultas'] %}
+                                    <li><a href = "{{ url_for('psiquiatra_mis_pacientes_ver_consulta', id_psiquiatra=id_psiquiatra, id_consulta=formulario['formulario']) }}"><span>Formulario {{formulario['formulario'][formulario['formulario']|length - 3 :]}}</span></a></li>
+                                {% endfor %}
+                                </ul></td>
+                            {% endif %}
+                        </tr>
+                    {% endif %}
+                    {% if patologia['medicamentos asignados'] %}
+                        <tr>
+                            <td><b>Medicamentos:</b></td>
+                            {% if patologia['medicamentos asignados']|length == 1 %}
+                                <td><span>{{patologia['medicamentos asignados'][0]['medicamento']}}</span></td>
+                            {% else %}
+                                <td><ul>
+                                {% for medicamento in patologia['medicamentos asignados'] %}
+                                    <li><span>{{medicamento['medicamento']}}</span></li>
+                                {% endfor %}
+                                </ul></td>
+                            {% endif %}
+                        </tr>
+                    {% endif %}
+                    {% if patologia['pruebas complementarias'] %}
+                        <tr>
+                            <td><b>Pruebas complementarias:</b></td>
+                            {% if patologia['pruebas complementarias']|length == 1 %}
+                                <td><span>{{patologia['pruebas complementarias'][0]['prueba']}}</span></td>
+                            {% else %}
+                                <td><ul>
+                                {% for prueba in patologia['pruebas complementarias'] %}
+                                    <li><span>{{prueba['prueba']}}</span></li>
+                                {% endfor %}
+                                </ul></td>
+                            {% endif %}
+                        </tr>
+                    {% endif %}
+                </table>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </body>
+</html>
+
+{% include "footer.html" %}

@@ -1,0 +1,89 @@
+h1 {
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+h2 {
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 75px;
+}
+th, td{
+    border: #222222 1.8px solid;
+    padding: 5px;
+}
+table th {
+    background-color: #66d660;
+    color:  #222222;
+}
+.id, .select {
+    background-color: white;
+    border: 0px;
+}
+td.id span{
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #66d660;
+    display:inline-block;
+    width:40px;
+    height:20px;
+    text-align:center;
+}
+
+tr:nth-child(even) {
+    background-color: #d0d0d0;
+}
+table tr:hover {
+    background-color: #9ddd99;
+}
+td.boton{
+    border : 0px;
+    background-color: white;
+}
+td.boton:hover{
+    background-color: white;
+}
+input[value="Ver"] {
+    border: 3px solid #6bbeeb;
+    border-radius: 5px;
+    color:  #222222;
+    margin-left: 6px;
+}
+input[value="Ver"]:hover {
+    border: 3px solid #5da3c9;
+    background-color: #6bbeeb;
+}
+input[value="Tratar"] {
+    border: 3px solid #e9d353;
+    border-radius: 5px;
+    color:  #222222;
+}
+input[value="Tratar"]:hover {
+    border: 3px solid #bdab44;
+    background-color: #e9d353;
+}
+input[value="Finalizar tratamiento"] {
+    border: 3px solid #e43030;
+    border-radius: 5px;
+    color:  #222222;
+}
+input[value="Finalizar tratamiento"]:hover {
+    border: 3px solid #c41c1c;
+    background-color: #e43030;
+}
+input[value="Empezar tratamiento"]{
+    border: 3px solid #66d660;
+    border-radius: 5px;
+    color:  #222222;
+}
+input[value="Empezar tratamiento"]:hover {
+    border: 3px solid #4bc045;
+    background-color: #66d660;
+}

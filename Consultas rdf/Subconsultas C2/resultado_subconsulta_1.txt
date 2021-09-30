@@ -1,0 +1,14 @@
+Todos los pacientes que hayan tenido o tengan actualmente depresión
+
+Marta -- Romero Pacheco -- 23/08/2009 -- 03/02/2010
+Mario -- Martín Pérez -- 19/03/2011 -- 01/02/2012
+Carmen -- Castro Romero -- 12/10/2009 -- 03/02/2010
+Carmen -- Castro Romero -- 14/07/2012 -- 15/01/2013
+Marta -- Cantos Martín -- 15/09/2016 -- 03/01/2017
+Álvaro -- Torres Sánchez -- 13/02/2017 -- 15/08/2017
+Alberto -- Álvarez Martín -- 18/08/2018 -- 02/01/2019
+Clara -- Labrador Vera -- 11/09/2020
+Raquel -- Sutton Rivera -- 12/09/2020
+Jorge -- Vázquez Rivera -- 12/11/2020
+Jorge -- Cañete Vera -- 15/09/2020
+Ana -- Soria Vera -- 05/07/2020

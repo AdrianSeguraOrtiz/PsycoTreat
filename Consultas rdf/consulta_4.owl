@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+    <rdf:RDF xmlns="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#"
+         xml:base="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:consulta-1="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#">
+        <owl:Ontology rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4"/>
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Data Properties
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#enfermedad --> 
+             <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#enfermedad"> 
+                <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/> 
+                <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/> 
+             </owl:DatatypeProperty> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#total --> 
+             <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#total"> 
+                <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/> 
+                <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/> 
+             </owl:DatatypeProperty> 
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Classes
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental -->
+                 <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+<!-- 
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Individuals
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Drogadicción -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Drogadicción">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Drogadicción</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_bipolar -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_bipolar">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Trastorno bipolar</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Esquizofrenia -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Esquizofrenia">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Esquizofrenia</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Psicosis -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Psicosis">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Psicosis</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_de_estrés_postraumático_(TEPT) -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_de_estrés_postraumático_(TEPT)">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Trastorno de estrés postraumático (TEPT)</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Depresión_post-parto -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Depresión_post-parto">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Depresión post-parto</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_del_Espectro_Autista -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_del_Espectro_Autista">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Trastorno del Espectro Autista</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Síndrome_de_Asperger -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Síndrome_de_Asperger">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Síndrome de Asperger</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Depresión -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Depresión">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Depresión</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Ansiedad -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Ansiedad">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Ansiedad</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_obsesivo-compulsivo_(TOC) -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_obsesivo-compulsivo_(TOC)">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Trastorno obsesivo-compulsivo (TOC)</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Alcoholemia -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Alcoholemia">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Alcoholemia</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_de_la_personalidad -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_de_la_personalidad">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Trastorno de la personalidad</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Ninfomanía -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Ninfomanía">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Ninfomanía</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Deficit_de_atención -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Deficit_de_atención">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Deficit de atención</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_de_ansiedad -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_de_ansiedad">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Trastorno de ansiedad</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Demencia -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Demencia">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Demencia</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_alimenticio -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_alimenticio">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Trastorno alimenticio</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Retraso_mental_severo -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Retraso_mental_severo">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Retraso mental severo</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Alcoholismo -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Alcoholismo">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Alcoholismo</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Síndrome_de_Diógenes -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Síndrome_de_Diógenes">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Síndrome de Diógenes</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_de_ansiedad_social -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Trastorno_de_ansiedad_social">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Trastorno de ansiedad social</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Hiperactividad -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Hiperactividad">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Hiperactividad</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+    <!-- http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Déficit_de_Atención_e_Hiperactividad -->
+             <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Déficit_de_Atención_e_Hiperactividad">
+                <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-4#Enfermedad_Mental"/>
+                <enfermedad>Déficit de Atención e Hiperactividad</enfermedad> 
+                <total rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</total> 
+             </owl:NamedIndividual> 
+</rdf:RDF>

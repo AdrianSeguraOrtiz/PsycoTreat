@@ -1,0 +1,156 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "nombre",
+            "apellidos",
+            "especialidad"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Sara"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Sánchez Ortiz"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Psiquiatría general"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Roberto"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Fernández Rojas"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Psiquiatría general"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Lucía"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Manrique Pérez"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Neuropsiquiatría"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Francisco"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Sepúlveda Rey"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Psiquiatría infanto-juvenil"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "José María"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Leiva Jiménez"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Psiquiatría general"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Ana"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Sánchez Tomás"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Psiquiatría general"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Manuel"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Gómez Cabello"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Neuropsiquiatría"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Lorena"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "González Seco"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Psiquiatría general"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Antonio Jesús"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Ramírez Loto"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Psiquiatría general"
+                }
+            },
+            {
+                "nombre": {
+                    "type": "literal",
+                    "value": "Miguel"
+                },
+                "apellidos": {
+                    "type": "literal",
+                    "value": "Pérez López"
+                },
+                "especialidad": {
+                    "type": "literal",
+                    "value": "Psiquiatría general"
+                }
+            }
+        ]
+    }
+}

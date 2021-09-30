@@ -1,0 +1,26 @@
+{% include "psiquiatra/psiquiatra.html" %}
+<html>
+    <head>
+        <title>Nueva prueba complementaria</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario.css')}}">
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario_añadir.css')}}">
+        <h1>Nueva prueba complementaria</h1>
+    </head>
+    <body>
+        <form method="POST">
+            <table>
+                <tr>
+                    <td><b>Prueba complementaria:</b></td>
+                    <td><input type="text" name="prueba"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+{% include "footer.html" %}

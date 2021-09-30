@@ -1,0 +1,125 @@
+{% include "administrativo/administrativo.html" %}
+<html>
+    <head>
+        <title>Nuevo Psiquiatra</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario.css')}}">
+        {% if objetivo == 'añadir' %}
+            <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario_añadir.css')}}">
+        {% elif objetivo == 'editar' %}
+            <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario_editar.css')}}">
+        {% endif %}
+        <h1>Nuevo Psiquiatra</h1>
+    </head>
+    <body>
+        <form method="POST">
+            <table>
+                <tr>
+                    <td><b>Nombre:</b></td>
+                    <td><input type="text" name="nombre" value = "{{psiquiatra['nombre']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Apellidos:</b></td>
+                    <td><input type="text" name="apellidos" value = "{{psiquiatra['apellidos']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Dni:</b></td>
+                    <td><input type="text" name="dni" value = "{{psiquiatra['dni']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Fecha de nacimiento:</b></td>
+                    <td><input type="date" name="fecha de nacimiento" value = "{{psiquiatra['fecha_de_nacimiento']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Sexo:</b></td>
+                    {% if objetivo == 'añadir'%}
+                        <td>
+                            <input type="radio" name="sexo" value="Hombre"> Hombre
+                            <input type="radio" name="sexo" value="Mujer"> Mujer
+                        </td>
+                    {% elif psiquiatra['sexo'] == 'Mujer' %}
+                        <td>
+                            <input type="radio" name="sexo" value="Hombre"> Hombre
+                            <input type="radio" name="sexo" value="Mujer" checked> Mujer
+                        </td>
+                    {% elif psiquiatra['sexo'] == 'Hombre' %}
+                        <td>
+                            <input type="radio" name="sexo" value="Hombre" checked> Hombre
+                            <input type="radio" name="sexo" value="Mujer"> Mujer
+                        </td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td><input type="email" name="email" value = "{{psiquiatra['email']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Telefono:</b></td>
+                    <td><input type="tel" name="telefono" value = "{{psiquiatra['telefono']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Direccion:</b></td>
+                    <td><input type="text" name="direccion" value = "{{psiquiatra['direccion']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>CP:</b></td>
+                    <td><input type="text" name="codigo postal" value = "{{psiquiatra['codigo postal']}}"></td>
+                </tr>
+                <tr>
+                    {% set provincias = ["Albacete", "Alicante", "Almería", "Araba", "Asturias", "Ávila", "Badajoz", "Barcelona", "Burgos", "Cáceres", "Cádiz", "Cantabria", "Castellón", "Ciudad Real", "Córdoba", "Cuenca", "Girona", "Gipuzkoa", "Granada", "Guadalajara", "Huelva", "Huesca", "Baleares", "Jaén", "La Rioja", "Las Palmas", "León", "Lérida", "Lugo", "Madrid", "Málaga", "Murcia", "Navarra", "Orense", "Palencia", "Pontevedra", "Salamanca", "Segovia", "Sevilla", "Soria", "Tarragona", "Santa Cruz de Tenerife", "Teruel", "Toledo", "Valencia", "Valladolid", "Vizcaya", "Zamora", "Zaragoza"] %}
+                    <td><b>Provincia:</b></td>
+                    <td>
+                        <select name="provincia">
+                        {% for provincia in provincias %}
+                            <option value = {{provincia}}> {{provincia}} </option>
+                        {% endfor %}
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Localidad:</b></td>
+                    <td><input type="text" name="localidad" value = "{{psiquiatra['localidad']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Fotografia:</b></td>
+                    <td><input type="file" name="archivo" value = "{{psiquiatra['fotografia']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Titulación:</b></td>
+                    <td><input type="text" name="titulacion" value = "{{psiquiatra['titulacion']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Universidad:</b></td>
+                    <td><input type="text" name="universidad" value = "{{psiquiatra['universidad']}}"></td>
+                </tr>
+                <tr>
+                    <td><b>Especialidad:</b></td>
+                    <td><input type="text" name="especialidad" value = "{{psiquiatra['especialidad']}}"></td>
+                </tr>
+                {% if objetivo == 'editar'%}
+                    <tr>
+                        <td><b>Años de antigüedad:</b></td>
+                        <td><select name="años antiguedad">
+                            {% for i in range(20) %}
+                                <option value = {{i}}> {{i}} </option>
+                            {% endfor %}
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><b>Número de pacientes:</b></td>
+                        <td><select name="numero pacientes">
+                            {% for i in range(30) %}
+                                <option value = {{i}}> {{i}} </option>
+                            {% endfor %}
+                        </select></td>
+                    </tr>
+                {% endif %}
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+{% include "footer.html" %}

@@ -1,0 +1,53 @@
+{% include "psiquiatra/psiquiatra.html" %}
+<html>
+    <head>
+        <title>Psiquiatra Pacientes</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/psiquiatra_mis_pacientes.css')}}">
+    </head>
+    <body>
+        <h1>Pacientes</h1>
+        {% set titulos = ['Pacientes nuevos', 'Pacientes actuales', 'Pacientes antiguos'] %}
+        {% set pacientes = [pacientes_nuevos, pacientes_actuales, pacientes_antiguos] %}
+        {% for i in [0,1,2] %}
+            {% if pacientes[i][0] %}
+                <h2>{{titulos[i]}}</h2>
+                <table border = "0">
+                    <thead>
+                        <tr>
+                            <th class="id"></th>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Email</th>
+                            <th>Localidad</th>
+                            <th>Teléfono</th>
+                            <th class = 'select'></th>
+                            {% if i == 1 %}
+                                <th class = 'select'></th>
+                            {% endif %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for paciente in pacientes[i] %}
+                            <tr>
+                                <td class="id"><span>{{paciente['_id'][paciente['_id']|length - 3 :]}}</span></td>
+                                <td>{{paciente['nombre']}}</td>
+                                <td>{{paciente['apellidos']}}</td>
+                                <td><a href="mailto: paciente['email']">{{paciente['email']}}</a></td>
+                                <td>{{paciente['localidad']}}</td>
+                                <td><a href="tel: paciente['telefono']>">{{paciente['telefono']}}</a></td>
+                                <td class = "boton"><a href = "{{ url_for('psiquiatra_mis_pacientes_ver', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id']) }}"><input type = "button" value = "Ver"></a></td>
+                                {% if i == 1 %}
+                                    <td class="boton"><a href = "{{ url_for('psiquiatra_mis_pacientes_tratar', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id']) }}"><input type = "button" value = "Tratar"></a></td>
+                                    <td class="boton"><a href = "{{ url_for('psiquiatra_mis_pacientes_finalizar', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id']) }}"><input type = "button" value = "Finalizar tratamiento"></a></td>
+                                {% else %}
+                                    <td class="boton"><a href = "{{ url_for('psiquiatra_mis_pacientes_empezar', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id']) }}"><input type = "button" value = "Empezar tratamiento"></a></td>
+                                {% endif %}
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
+        {% endfor %}
+    </body>
+</html>
+{% include "footer.html" %}

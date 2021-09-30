@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/base.css')}}">
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/home.css')}}">
+    </head>
+    <header>
+        <div id="barra-superior">
+            <div id="logo">
+                <img src="{{url_for('static', filename='images/logo.png')}}">
+            </div>
+            <div id="cabecera">
+                <p>PsycoTreat</p>
+            </div>
+            <nav id="menu-superior">
+                <ul>
+                    <li class = "home"><a href="/index">Log in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <p>PsycoTreat es una aplicación web dirigida a los centros de salud mental. El objetivo principal de esta aplicación es solucionar los principales problemas que tienen los sitemas actuales dedicados a este campo.
+            Estos problemas son la gestión inestable de datos y el elevado tiempo de espera que sufren los pacientes hasta que reciben atención médica, por ejemplo.
+            Con esta aplicación, mejoramos la colección de datos y el procesamiento de los mismos. Además, optimiza el cuidado de los pacientes mediante la máxima reducción del tiempo de espera posible. Por otro lado, los familiares de
+            los pacientes pertenecientes al centro pueden recibir instrucciones y consejos a través del psiquiatra, con el fin de ayudar a sus tratamientos diarios.
+        </p>
+        <p>
+            A continuación, se muestran una serie de enfermedades consideradas importantes en el ámbito de la psiquiatría, junto con información acerca de ellas.
+        </p>
+        <ul>
+            <li><h2> Depresión </h2></li>
+            <p>La depresión es el diagnóstico psiquiátrico que describe un trastorno del estado de animo, transitorio o permanente caracterizado por sentimientos de abatimiento, infelicidad y culpabilidad. Además, provoca una 
+                incapacidad total o parcial para disfrutar de las cosas y de los acontecimientos de la vida cotidiana.
+            </p>
+
+            <li><h2> Estrés post-traumático </h2></li>
+            <p>El trastorno de estrés postraumátiaco (TEPT) es una afección de salud mental que algunas personas desarrollan tras experimentar o ver algún evento traumático. Este episodio puede suponer un peligro para la vida, como la guerra,
+                un desastre natural, un accidente automovilístico o una agresión sexual.
+            </p>
+
+            <li><h2> Ansiedad </h2></li>
+            <p>La ansiedad es una respuesta de anticipación involuntaria del organismo frente a estímulos que pueden ser externos o internos, tales como los pensamientos, ideas, imágenes, etc. Estos son
+                percibidos por el paciente como amenazantes o peligrosos
+            </p>
+
+            <li><h2> Trastorno obsesivo-compulsivo (TOC) </h2></li>
+            <p>El trastorno obsesivo-compulsivo es un trastorno de ansiedad, caracterizado por pensamientos intrusivos, recurrentes y persistentes, que producen inquietud, apresión, temor o preocupación. Además también se 
+                caracteriza por la aparición de conductas repetitivas denominadas compulsiones, dirigidas a reducir la ansiedad asociada.
+            </p>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+Psiquiatras que hayan tratado anteriormente la patología Alcoholismo
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-1#>
+SELECT ?nombre_psiquiatra ?apellidos_psiquiatra 
+	WHERE {?psiquiatra rdf:type esq:Psiquiatra .
+		?psiquiatra esq:nombre ?nombre_psiquiatra .
+		?psiquiatra esq:apellidos ?apellidos_psiquiatra .
+		?patologia rdf:type esq:Patologia .
+		?patologia esq:tratada_por ?psiquiatra .
+		?patologia esq:patologia "Alcoholismo" .
+		?patologia esq:fecha_final ?fecha_final}

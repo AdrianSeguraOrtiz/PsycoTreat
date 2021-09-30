@@ -1,0 +1,93 @@
+h1 {
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222222;
+}
+input{
+    border: 3px solid #66d660;
+    border-radius: 5px;
+    color:  #222222;
+}
+input:hover {
+    border: 3px solid #4bc045;
+    background-color: #66d660;
+}
+input[value="Editar patología"]{
+    border: 3px solid #e9d353;
+    border-radius: 5px;
+    color:  #222222;
+}
+input[value="Editar patología"]:hover {
+    border: 3px solid #bdab44;
+    background-color: #e9d353;
+}
+table.ver{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 75px;
+}
+table.ver td {
+    padding: 5px;
+}
+table.ver td b{
+    margin-right: 25px;
+}
+li span{
+    padding:1px;
+}
+table a{
+    color: black;
+}
+table a:hover{
+    font-weight: bold;
+}
+span{
+    border-radius: 10px;
+    padding: 1.5px;
+    background-color: #e9d353;
+}
+
+table.hor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 75px;
+}
+table.hor th, table.hor td{
+    border: #222222 1.8px solid;
+    padding: 5px;
+}
+table.hor th {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #e9d353;
+    color:  #222222;
+}
+table.hor tr:nth-child(even) {
+    background-color: #d0d0d0;
+}
+table.hor tr:hover {
+    background-color: #e1d179;
+}
+table.hor td.boton, table.hor th.boton{
+    border : 0px;
+    background-color: white;
+}
+table.hor td.boton:hover{
+    background-color: white;
+}
+input[value="Enviar mensaje"] {
+    border: 3px solid #6bbeeb;
+    border-radius: 5px;
+    color:  #222222;
+    margin-left: 6px;
+}
+input[value="Enviar mensaje"]:hover {
+    border: 3px solid #5da3c9;
+    background-color: #6bbeeb;
+}

@@ -1,0 +1,31 @@
+{% include "administrativo/administrativo.html" %}
+
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/registros.css')}}">
+    <h1>Listado de Facturas</h1>
+    <table border = "0">
+        <thead>
+            <tr>
+                <th>Paciente</th>
+                <th>Fecha</th>
+                <th class = 'select'></th>
+                <th class = 'select'></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for factura in facturas %}
+                <tr>
+                    <td>{{pacientes[factura['paciente']]}}</td>
+                    <td>{{factura['fecha']}}</td>
+                    <td class="boton"><a href = "{{url_for('static', filename=factura['archivo'])}}" download="Factura"><input type = "button" value = "Descargar PDF"></a></td>
+                    <td class="boton"><a href = "{{ url_for('admin_facturas_borrar', id_admin = id_admin, id_factura = factura['_id']) }}"><input type = "button" value = "Borrar"></a></td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td colspan = "2" class="añadir"><a href = "{{ url_for('admin_facturas_anadir', id_admin = id_admin) }}"><input type = "button" value = "Añadir"></a></td>
+            </tr>
+        </tbody>
+    </table>
+</html>
+
+{% include "footer.html" %}

@@ -1,0 +1,38 @@
+{% include "paciente/paciente.html" %}
+<html>
+    <head>
+        <title>Paciente Psiquiatras</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/visualizacion.css')}}">
+    </head>
+    <body>
+        <h1>Especialistas del Centro:</h1>
+        <ul>
+        {% for psiquiatra in psiquiatras %}
+            <li><h2>{{psiquiatra['nombre']}} {{psiquiatra['apellidos']}}</h2></li>
+            <table>
+            <tr>
+                <td><b>Titulación:</b></td>
+                <td><span>{{psiquiatra['titulacion']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Universidad:</b></td>
+                <td><span>{{psiquiatra['universidad']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Especialidad:</b></td>
+                <td><span>{{psiquiatra['especialidad']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Años de antiguedad en el centro:</b></td>
+                <td><span>{{psiquiatra['años antiguedad en centro']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Número de pacientes:</b></td>
+                <td><span>{{psiquiatra['numero de pacientes']}}</span></td>
+            </tr>
+        </table>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
+{% include "footer.html" %}

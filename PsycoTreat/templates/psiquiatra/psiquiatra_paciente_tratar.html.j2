@@ -1,0 +1,115 @@
+{% include "psiquiatra/psiquiatra.html" %}
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/psiquiatra_tratar.css')}}">
+    <h1>Paciente: {{paciente['nombre']}}  {{paciente['apellidos']}}</h1>
+    <h2>Tratar</h2>
+    <table class = "ver">
+        <tr>
+            <td><b>Patología:</b></td>
+            <td><span>{{paciente['patologia actual']}}</span></td>
+            <td><a href = "{{ url_for('psiquiatra_mis_pacientes_editar_patologia', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id']) }}"><input type = "button" value = "Editar patología"></a></td>
+        </tr>
+        <tr>
+            <td><b>Fecha de inicio:</b></td>
+            <td><span>{{paciente['fecha inicio']}}</span></td>
+        </tr>
+        <tr>
+        {% if paciente['formularios consultas'] %}
+            <td><b>Formularios:</b></td>
+            {% if paciente['formularios consultas']|length == 1 %}
+                <td><a href = "{{ url_for('psiquiatra_mis_pacientes_ver_consulta', id_psiquiatra=id_psiquiatra, id_consulta=paciente['formularios consultas'][0]['formulario']) }}"><span>Formulario {{paciente['formularios consultas'][0]['formulario'][paciente['formularios consultas'][0]['formulario']|length - 3 : ]}}</span></a></td>
+            {% else %}
+                <td><ul>
+                {% for formulario in paciente['formularios consultas'] %}
+                    <li><a href = "{{ url_for('psiquiatra_mis_pacientes_ver_consulta', id_psiquiatra=id_psiquiatra, id_consulta=formulario['formulario']) }}"><span>Formulario {{formulario['formulario'][formulario['formulario']|length - 3 :]}}</span></a></li>
+                {% endfor %}
+                </ul></td>
+            {% endif %}
+        {% else %}
+            <td colspan = "2"><b>Crear primer formulario:</b></td>
+        {% endif %}
+            <td><a href = "{{ url_for('psiquiatra_mis_pacientes_anadir_consulta', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id']) }}"><input type = "button" value = "Nuevo formulario"></a></td>
+        </tr>
+        <tr>
+        {% if paciente['medicamentos asignados'] %}
+            <td><b>Medicamentos:</b></td>
+            {% if paciente['medicamentos asignados']|length == 1 %}
+                <td><span>{{paciente['medicamentos asignados'][0]['medicamento']}}</span></td>
+            {% else %}
+                <td><ul>
+                {% for medicamento in paciente['medicamentos asignados'] %}
+                    <li><span>{{medicamento['medicamento']}}</span></li>
+                {% endfor %}
+                </ul></td>
+            {% endif %}
+        {% else %}
+            <td colspan = "2"><b>Añadir primer medicamento:</b></td>
+        {% endif %}
+            <td><a href = "{{ url_for('psiquiatra_mis_pacientes_anadir_medicamento', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id']) }}"><input type = "button" value = "Añadir medicamento"></a></td>
+        </tr>
+        <tr>
+        {% if paciente['pruebas complementarias'] %}
+            <td><b>Pruebas complementarias:</b></td>
+            {% if paciente['pruebas complementarias']|length == 1 %}
+                <td><span>{{paciente['pruebas complementarias'][0]['prueba']}}</span></td>
+            {% else %}
+                <td><ul>
+                {% for prueba in paciente['pruebas complementarias'] %}
+                    <li><span>{{prueba['prueba']}}</span></li>
+                {% endfor %}
+                </ul></td>
+            {% endif %}
+        {% else %}
+            <td colspan = "2"><b>Registrar primera prueba clínica:</b></td>
+        {% endif %}
+            <td><a href = "{{ url_for('psiquiatra_mis_pacientes_anadir_prueba', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id']) }}"><input type = "button" value = "Añadir prueba"></a></td>
+        </tr>
+    </table>
+    <h2>Solicitud de pruebas complementarias</h2>
+    <table class = "hor">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Titulación</th>
+                <th class = "boton"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for admin in administrativos %}
+                <tr>
+                    <td>{{admin['nombre']}}</td>
+                    <td>{{admin['apellidos']}}</td>
+                    <td>{{admin['titulacion']}}</td>
+                    <td class="boton"><a href = "{{ url_for('psiquiatra_mis_pacientes_enviar_mensaje', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id'], id_receptor=admin['_id']) }}"><input type = "button" value = "Enviar mensaje"></a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% if familiares.count() > 0 %}
+        <h2>Proporción de consejos a familiares</h2>
+        <table class = "hor">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Relación</th>
+                    <th>Nivel de autorización</th>
+                    <th class = "boton"></th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for familiar in familiares %}
+                <tr>
+                    <td>{{familiar['nombre']}}</td>
+                    <td>{{familiar['apellidos']}}</td>
+                    <td>{{familiar['relacion']}}</td>
+                    <td>{{familiar['nivel de autorizacion']}}</td>
+                    <td class="boton"><a href = "{{ url_for('psiquiatra_mis_pacientes_enviar_mensaje', id_psiquiatra=id_psiquiatra, id_paciente=paciente['_id'], id_receptor=familiar['_id']) }}"><input type = "button" value = "Enviar mensaje"></a></td>
+                </tr>
+            {% endfor %}
+        {% endif %}
+        </tbody>
+    </table>
+</html>
+{% include "footer.html" %}

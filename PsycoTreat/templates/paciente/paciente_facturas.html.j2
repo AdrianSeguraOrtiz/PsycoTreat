@@ -1,0 +1,28 @@
+{% if tipo_usuario == 'paciente' %}
+    {% include "paciente/paciente.html" %}
+{% elif tipo_usuario == 'familiar' %}
+    {% include "familiar/familiar.html" %}
+{% endif %}
+
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/registros.css')}}">
+    <h1>Listado de Facturas</h1>
+    <table border = "0">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th class = 'select'></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for factura in facturas %}
+                <tr>
+                    <td>{{factura['fecha']}}</td>
+                    <td class="boton"><a href = "{{url_for('static', filename=factura['archivo'])}}" download="Factura"><input type = "button" value = "Descargar PDF"></a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</html>
+
+{% include "footer.html" %}

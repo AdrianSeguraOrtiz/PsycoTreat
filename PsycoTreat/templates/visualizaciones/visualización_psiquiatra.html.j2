@@ -1,0 +1,91 @@
+{% if tipo_usuario == 'psiquiatra' %}
+    {% include "psiquiatra/psiquiatra.html" %}
+{% elif tipo_usuario == 'administrativo' %}
+    {% include "administrativo/administrativo.html" %}
+{% endif %}
+
+<html>
+    <head>
+        <title>Visualización Psiquiatra</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/visualizacion.css')}}">
+    </head>
+    <body>
+        <h1>Visualización psiquiatra</h1>
+        <h2>Datos Personales</h2>
+        <table>
+            <tr>
+                <td><b>Nombre:</b></td>
+                <td><span>{{psiquiatra['nombre']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Apellidos:</b></td>
+                <td><span>{{psiquiatra['apellidos']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Dni:</b></td>
+                <td><span>{{psiquiatra['dni']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Fecha de Nacimiento:</b></td>
+                <td><span>{{psiquiatra['fecha_de_nacimiento']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Sexo:</b></td> 
+                <td><span>{{psiquiatra['sexo']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><span>{{psiquiatra['email']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Teléfono:</b></td>
+                <td><span>{{psiquiatra['telefono']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Dirección:</b></td>
+                <td><span>{{psiquiatra['direccion']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>CP:</b></td>
+                <td><span>{{psiquiatra['codigo postal']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Localidad:</b></td> 
+                <td><span>{{psiquiatra['localidad']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Provincia:</b></td>
+                <td><span>{{psiquiatra['provincia']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Fotografía:</b></td>
+                <td><span>{{psiquiatra['fotografia']}}</span></td>
+            </tr>
+        </table>
+
+        <h2>Datos Profesionales</h2>
+        <table>
+            <tr>
+                <td><b>Titulación:</b></td>
+                <td><span>{{psiquiatra['titulacion']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Universidad:</b></td>
+                <td><span>{{psiquiatra['universidad']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Especialidad:</b></td>
+                <td><span>{{psiquiatra['especialidad']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Años de antigüedad en el centro:</b></td>
+                <td><span>{{psiquiatra['años antiguedad en centro']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Número de pacientes:</b></td>
+                <td><span>{{psiquiatra['numero de pacientes']}}</span></td>
+            </tr>
+        </table>
+    </body>
+</html>
+{% include "footer.html" %}

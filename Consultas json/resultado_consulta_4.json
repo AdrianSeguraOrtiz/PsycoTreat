@@ -1,0 +1,98 @@
+[
+    {
+        "enfermedad": "Esquizofrenia",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Trastorno de la personalidad",
+        "total": "3"
+    },
+    {
+        "enfermedad": "Trastorno bipolar",
+        "total": "3"
+    },
+    {
+        "enfermedad": "Drogadicción",
+        "total": "7"
+    },
+    {
+        "enfermedad": "Trastorno obsesivo-compulsivo (TOC)",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Depresión post-parto",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Depresión",
+        "total": "12"
+    },
+    {
+        "enfermedad": "Psicosis",
+        "total": "3"
+    },
+    {
+        "enfermedad": "Síndrome de Diógenes",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Ansiedad",
+        "total": "4"
+    },
+    {
+        "enfermedad": "Déficit de Atención e Hiperactividad",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Síndrome de Asperger",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Trastorno alimenticio",
+        "total": "6"
+    },
+    {
+        "enfermedad": "Trastorno del Espectro Autista",
+        "total": "2"
+    },
+    {
+        "enfermedad": "Retraso mental severo",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Trastorno de ansiedad social",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Alcoholemia",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Ninfomanía",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Demencia",
+        "total": "3"
+    },
+    {
+        "enfermedad": "Hiperactividad",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Deficit de atención",
+        "total": "1"
+    },
+    {
+        "enfermedad": "Alcoholismo",
+        "total": "4"
+    },
+    {
+        "enfermedad": "Trastorno de ansiedad",
+        "total": "4"
+    },
+    {
+        "enfermedad": "Trastorno de estrés postraumático (TEPT)",
+        "total": "2"
+    }
+]

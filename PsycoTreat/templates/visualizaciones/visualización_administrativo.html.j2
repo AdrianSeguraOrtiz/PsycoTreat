@@ -1,0 +1,74 @@
+{% include "administrativo/administrativo.html" %}
+<html>
+    <head>
+        <title>Visualización administrativo</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/visualizacion.css')}}">
+    </head>
+    <body>
+        <h1>Visualización administrativo</h1>
+        <h2>Datos Personales</h2>
+        <table>
+            <tr>
+                <td><b>Nombre:</b></td>
+                <td><span>{{administrativo['nombre']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Apellidos:</b></td>
+                <td><span>{{administrativo['apellidos']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Dni:</b></td>
+                <td><span>{{administrativo['dni']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Fecha de Nacimiento:</b></td>
+                <td><span>{{administrativo['fecha_de_nacimiento']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Sexo:</b></td> 
+                <td><span>{{administrativo['sexo']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><span>{{administrativo['email']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Teléfono:</b></td>
+                <td><span>{{administrativo['telefono']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Dirección:</b></td>
+                <td><span>{{administrativo['direccion']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>CP:</b></td>
+                <td><span>{{administrativo['codigo postal']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Localidad:</b></td> 
+                <td><span>{{administrativo['localidad']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Provincia:</b></td>
+                <td><span>{{administrativo['provincia']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Fotografía:</b></td>
+                <td><span>{{administrativo['fotografia']}}</span></td>
+            </tr>
+        </table>
+
+        <h2>Datos Profesionales</h2>
+        <table>
+            <tr>
+                <td><b>Titulación:</b></td>
+                <td><span>{{administrativo['titulacion']}}</span></td>
+            </tr>
+            <tr>
+                <td><b>Años de antigüedad en el centro:</b></td>
+                <td><span>{{administrativo['años antiguedad en centro']}}</span></td>
+            </tr>
+        </table>
+    </body>
+</html>
+{% include "footer.html" %}

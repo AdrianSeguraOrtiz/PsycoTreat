@@ -1,0 +1,15 @@
+Los pacientes junto con su patología actual y el tratamiento indicado en las consultas
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX esq: <http://www.semanticweb.org/usuario/ontologies/2020/11/consulta-2#>
+SELECT ?nombre ?apellidos ?nombre_patologia_actual ?tratamiento_asignado
+	WHERE { ?paciente rdf:type esq:Paciente .
+		?paciente esq:nombre ?nombre .
+		?paciente esq:apellidos ?apellidos .
+		?paciente esq:tiene_patologia_actual ?patologia_actual .
+		?patologia_actual esq:patologia ?nombre_patologia_actual .
+		?patologia_actual esq:tiene_formulario ?formulario .
+		?formulario esq:tratamiento ?tratamiento_asignado}

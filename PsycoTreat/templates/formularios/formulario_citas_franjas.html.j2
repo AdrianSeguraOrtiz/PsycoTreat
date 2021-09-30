@@ -1,0 +1,22 @@
+{% if tipo_usuario == 'paciente' %}
+    {% include "paciente/paciente.html" %}
+{% elif tipo_usuario == 'administrativo' %}
+    {% include "administrativo/administrativo.html" %}
+{% elif tipo_usuario == 'familiar' %}
+    {% include "familiar/familiar.html" %}
+{% endif %}
+
+<html>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename='styles/formulario.css')}}">
+    <form method="POST">
+        <h3>Seleccione la franja horaria deseada entre las disponibles</h3>
+        <table>
+            {% for franja in horarios_disponibles %}
+                <tr><td><input type="radio" name="opcion" value="{{franja}}">{{franja}}</td></tr>
+            {% endfor %}
+            <tr><td><input type="submit" value="Enviar"></td></tr>
+        </table>
+    </form>
+</html>
+
+{% include "footer.html" %}
