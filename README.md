@@ -42,10 +42,12 @@ python app.py
 ## User experience
 
 Administrative:
-https://github.com/AdrianSeguraOrtiz/PsycoTreat/blob/main/V%C3%ADdeo/Administrativo.mp4
+
 
 Psychiatrist:
-https://github.com/AdrianSeguraOrtiz/PsycoTreat/blob/main/V%C3%ADdeo/Psiquiatra.mp4
 
 Patient and family:
-https://github.com/AdrianSeguraOrtiz/PsycoTreat/blob/main/V%C3%ADdeo/Paciente%20y%20Familiar%20(Nv.%20Parcial).mp4
+https://user-images.githubusercontent.com/61683333/205898620-3f3ea976-77e3-4bbd-924d-8bf16dcdc0ec.mp4
+
+
+
