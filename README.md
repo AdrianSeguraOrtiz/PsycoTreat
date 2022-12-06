@@ -21,7 +21,7 @@ Create a python virtual environment:
 python -m env psycotreat
 ```
 
-Activamos el entorno:
+Activate environment:
 
 ```sh
 .\Scripts\activate
@@ -39,15 +39,25 @@ Raise the application:
 python app.py
 ```
 
+## Intelligent functionalities
+
+Disease detection by computational analysis of medical forms:
+
+<img src="https://user-images.githubusercontent.com/61683333/205901394-d6c498e7-45d4-4ea2-af86-041d3b73cee6.png" width=60% height=60%>
+
+Use of standard disease code for consistency maintenance, as well as intelligent detection through spelling corrections:
+
+<img src="https://user-images.githubusercontent.com/61683333/205901849-e5a074ab-8494-43fe-89d3-6802f19c1627.png" width=65% height=65%>
+
+
 ## User experience
 
-Administrative:
+Administrative: https://github.com/AdrianSeguraOrtiz/PsycoTreat/blob/main/V%C3%ADdeo/Administrativo.mp4
 
+Psychiatrist: https://github.com/AdrianSeguraOrtiz/PsycoTreat/blob/main/V%C3%ADdeo/Paciente%20y%20Familiar%20(Nv.%20Parcial).mp4
 
-Psychiatrist:
+Patient and family: https://github.com/AdrianSeguraOrtiz/PsycoTreat/blob/main/V%C3%ADdeo/Psiquiatra.mp4
 
-Patient and family:
-https://user-images.githubusercontent.com/61683333/205898620-3f3ea976-77e3-4bbd-924d-8bf16dcdc0ec.mp4
 
 
 
